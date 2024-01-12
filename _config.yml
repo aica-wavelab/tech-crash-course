@@ -23,6 +23,7 @@ url: "https://aica-wavelab.github.io/project-workshop" # the base hostname & pro
 repository: aica-wavelab/project-workshop # the repository hosting your site, e.g. owner/repo
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
+
 permalink: pretty
 
 exclude:
