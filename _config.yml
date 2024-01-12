@@ -19,8 +19,8 @@ favicon_ico: "/assets/images/favicon.ico"
 description: "Artificial Intelligence in Culture and Arts (AICA): Tools and tutorials for the project workshop at the Wavelab"
 author: Téo Sanchez, Benedikt Zönnchen
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aica-wavelab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: aica-wavelab/aica-wavelab.github.io
+url: "https://aica-wavelab.github.io/project-workshop" # the base hostname & protocol for your site, e.g. http://example.com
+repository: aica-wavelab/project-workshop # the repository hosting your site, e.g. owner/repo
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 permalink: pretty
