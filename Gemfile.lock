@@ -122,6 +122,7 @@ DEPENDENCIES
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
   just-the-docs!
+  sass-embedded
 
 BUNDLED WITH
    2.4.19
