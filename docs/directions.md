@@ -52,7 +52,3 @@ The Wavelab is situated in the rear building of the **Israeli Consulate General 
 
 - Avoid lingering or standing on the sidewalk at Barerstraße 19; move close to the tram stop if you need to make a phone call or are waiting for someone.
 - If approached by GKI security personnel, promptly identify yourself as a guest of the Wavelab.
-
-## Location Image
-
-![Wavelab Entrance](/path/to/your/image.jpg "Wavelab Entrance")

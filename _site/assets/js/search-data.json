@@ -252,341 +252,334 @@
     "relUrl": "/docs/directions/#important-advice"
   },"36": {
     "doc": "Directions and useful infos",
-    "title": "Location Image",
-    "content": ". ",
-    "url": "/docs/directions/#location-image",
-    
-    "relUrl": "/docs/directions/#location-image"
-  },"37": {
-    "doc": "Directions and useful infos",
     "title": "Directions and useful infos",
     "content": " ",
     "url": "/docs/directions/",
     
     "relUrl": "/docs/directions/"
-  },"38": {
+  },"37": {
     "doc": "Group feedback",
     "title": "Group A : Human-machine co-improvisation",
     "content": ". | An implementation of a factor oracle for Pure Data | Omax | Dicy2 and its video tutorials | Festival on co-improvisation | Valerio Velardo Youtube channel on machine learning for music | Artemi-Maria Gioti was also interested in machine-artist communication and gave a talk in the last Wintersemester for AICA and here is also an interview where she talks about some implementation details. | . Assayag, G., &amp; Dubnov, S. (2004). Using factor oracles for machine improvisation. Soft Computing, 8(9), 604-610. Wilson, A. J. (2016). factorOracle: an Extensible Max External for Investigating Applications of the Factor Oracle Automaton in Real-Time Music Improvisation. Nika, J., Chemillier, M., &amp; Assayag, G. (2017). Improtek: introducing scenarios into human-computer music improvisation. Computers in Entertainment (CIE), 14(2), 1-27. Dubnov, S., Assayag, G., &amp; Cont, A. (2007). Audio oracle: A new algorithm for fast learning of audio structures. In Proceedings of International Computer Music Conference (ICMC). ICMA. ",
     "url": "/docs/feedback/group_feedback/#group-a--human-machine-co-improvisation",
     
     "relUrl": "/docs/feedback/group_feedback/#group-a--human-machine-co-improvisation"
-  },"39": {
+  },"38": {
     "doc": "Group feedback",
     "title": "Group B : Collaborative visual story-telling",
     "content": ". | How to use Stable diffusion locally | Automatic111 webGUI : AUTOMATIC111 also provides an API so it should be possible to . | Make a history of prompts via some GUI, for example a Python application | Send parts of the history as prompt to Stable Diffusion | Receive and display the image and save the pair (image, prompt) into the archive/history | . | . You can also access Stable Diffusion and other image generators via an API but if it does not run on your machine you have to pay for it. ",
     "url": "/docs/feedback/group_feedback/#group-b--collaborative-visual-story-telling",
     
     "relUrl": "/docs/feedback/group_feedback/#group-b--collaborative-visual-story-telling"
-  },"40": {
+  },"39": {
     "doc": "Group feedback",
     "title": "Group C : Emotion recognition for personalized recommendation",
     "content": ". | FER | DeepFace | FaceWork : a critical gamification of facial recognition. You can read more about the artist Kyle McDonald that is familiar with the relation between AI and faces. | . ",
     "url": "/docs/feedback/group_feedback/#group-c--emotion-recognition-for-personalized-recommendation",
     
     "relUrl": "/docs/feedback/group_feedback/#group-c--emotion-recognition-for-personalized-recommendation"
-  },"41": {
+  },"40": {
     "doc": "Group feedback",
     "title": "Group D : Virtual archives of clothing artefacts",
     "content": ". | Gaussian splatting for 3D modelling of items | A tutorial for learning embeddings of (simplistic) fashion item images. | PoseNet for estimating poses | . Gu, X., Wong, Y., Shou, L., Peng, P., Chen, G., &amp; Kankanhalli, M. S. (2018). Multi-modal and multi-domain embedding learning for fashion retrieval and analysis. IEEE Transactions on Multimedia, 21(6), 1524-1537. ",
     "url": "/docs/feedback/group_feedback/#group-d--virtual-archives-of-clothing-artefacts",
     
     "relUrl": "/docs/feedback/group_feedback/#group-d--virtual-archives-of-clothing-artefacts"
-  },"42": {
+  },"41": {
     "doc": "Group feedback",
     "title": "Group E : AI-augmented audio guide",
     "content": ". | Audio-to-text : DeepSpeech (can run locally) or Whisper (API calls); | Question processing : Langchain or https://www.llamaindex.ai/. My guess is that you will necessary have to call an API for this part; | Have a look to Chat with data and other tutorials. Local Large Language Models exist (llama.cpp) but are heavy to be supported by an embed system like a Raspberry Pi (it is already too heavy for my computer); | Text-to-speech : I don’t know much about it but have a look to Mozilla TTS, Google TTS, and coqui-ai TTS. | . ",
     "url": "/docs/feedback/group_feedback/#group-e--ai-augmented-audio-guide",
     
     "relUrl": "/docs/feedback/group_feedback/#group-e--ai-augmented-audio-guide"
-  },"43": {
+  },"42": {
     "doc": "Group feedback",
     "title": "Group feedback",
     "content": "Raw notes (sent by email) . ",
     "url": "/docs/feedback/group_feedback/",
     
     "relUrl": "/docs/feedback/group_feedback/"
-  },"44": {
+  },"43": {
     "doc": "About",
     "title": "AI in culture and arts - project workshop",
     "content": " ",
     "url": "/#ai-in-culture-and-arts---project-workshop",
     
     "relUrl": "/#ai-in-culture-and-arts---project-workshop"
-  },"45": {
+  },"44": {
     "doc": "About",
     "title": "📰 Announcements",
     "content": "11.01.2023 - Get ready! The third and last bloc of the course will take place on the 5th, 6th, and 7th of February 2024. You will be asked to demonstrate your MVP to our team of experts. 11.01.2023 - 📹 Please upload your minimal viable prototype (MVP) video before the 26th January 2024, 23:59. 11.01.2024 - We watched your proof of concept videos! Congrats to all for your progress. Please find our feedback for the next phase. 10.11.2023 - The presentation slides of the first bloc are now available. ",
     "url": "/#-announcements",
     
     "relUrl": "/#-announcements"
-  },"46": {
+  },"45": {
     "doc": "About",
     "title": "Table of contents",
     "content": ". | What is AICA? | What is the project workshop ? | Tutorials | Evaluation and ECTS | Credits and attributions | License | . ",
     "url": "/#table-of-contents",
     
     "relUrl": "/#table-of-contents"
-  },"47": {
+  },"46": {
     "doc": "About",
     "title": "What is AICA?",
     "content": "The Digitization College “Artificial Intelligence in Culture and Arts” (AICA) aims to equip students at the University of Music and Performing Arts Munich (HMTM) and Hochschule München University of Applied Sciences (HM) with necessary skills to impact AI innovations in the creative and cultural industries. Learn more about AICA . ",
     "url": "/#what-is-aica",
     
     "relUrl": "/#what-is-aica"
-  },"48": {
+  },"47": {
     "doc": "About",
     "title": "What is the project workshop ?",
     "content": "The AICA Project Workshop will be hosted at the Wavelab, in the Winter Semester 2023/2024 starting November 2023. This course will teach you how to build and apply AI and machine learning for the cultural and artistic domains. You will develop your own project at the interface of AI in art and culture, spanning from an intelligent or interactive tool, an artistic performance, or anything in between that applies to the creative and cultural industries. You will form a team with students from HM and HMTM with complementary expertise: computer science, data science, design, music, theater, or cultural management. You will be accompanied on site by technology and culture experts, and coached with Agile software development practices. ",
     "url": "/#what-is-the-project-workshop-",
     
     "relUrl": "/#what-is-the-project-workshop-"
-  },"49": {
+  },"48": {
     "doc": "About",
     "title": "Tutorials",
     "content": "This website provides a large range of tutorials and ressources, organized by topic and difficulty. Feel free to use and adapt any of the ressources to implement your project ! . Tutorial overview . ",
     "url": "/#tutorials",
     
     "relUrl": "/#tutorials"
-  },"50": {
+  },"49": {
     "doc": "About",
     "title": "Evaluation and ECTS",
     "content": "You will earn 6 ECTS for the validation of the course. The evaluation will be based on two deliverables: . | A 10-page group term paper describing the development of the project; | A group presentation of the project; | . We highly encourage students to extend and capitalize on their projects to derive a bachelor or master thesis. ",
     "url": "/#evaluation-and-ects",
     
     "relUrl": "/#evaluation-and-ects"
-  },"51": {
+  },"50": {
     "doc": "About",
     "title": "Credits and attributions",
     "content": "The tutorial are based on several open-source tools and libraries developed by talented researchers and developers. Without them, this course would not be possible. Discover all of them in section Credits and attributions. ",
     "url": "/#credits-and-attributions",
     
     "relUrl": "/#credits-and-attributions"
-  },"52": {
+  },"51": {
     "doc": "About",
     "title": "License",
     "content": "The new teaching material (tutorials and code) created for the course is available under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Each tool and library demonstrated in the tutorials is subject to its own license. ",
     "url": "/#license",
     
     "relUrl": "/#license"
-  },"53": {
+  },"52": {
     "doc": "About",
     "title": "About",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"54": {
+  },"53": {
     "doc": "Group feedback",
     "title": "Group A : Human-machine co-improvisation",
     "content": "Progresses . | Implemented the second half of the pipeline: the factor oracle is now able to generate new notes from the sequence learned. These notes are played by a minimal synthesizer. You almost have a proof of concept of the system. | . Next steps for the PoC . | Crash test the factorOracle: try to really co-impprovise with the machine. Does it stay locked in loops? What if you train with longer musical phrases? Please document your observations. | Improve the audio synthesis: To improve your minimal synthesizer, learn about ADSR envelope and ways to implement it in PureData, learn about the timber quality of a saxophone and how to reimplement it. In addition, please have a look to audio style transfer using RAVE and nn~ on tutorial #3. | . ",
     "url": "/docs/feedback/office_hours_summary/#group-a--human-machine-co-improvisation",
     
     "relUrl": "/docs/feedback/office_hours_summary/#group-a--human-machine-co-improvisation"
-  },"55": {
+  },"54": {
     "doc": "Group feedback",
     "title": "Group B : Collaborative visual story-telling",
     "content": "Progresses . | The group successfuly use the openAI API to generate prompts from story fragments and generate an image from the prompt (using DALL-E). | The narrative of the project was discussed as it does not clearly match the cultural and creative industries but rather gamify the text-to-image recreative practice. We discussed to reframe the project as a tool for amateur storyboard creation. | The implementation was assigned according to goup member’s technical abilities. Moritz will learn about front-end development while Felix will tackle the back-end devlopment using the Flask python framework. | . Next steps for the PoC . | The narrative of the project is still unclear. Please interview potential users to understand how they would use and comprehend your project | Design and sketch users’ interactions (as a story board?) | The proof of concept should be a working application where users enter a prompt and receive an image. | . ",
     "url": "/docs/feedback/office_hours_summary/#group-b--collaborative-visual-story-telling",
     
     "relUrl": "/docs/feedback/office_hours_summary/#group-b--collaborative-visual-story-telling"
-  },"56": {
+  },"55": {
     "doc": "Group feedback",
     "title": "Group C : Music generation from movements and dance",
     "content": "Progresses . | The group should possess all necessary hardware (piezoelectric sensors, armband, Arduino, bread board etc.) | The group successfuly assign roles for the project. Fabian is in charge of sound synthesis with SuperCollider. Matthias implemented the project’s architecture and is in charge of the hardware. Marius is in charge of estimating bpm using recurrent neural network. | The program architecture is clear and functionnal. | The group succesfully applied a peak detection algorithm on fake data. | . Next steps for the PoC . | Stream the piezoelectric sensor data to the computer | Try a simple LSTM (recurrent neural network) to estimate the bpm (or localization) from the piezoelectric sensor data | Test the entire pipeline, from sensor to sound synthesis | . ",
     "url": "/docs/feedback/office_hours_summary/#group-c--music-generation-from-movements-and-dance",
     
     "relUrl": "/docs/feedback/office_hours_summary/#group-c--music-generation-from-movements-and-dance"
-  },"57": {
+  },"56": {
     "doc": "Group feedback",
     "title": "Group D : Virtual archives of clothing artefacts",
     "content": "Progresses . | The group decided to focus an interactive “mirror” for visitors to try moving clothing artefacts. An alternative direction was to let users “look around” a still clothing artefacts by tracking people’s head. This direction was discarded. | The group did a technological watch of proprietary solutions for pose estimation from images. None of them are both free and in real-time. | The group successfully used BlendArMocap in Blender to extract a skeleton from a video stream. The pose estimation is very slow. | The group successfully infered a skeleton from a single frame using Google’s mediapipe. It can potentially speed up the | . Next steps for the PoC . | Model any clothing artefact and map skeleton joints to the clothing artefact. | . ",
     "url": "/docs/feedback/office_hours_summary/#group-d--virtual-archives-of-clothing-artefacts",
     
     "relUrl": "/docs/feedback/office_hours_summary/#group-d--virtual-archives-of-clothing-artefacts"
-  },"58": {
+  },"57": {
     "doc": "Group feedback",
     "title": "Group E : AI-augmented audio guide",
     "content": "Progresses . | The group successfully called text-to-speech, speech-to-text and conversational bots from the OpenAI API. | The work was divided between group members. Julian would focus on the back-end development with Flask. Philip will focus on the front-end development in HTML, CSS, and JS (audio recording and playback). Scientific tutors will help to conncect the front-end and back-end. | . Next steps for the PoC . | Sketch and prototype the user’s interaction. Keep it simple (no voice detection) and reflect on the relevance of the features for a museum visitor. | Implement the front-end of the application with HTML, CSS, and JS. | Implement the back-end of the application with Flask. | Connect the front-end and back-end. | . ",
     "url": "/docs/feedback/office_hours_summary/#group-e--ai-augmented-audio-guide",
     
     "relUrl": "/docs/feedback/office_hours_summary/#group-e--ai-augmented-audio-guide"
-  },"59": {
+  },"58": {
     "doc": "Group feedback",
     "title": "Group feedback",
     "content": " ",
     "url": "/docs/feedback/office_hours_summary/",
     
     "relUrl": "/docs/feedback/office_hours_summary/"
-  },"60": {
+  },"59": {
     "doc": "PoC video feedback",
     "title": "Group A : Human-machine co-improvisation",
     "content": "Great job for the PoC video! Please move on with the improvements you described. ",
     "url": "/docs/feedback/poc_feedback/#group-a--human-machine-co-improvisation",
     
     "relUrl": "/docs/feedback/poc_feedback/#group-a--human-machine-co-improvisation"
-  },"61": {
+  },"60": {
     "doc": "PoC video feedback",
     "title": "Group B : Collaborative visual story-telling",
     "content": "If the image generation from a story works in python, it has yet to be an interactive application that people can easily use. Please refer to our last office hour feedback for future improvements. Remember to work on the utility and application scope of your system; last time we talked, it still needed to be clarified. Good luck! . ",
     "url": "/docs/feedback/poc_feedback/#group-b--collaborative-visual-story-telling",
     
     "relUrl": "/docs/feedback/poc_feedback/#group-b--collaborative-visual-story-telling"
-  },"62": {
+  },"61": {
     "doc": "PoC video feedback",
     "title": "Group C : Music generation from movements and dance",
     "content": "The video is not fully clear, but it seems to work and you clearly made progress! Your personal reflections on the results would be appreciated for the next video/bloc. Is the interaction you are designing engaging for users? Improvements evoked during our last office hour are still relevant. The real milestone would be to try a life-size installation! Good luck! . ",
     "url": "/docs/feedback/poc_feedback/#group-c--music-generation-from-movements-and-dance",
     
     "relUrl": "/docs/feedback/poc_feedback/#group-c--music-generation-from-movements-and-dance"
-  },"63": {
+  },"62": {
     "doc": "PoC video feedback",
     "title": "Group D : Virtual archives of clothing artefacts",
     "content": "The physics of your clothing item is not bad at all! However, the video is a bit long, and only two body points were mapped. Hence, it was unclear if the system was really working. Please map the entire skeleton to your clothing model so we can reflect better on possible improvements: is the bottleneck the skeleton extraction, the clothing model, or something else? Good luck! . ",
     "url": "/docs/feedback/poc_feedback/#group-d--virtual-archives-of-clothing-artefacts",
     
     "relUrl": "/docs/feedback/poc_feedback/#group-d--virtual-archives-of-clothing-artefacts"
-  },"64": {
+  },"63": {
     "doc": "PoC video feedback",
     "title": "Group E : AI-augmented audio guide",
     "content": "Great job for implementing a user interface. Improvements can now be made in the generation speed and interface design. Do not hesitate to reach out to us for help on these topics. Good luck! . ",
     "url": "/docs/feedback/poc_feedback/#group-e--ai-augmented-audio-guide",
     
     "relUrl": "/docs/feedback/poc_feedback/#group-e--ai-augmented-audio-guide"
-  },"65": {
+  },"64": {
     "doc": "PoC video feedback",
     "title": "PoC video feedback",
     "content": " ",
     "url": "/docs/feedback/poc_feedback/",
     
     "relUrl": "/docs/feedback/poc_feedback/"
-  },"66": {
+  },"65": {
     "doc": "Schedule",
     "title": "Schedule",
     "content": "Coming soon… . | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"67": {
+  },"66": {
     "doc": "Schedule",
     "title": "Monday",
     "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"68": {
+  },"67": {
     "doc": "Schedule",
     "title": "Tuesday",
     "content": "| ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"69": {
+  },"68": {
     "doc": "Schedule",
     "title": "Wednesday",
     "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"70": {
+  },"69": {
     "doc": "Schedule",
     "title": "Thursday",
     "content": "| ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"71": {
+  },"70": {
     "doc": "Schedule",
     "title": "Friday",
     "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | . --> ",
     "url": "/docs/schedule/",
     
     "relUrl": "/docs/schedule/"
-  },"72": {
+  },"71": {
     "doc": "Instructors",
     "title": "Scientific instructors",
     "content": "Scientific instructors prepared the technical content hosted on this website. They can guide you through the tutorials and your final project implementation. Dr. Benedikt Zönnchen (HM - MUC.DAI) . Dr. Téo Sanchez (HM - MUC.DAI) . ",
     "url": "/docs/staff/#scientific-instructors",
     
     "relUrl": "/docs/staff/#scientific-instructors"
-  },"73": {
+  },"72": {
     "doc": "Instructors",
     "title": "Art and culture instructors",
     "content": "Artistic instructors can guide you through the artistic and cultural aspects of your project. Helena Held (HMTM) . ",
     "url": "/docs/staff/#art-and-culture-instructors",
     
     "relUrl": "/docs/staff/#art-and-culture-instructors"
-  },"74": {
+  },"73": {
     "doc": "Instructors",
     "title": "AICA project leader",
     "content": "Dr. Esther Fee Feichtner (HMTM) . ",
     "url": "/docs/staff/#aica-project-leader",
     
     "relUrl": "/docs/staff/#aica-project-leader"
-  },"75": {
+  },"74": {
     "doc": "Instructors",
     "title": "Lecturers and consultants",
     "content": "External artists and experts will give lectures and be available on-site to advice you on your project. Holger Neumann . Katja Littow . Nina Stemberger . Prof. Sylvia Rothe . ",
     "url": "/docs/staff/#lecturers-and-consultants",
     
     "relUrl": "/docs/staff/#lecturers-and-consultants"
-  },"76": {
+  },"75": {
     "doc": "Instructors",
     "title": "Teaching assistants",
     "content": "Students from HM and HMTM will also be present on-site to help organizing the course. David Kosian (HMTM) . David Helm (HM) . ",
     "url": "/docs/staff/#teaching-assistants",
     
     "relUrl": "/docs/staff/#teaching-assistants"
-  },"77": {
+  },"76": {
     "doc": "Instructors",
     "title": "Instructors",
     "content": " ",
     "url": "/docs/staff/",
     
     "relUrl": "/docs/staff/"
-  },"78": {
+  },"77": {
     "doc": "Tutorial overview",
     "title": "Tutorial overview",
     "content": "Github repository . ",
     "url": "/docs/tutorial/",
     
     "relUrl": "/docs/tutorial/"
-  },"79": {
+  },"78": {
     "doc": "Tutorial overview",
     "title": "Table of contents",
     "content": ". | Introduction to machine learning | Mapping by demonstration | Audio modelling and synthesis with neural networks | Embed and explore cultural archives | Language model for domain-specific application | . ",
     "url": "/docs/tutorial/#table-of-contents",
     
     "relUrl": "/docs/tutorial/#table-of-contents"
-  },"80": {
+  },"79": {
     "doc": "Tutorial overview",
     "title": "Introduction to machine learning",
     "content": "| Topic | Difficulty | Ressources | Installation | . | Train your first image classifier | 🟢 | App |   | . | The development cycle of ML | 🟢 | App |   | . | Train your ML model in Python | 🟠 | Files | Python scikit-learn | . | Create your own interactive ML web application | 🟠 | Tutorial | Marcelle Node.js | . ",
     "url": "/docs/tutorial/#introduction-to-machine-learning",
     
     "relUrl": "/docs/tutorial/#introduction-to-machine-learning"
-  },"81": {
+  },"80": {
     "doc": "Tutorial overview",
     "title": "Mapping by demonstration",
     "content": "| Topic | Difficulty | Ressources | Installation | . | Use your phone as a sensor device | 🟢 | Files | Pure Data | . | Build a minimal sound synthesizer | 🟢 | Files | Pure Data | . | Map sensors to synthesis parameters with ML | 🟠 | Files | Pure Data ml-lib | . | Reproduce the demo of Benedikt Zönnchen with the Wekinator | 🟠 | Files | Processing SuperCollider | . ",
     "url": "/docs/tutorial/#mapping-by-demonstration",
     
     "relUrl": "/docs/tutorial/#mapping-by-demonstration"
-  },"82": {
+  },"81": {
     "doc": "Tutorial overview",
     "title": "Audio modelling and synthesis with neural networks",
     "content": "| Topic | Difficulty | Ressources | Installation | . | Audio modelling and synthesis with pre-trained neural networks | 🟢 | Files | Pure Data nn~ | . | Train your model with your own corpus of sound | 🔴 | Colab project | Python RAVE | . ",
     "url": "/docs/tutorial/#audio-modelling-and-synthesis-with-neural-networks",
     
     "relUrl": "/docs/tutorial/#audio-modelling-and-synthesis-with-neural-networks"
-  },"83": {
+  },"82": {
     "doc": "Tutorial overview",
     "title": "Embed and explore cultural archives",
     "content": "| Topic | Difficulty | Ressources | Installation | . | Visualize embeddings | 🟠 | Coming soon… | Python | . | Train an embedding on your own corpus of text/images | 🔴 | Coming soon… | Python | . ",
     "url": "/docs/tutorial/#embed-and-explore-cultural-archives",
     
     "relUrl": "/docs/tutorial/#embed-and-explore-cultural-archives"
-  },"84": {
+  },"83": {
     "doc": "Tutorial overview",
     "title": "Language model for domain-specific application",
     "content": "| Topic | Difficulty | Ressources | Installation | . | Understanding language models | 🔴 | Tutorial | Python | . | Chat with data | 🔴 | Tutorial | Python 🦜 LangChain | . ",
