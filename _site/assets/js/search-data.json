@@ -1,0 +1,597 @@
+{"0": {
+    "doc": "1. Introduction to machine learning",
+    "title": "Introduction to machine learning",
+    "content": "This chapter will teach you foundational concepts of machine learning (ML) through hands-on turorials. The first three chapters only use interactive applications, no programming skills are required. The fourth chapter reiterates the same concepts using programming tools that prevail in the ML industry, namely the Python programming language and dedicated ML libraries. Lastly, the fifth section provides ressources to develop your on web-based interactive ML application, using the Marcelle toolkit. Tips . We recommend to all attendants to follow the first four sections. ",
+    "url": "/docs/1_intro_ml#introduction-to-machine-learning",
+    
+    "relUrl": "/docs/1_intro_ml#introduction-to-machine-learning"
+  },"1": {
+    "doc": "1. Introduction to machine learning",
+    "title": "Table of contents",
+    "content": ". | Train your first image classifier | The development cycle of ML . | Data collection | Training | Testing | Deployment | . | Train your model in Python | Create your own interactive ML web application | . ",
+    "url": "/docs/1_intro_ml#table-of-contents",
+    
+    "relUrl": "/docs/1_intro_ml#table-of-contents"
+  },"2": {
+    "doc": "1. Introduction to machine learning",
+    "title": "Train your first image classifier",
+    "content": "Have you ever trained a machine learning model ? If not, this is the right place to start. First of all, what is a machine learning? . Definition . Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can effectively generalize from examples and thus perform tasks without explicit instructions. In other words, machine learning (ML) part of the field of AI but its specificity lies in the fact that algorithms are learning from data. To give you a concrete example, let’s train your first image classifier from images collected with your webcam and using the application below. Train my first image classifier! . In this application, you can activate the webcam of your laptop on the left side of the screen. Below the webcam, you can choose a label to be associated with the images you will collect. Once the label selected, click on the button hold to collect to collect images with the corresponding label. Doing so, you will see the images you collect appearing in the Training set in the middle of the screen. Reiterate this process for each label you want to collect images for. Once you finalized the creation of your Training set (images + corresponding labels), you can click on the button Train to train your image classifier. Then, you can activate the webcam again and see the predictions of your image classifier in real-time in the component Prediction confidence on the bottom of the screen. Hints . Take the time to test the model you trained. Try to trick its predictions and see how it reacts. What data could you add to the training set to improve its predictions? . You trained your first image classifier! Congratulations! But you don’t know much about how machine learning works… Let’s now see what’s going on under the hood of this web application. ",
+    "url": "/docs/1_intro_ml#train-your-first-image-classifier",
+    
+    "relUrl": "/docs/1_intro_ml#train-your-first-image-classifier"
+  },"3": {
+    "doc": "1. Introduction to machine learning",
+    "title": "The development cycle of ML",
+    "content": "The development of ML is a cycle composed of 4 main steps. These steps are illustrated in the application below. The development cycle of ML . Data collection . The first step of the development cycle of ML is data collection. It consists in collecting and annotating data samples that can be used by an ML algorithm to learn a mapping from inputs to outputs. In the previous example, the data samples are images collected with your webcam and the corresponding labels you provided. If pairs of input and output are provided in the training set, we talk about supervised learning. If only inputs are provided, we talk about unsupervised learning. The data samples are usually gathered in two sets: the training set and the test set. The training set is used to train the ML model, while the test set is used to evaluate the performance of the trained model. In other words, the training set is the exemples you work on during the semester, while the test set is the final exam. We provide various miniature image datasets that represent classification problems in engineering, medecine, and public health: . | miniMASK: a dataset of 3 classes of images (with masks, without masks, and with masks incorrectly worn); | miniROAD: a dataset of 3 classes or green, orange, and red traffic lights; | miniTRASH: a dataset of 3 classes of images (packaging, transparent glass, and opaque glass); | miniRETINA: a medical dataset of 3 classes of retinoscopic images (healthy, macular degeneration, and diabetic retinopathy); | miniSKIN: a medical dataset of 2 classes of dermatoscopic images (benign and malignant skin lesions); | . On the Data collection page, click on one button to select the dataset you want to work with for the rest of the tutorial. Hints . Take the time observe each images (by clicking on the thumbnails). Are the differences between each classes obvious to you? . Training . The training phase comprises three steps: . 2.1. Features selection : in our case, we will use a pre-trained neural network called MobileNet that extract 1024 features from images. These features were learned from a large dataset of images (ImageNet) and can be used to represent any image. 2.2. Model selection : Many machine learning models exist and were developed. In our case, we will use a model called multi-layer perceptron (MLP). It is a simple artificial neural network composed of an input layer (in our case, the 1024 features from MobileNe, some hidden layers that we can choose, and an output layer (the number of classes). Two other parameters are important to set. The batchSize and the number of epochs. An artificial neural network can updates its neurons using several examples at the same time. The batch size indicates the number of images that will be used at each round to update the neurons. The number of epochs indicates the number of times the whole training set will be used to update the neurons. The higher the number of epochs, the more the model will be trained. However, if the number of epochs is too high, the model might overfit the training set and will not be able to generalize to new data. You can choose the number of hidden layers and neurons per layer, the batch size, and the number of epochs on the Training page of the application. 2.3. Training : Click on the training button to start the neural network optimization. You will then see two different learning curves appearing. The represent the losses and accuracies as a function of the number of epochs. The loss is a measure of the error between the predictions of the model and the true labels. The accuracy is the percentage of correct predictions. A validation loss and accuracy are computed using a portion of the training set that is not used for the training. If the validation loss and validation accuracy are not improving, it means that the model is overfitting the training set and that it will not generalize well to new data. In this case, you should stop the training and reflect on the parameters of the model or the data used for the task. Testing . At this point, the model only saw the training set, eventhough it artificially splited this set into a training and validation set. To really assess the model performance, we need to compute a test accuracy on unseen images. On the Testing page of the application, you can see two confusion matrices. On the left is shown the global accuracy and a confusion matrix computed on the training set only. The rows of the confusion matrix represent the true labels (what should be predicted), while the columns represent the predicted labels. The diagonal of the matrix represents the number of correct predictions. A confusion matrix gives a finer view of which class is confused with which class. On the left, you can see the global accuracy and a confusion matrix computed on the test set only. The test accuracy is a better indicator of the model performance. If the test accuracy is much lower than the training accuracy, it means that the model is overfitting the training set and that it will not generalize well to new data. Questions . | For the task you selected, what averaged accuracy would you obtain with a random classifer? Is the trained classifier better than a random classifier in your case? | What difference do you observe between the training and test accuracies? What does it mean? | Which classes are the most confused? Why do you think so? Among the confusions you identified, is there any would be more problematic than others in the problem selected? | What would you do to improve the model performance? | . Deployment . Now you trained and test a machine learning model, you can learn more about its behavior by observing its predictions on particular images. On the Deployment page of the application, you can see the predictions of the model when you click on the thumbnails of the training or test set. Machine learning models can be noisy and biased. Noisiness indicates that the model is not stable and that it can give different predictions for similar inputs (it’s unpredictably wrong). Bias indicates that the model is wrong or unfair for similar inputs (it’s always wrong in the same way). Biases in ML models can lead to discrimination as illustrated in many different controversies over the past years. These incidents are documented on a public website called AI incident database. Questions . Among erroneous predictions, can you identify biases? Are these biases explained by the training data? Are these biases problematic in the problem selected? . Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries. ",
+    "url": "/docs/1_intro_ml#the-development-cycle-of-ml",
+    
+    "relUrl": "/docs/1_intro_ml#the-development-cycle-of-ml"
+  },"4": {
+    "doc": "1. Introduction to machine learning",
+    "title": "Train your model in Python",
+    "content": "In this section, you will learn how to train and test a machine learning model using Python and dedicated ML libraries. We recommand you to install Python via Anaconda. This way, you will also have jupyter notebook installed, which is a digital notebook that allows you to write and execute Python code in isolated cells. This way you can follow a step-by-step tutorial and execute the code at each step to see the results. You will also need yo install the following libraries: numpy, tensorflow, keras, matplotlib, and seaborn. You can install them using the following command in your terminal: . pip install numpy tensorflow keras matplotlib seaborn . The tutorial located in the file ml-python-tutorial.ipynb on the github repository of the course: . Python tutorial . The end of the tutorial also explains how to import a model trained in the Marcelle application and use it in Python. ",
+    "url": "/docs/1_intro_ml#train-your-model-in-python",
+    
+    "relUrl": "/docs/1_intro_ml#train-your-model-in-python"
+  },"5": {
+    "doc": "1. Introduction to machine learning",
+    "title": "Create your own interactive ML web application",
+    "content": "The interactive applications you used were programmed using Marcelle. Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. If you want to learn how to create your own interactive machine learning application, please read the introduction and follow the tutorial on the Marcelle website: . Marcelle tutorial . ",
+    "url": "/docs/1_intro_ml#create-your-own-interactive-ml-web-application",
+    
+    "relUrl": "/docs/1_intro_ml#create-your-own-interactive-ml-web-application"
+  },"6": {
+    "doc": "1. Introduction to machine learning",
+    "title": "1. Introduction to machine learning",
+    "content": " ",
+    "url": "/docs/1_intro_ml",
+    
+    "relUrl": "/docs/1_intro_ml"
+  },"7": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Mapping by demonstration",
+    "content": "A computer program is a sequence instructions for a computer to execute. Programs often take inputs, process them, and produce outputs. The way inputs are processed are usually explicited by the human programmer, using a programming language. Machine learning (ML) offers an alternative to explicit programmation: ML algorithms can learn to process data from examples. The human developper provides pairs of input and its corresponding output, and the ML model is then optimized to reproduce the mapping from the example provided. We call this approach mapping by demonstration, and finds many applications in the creative and cultural industries: in performing arts (gesture to sound), in video games, in robotics, among others. This chapter will teach you how to build a real-time mapping from gesture to sound using ML and Pure Data (Pd), a free an open-source visual programming language for creating interactive computer music and multimedia works. In particular, this chapter will teach you how to use your smartphone as a gesture sensor device, build a minimal sound synthesizer in Pd, and train a ML model to control the synthesizer from gestures you choose! . Second, you will learn how to do the same using the Wekinator, a free, open source software that allows anyone to use machine learning to map arbitrary OSC messages. ",
+    "url": "/docs/2_mapping_demonstration#mapping-by-demonstration",
+    
+    "relUrl": "/docs/2_mapping_demonstration#mapping-by-demonstration"
+  },"8": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Table of contents",
+    "content": ". | Use your phone as a sensor device . | Send OSC messages from your phone | Receive OSC messages on your computer in Pure Data | . | Build a minimal sound synthesizer | Map sensors to synthesis parameters with ml-lib in Pure Data | Map sensors to synthesis parameters with Wekinator | . ",
+    "url": "/docs/2_mapping_demonstration#table-of-contents",
+    
+    "relUrl": "/docs/2_mapping_demonstration#table-of-contents"
+  },"9": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Use your phone as a sensor device",
+    "content": "Smartphones are excellent sensor devices because they include a large array of built-in sensors. For motion, they are equipped with accelerometers, gyroscopes, and step detection sensors. For geolocalisation, they are equipped with geopositioning, magnetic field detection, and light sensors. For touch detection, most touch screen enable precise multi-finger detection. Additionally, smartphones are widely accessible and come with the advantage of wireless connectivity, allowing for seamless data transmission without the need for physical cables. Their portability ensures they can be used in various settings, especially in performance-based contexts where mobility is essential. Moreover, smartphones have significant computing power, enabling them to not only collect but also process complex data in real-time. Open Sound Control (OSC) serves as an effective way to stream this sensor data. OSC is a communication protocol initially designed for networking sound synthesizers, computers, and other multimedia devices, offering more flexibility and a higher level of organization than traditional MIDI protocols. OSC signals can carry a variety of data types and are sent over standard network protocols like UDP or TCP. This compatibility with modern networking technologies makes OSC an ideal choice for transmitting the rich sensor data collected by smartphones. In creative and technical applications, OSC allows for this data to be streamed in real-time, enabling dynamic and interactive experiences. An Open Sound Control (OSC) message is structured to include an address pattern followed by typed arguments. Here’s a simple example of an OSC message: . | Address Pattern: /filter/frequency | Arguments: 440.0 | . In this example, /filter/frequency is the address pattern that indicates where the message is destined within the OSC namespace. It’s akin to a URL path in web development, pointing to a specific function or parameter in the receiving device or software. The argument 440.0 is the value that is being sent to the specified address. In this context, it could represent a frequency value in Hertz that is being sent to a sound synthesizer’s filter frequency parameter. The OSC message is compact and efficient, capable of supporting multiple arguments of different types (like integers, floats, strings, etc.) following the address pattern. Send OSC messages from your phone . Free mobile applications exist to stream sensor data from your phone. We recommend: . | Sensors2OCS (Android) allowing to stream all the sensors of your phone as OSC messages | Osc controller (Android) that proposes generic button and slider interfaces to send OSC messages | . To send OSC messages from your phone to your computer, you need to connect your phone and your computer to the same network. You can either use a local network (wifi) or a global network (internet). In both cases, you need to know the IP address of your computer. You can find it by typing ipconfig in the terminal (MacOS) or ipconfig in the command prompt (Windows), or in the network settings of your computer. Both application should be configurated with the IP address of your computer and the port number to send OSC messages to. The port number is a number between 0 and 65535. We recommend to use a number between 8000 and 9000. Receive OSC messages on your computer in Pure Data . Pure Data is a free and open-source visual programming language for creating interactive computer music and multimedia works. Pd enables musicians, visual artists, performers, researchers, and developers to create software graphically, without writing lines of code. Pd is used to process and generate sound, video, 2D/3D graphics, and interface sensors, input devices, and MIDI. Pd can easily run on micro-computers such as Raspberry Py and is hence a great tool for prototyping interactive systems. We recommend using the Plug Data version of Pd, as it provides a more user-friendly interface, and can be used as a standalone app or as a VST3, LV2, CLAP or AU plugin. You can download below a Pd patch we wrote to receive OSC messages from your phone. You can open it with Plug Data. 2a_phone_sensors.pd . Let’s go through the patch. The loadband object send a bang message (trigger signal) when the Pd patch is loaded. It is generally used to initialize settings. The listen 8000 object is a message triggered by the loadbang. It indicates that the program will listen for incoming OSC messages on port 8000. netreceive -u -b is configured to receive network messages using UDP protocol (-u for UDP and -b for binding to a port, which is set at 8000 from the previous object). Hence, the netreceive object will receive all raw messages, including those formatted in OSC, sent to port 8000. oscparse takes the raw OSC messages received from netreceive and parses them into a format that can be understood and used in Pd. Note that oscparse belongs to an external library named osc that you can install with the external manager named deken. The deken is a repository of all available external developed for Pd, and allow you to quickly install their last version from within Pd. You can access it from the menu Settings/Externals. Search for osc and install the library. At this stage, you should be able to receive OSC messages from your phone in Pd. You can also use the print object to display incomming messages in the console and check that you received the formatted OSC messages correctly. The rest is just a matter of extracting the information you need from the OSC messages: route the numerical values (arguments) from their address pattern, process, and scale the numerical values to fit your needs. The two applications might have a different OSC message format (might add a keyword in the address pattern, or send the values in a different order), so you might need to adapt the patch to your needs. ",
+    "url": "/docs/2_mapping_demonstration#use-your-phone-as-a-sensor-device",
+    
+    "relUrl": "/docs/2_mapping_demonstration#use-your-phone-as-a-sensor-device"
+  },"10": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Build a minimal sound synthesizer",
+    "content": "Now we can stream sensor data from our phone to Pd, we can for exemple track and record motion gestures. Let’s now build a sound synthesizer that we will control from the gestures. 2b_sound_synthesis.pd . Many techniques exist to synthesize sound. In this example, we will use substractive synthesis. The principle is to start from a complex sound (e.g., white noise) and remove some of its harmonics using a filter, in order to obtain a simpler sound. The noise~ object generates white noise. The ~ indicates that the object is a signal object (rather than a message), i.e., it processes audio signals. The vcf~ object is a voltage-controlled filter. It takes the white noise as input and two filter paramters: . | The cut-off frequency (in Hz) , which is the frequency above which the harmonics are removed. | The Q factor, which is the resonance of the filter. The higher the Q factor, the more the harmonics are removed. | . Both parameters are controled using horizontal sliders. Be sure to turn the volume of your computer down before playing with the sliders, as the sound can be very loud! . The output of the filter is sent to the dac~ object, which is the digital-to-analog converter that converts the digital signal into an analog signal that can be played by your speakers. You can activate the DSP (digital signal processing) by clicking on the ⏼ button on the bottom right corner of your screen. ",
+    "url": "/docs/2_mapping_demonstration#build-a-minimal-sound-synthesizer",
+    
+    "relUrl": "/docs/2_mapping_demonstration#build-a-minimal-sound-synthesizer"
+  },"11": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Map sensors to synthesis parameters with ml-lib in Pure Data",
+    "content": "At this stage, we successfully received OSC messages from a smartphone and created a simple sound synthesizer controlled by two parameters (cut-off frequency and Q value). However, we still do not have a mapping between the OSC messages and the synthesis parameters and programming such a mapping by hand can be tedious and time-consuming. We will now use machine learning to learn this mapping from examples. You can download below the Pd patch to train a ML model to map OSC messages to the cut-off frequency and Q value of the filter. 2c_ml_regression_mapping.pd . This patch require to install the ml-lib library. Unfortunately, this library is not up-to-date in the Deken, so you will have to install it manually. You can find the latest releases of the library at this address: . ml-lib . Once downloaded, copy paste the folter ml.lib in the folder Library/plugdata/Library/Extra (MacOS) or PlugData/extra (Windows) and reboot Plug Data. You should now be able to load various machine learning classifier or regressor. We will use the ml.ann which is a generalist artificial neural network. First, we must conduct data collection, e.g, gathering input (gesture data) and their corresponding outputs (synthesizer parameters). Open both patches 2a_phone_sensors.pd, 2b_sound_synthesis.pd, and check that your patch 2c_ml_regression_mapping.pd receive the signals from both the phone and the synthesizer. Then, click on the radio button and select the middle one (data collection). This will start the recording of the data in the ml.ann object. You can record as many examples as you want, while changing the position of the phone, and the values of the sound synthesizer. When you are done, click on the train message to start training your artificial neural network. Check the console to see if there’s any error messages. Once the model is trained, click on the third mode (right button) to start the prediction. You should now be able to control the sound synthesizer from the OSC messages sent by your phone. ",
+    "url": "/docs/2_mapping_demonstration#map-sensors-to-synthesis-parameters-with-ml-lib-in-pure-data",
+    
+    "relUrl": "/docs/2_mapping_demonstration#map-sensors-to-synthesis-parameters-with-ml-lib-in-pure-data"
+  },"12": {
+    "doc": "2. Mapping by demonstration",
+    "title": "Map sensors to synthesis parameters with Wekinator",
+    "content": "The Wekinator is a free and standalone software that allows to do the exact same steps as in the patch 2c_ml_regression_mapping.pd but in a more user-friendly interface. The wekinator accept and send arbitrary OSC messages. You can download the Wekinator at this address: . Wekinator . Try to train a new mapping using the Wekinator and the 2a_phone_sensors.pd and 2b_sound_synthesis.pd patches. Dr. Benedikt Zönnchen provided a live demonstration of the wekinator using Processing (input) and SuperCollider (output). You can find the code and the video of the demonstration at this address: . Slides: replacing code with machine learning Code: replacing code with machine learning . ",
+    "url": "/docs/2_mapping_demonstration#map-sensors-to-synthesis-parameters-with-wekinator",
+    
+    "relUrl": "/docs/2_mapping_demonstration#map-sensors-to-synthesis-parameters-with-wekinator"
+  },"13": {
+    "doc": "2. Mapping by demonstration",
+    "title": "2. Mapping by demonstration",
+    "content": " ",
+    "url": "/docs/2_mapping_demonstration",
+    
+    "relUrl": "/docs/2_mapping_demonstration"
+  },"14": {
+    "doc": "3. Audio modelling and synthesis with neural networks",
+    "title": "Audio modelling and synthesis with neural networks",
+    "content": "Neural networks prove to be a powerful tool to model and synthesize audio signals in the waveform domain. This chapter will teach you how to train and use a real-time neural synthesizer using the Real-Time Audio Variational autoEncoder (RAVE) model developed by the ACIDS team at Ircam, and include it in your Pure Data patch with nn~. ",
+    "url": "/docs/3_audio_modelling#audio-modelling-and-synthesis-with-neural-networks",
+    
+    "relUrl": "/docs/3_audio_modelling#audio-modelling-and-synthesis-with-neural-networks"
+  },"15": {
+    "doc": "3. Audio modelling and synthesis with neural networks",
+    "title": "Table of contents",
+    "content": ". | Audio modelling and synthesis with pre-trained neural networks | Train your model from your own corpus of sound | . ",
+    "url": "/docs/3_audio_modelling#table-of-contents",
+    
+    "relUrl": "/docs/3_audio_modelling#table-of-contents"
+  },"16": {
+    "doc": "3. Audio modelling and synthesis with neural networks",
+    "title": "Audio modelling and synthesis with pre-trained neural networks",
+    "content": "Recent advances in deep learning have enabled the development of neural networks that can model and synthesize audio signals in the waveform domain. After training on corpus of sound, the trained model can be used to generate new audio signals, or to transform existing ones. In particular, the RAVE model is a variational autoencoder for fast and high-quality neural audio synthesis developed by Antoine Caillon and Philippe Esling from the ACIDS team in IRCAM. Trained RAVE models can be loaded in Pure Data or Max/MSP (paying alternative to Pd) using the nn~ external. Let’s have a look to their demonstration. You can learn more about the specificity of the RAVE architecture on the tutorial below: . You can learn more about the RAVE model on the official github repository. Please find a demo of audio transfer in Pure Data using nn~ and a pre-trained model in the link below: . Audio style transfer in Pd . Other pre-trained models are available on here and here. ",
+    "url": "/docs/3_audio_modelling#audio-modelling-and-synthesis-with-pre-trained-neural-networks",
+    
+    "relUrl": "/docs/3_audio_modelling#audio-modelling-and-synthesis-with-pre-trained-neural-networks"
+  },"17": {
+    "doc": "3. Audio modelling and synthesis with neural networks",
+    "title": "Train your model from your own corpus of sound",
+    "content": "Training a RAVE model on your own corpus of sound is possible but computationally expensive. We cannot provide you with a GPU (Graphical Processing Unit), used to train artificial neural network. However, you can use the following Google Colab written by hexorcismos, which is a computational notebook that runs on GPU hosted by Google: . Training a RAVE model on Google Colab . ",
+    "url": "/docs/3_audio_modelling#train-your-model-from-your-own-corpus-of-sound",
+    
+    "relUrl": "/docs/3_audio_modelling#train-your-model-from-your-own-corpus-of-sound"
+  },"18": {
+    "doc": "3. Audio modelling and synthesis with neural networks",
+    "title": "3. Audio modelling and synthesis with neural networks",
+    "content": " ",
+    "url": "/docs/3_audio_modelling",
+    
+    "relUrl": "/docs/3_audio_modelling"
+  },"19": {
+    "doc": "4. Embed and explore cultural archives",
+    "title": "Embed and explore cultural archives",
+    "content": "Machine learning is used to learn abstract representations of large collection of data. The creative and cultural industries have a long history of collecting and archiving cultural artefacts. These archives are increasingly digitised and made available online. This tutorial will show you how to use machine learning to embed these archives in abstract representational spaces, and explore them in novel ways. This chapter will teach you how to perform dimensional reduction of large collection of data, either from naive algorithms or by learning representations with neural networks. ",
+    "url": "/docs/4_embed_cultural_archives#embed-and-explore-cultural-archives",
+    
+    "relUrl": "/docs/4_embed_cultural_archives#embed-and-explore-cultural-archives"
+  },"20": {
+    "doc": "4. Embed and explore cultural archives",
+    "title": "Table of contents",
+    "content": ". Coming soon… . ",
+    "url": "/docs/4_embed_cultural_archives#table-of-contents",
+    
+    "relUrl": "/docs/4_embed_cultural_archives#table-of-contents"
+  },"21": {
+    "doc": "4. Embed and explore cultural archives",
+    "title": "4. Embed and explore cultural archives",
+    "content": " ",
+    "url": "/docs/4_embed_cultural_archives",
+    
+    "relUrl": "/docs/4_embed_cultural_archives"
+  },"22": {
+    "doc": "5. Language model for domain-specific application",
+    "title": "Language model for domain-specific application",
+    "content": "AI entered the mainstream in 2022 thanks to dramatic progresses in natural language processing, in particular text generation. Most of you now use ML-powered text generation tools, such as ChatGPT, to write emails, reports, and maybe your next novel? Large Language Models (LLMs) are generalists but open opportunities for domain-specific applications, including in the creative and cultural industries. As you may know, training a powerful text generation model is not an easy task, it requires tremendous amounts of data and computing power. This technology sparked many ethical and economic concerns, especially in the creative and cultural industries where intellectual property is of paramount importance. The human labor required to produce quality data is rarely acknowledged or compensated. Then, understanding this technology is a prerequisite to design meaningful tools for practitioners. This chapter will teach you basics about language models, and how to use them to create domain-specific applications that binds the generalist knowledge of LLMs with the specialist knowledge of your own corpus of text. ",
+    "url": "/docs/5_language_model#language-model-for-domain-specific-application",
+    
+    "relUrl": "/docs/5_language_model#language-model-for-domain-specific-application"
+  },"23": {
+    "doc": "5. Language model for domain-specific application",
+    "title": "Table of contents",
+    "content": ". | Understanding language models | Chat with data | . ",
+    "url": "/docs/5_language_model#table-of-contents",
+    
+    "relUrl": "/docs/5_language_model#table-of-contents"
+  },"24": {
+    "doc": "5. Language model for domain-specific application",
+    "title": "Understanding language models",
+    "content": " ",
+    "url": "/docs/5_language_model#understanding-language-models",
+    
+    "relUrl": "/docs/5_language_model#understanding-language-models"
+  },"25": {
+    "doc": "5. Language model for domain-specific application",
+    "title": "Chat with data",
+    "content": "ChatWithData youtube channel . ",
+    "url": "/docs/5_language_model#chat-with-data",
+    
+    "relUrl": "/docs/5_language_model#chat-with-data"
+  },"26": {
+    "doc": "5. Language model for domain-specific application",
+    "title": "5. Language model for domain-specific application",
+    "content": " ",
+    "url": "/docs/5_language_model",
+    
+    "relUrl": "/docs/5_language_model"
+  },"27": {
+    "doc": "Tools and credits",
+    "title": "Generalist tool for ML",
+    "content": "Marcelle . Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. Jules Françoise, Baptiste Caramiaux, Téo Sanchez. Marcelle: Composing Interactive Machine Learning Workflows and Interfaces. Annual ACM Symposium on User Interface Software and Technology (UIST ’21), Oct 2021, Virtual. DOI: 10.1145/3472749.3474734. PDF . Wekinator . The Wekinator is free, open source software that allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more. The Wekinator allows users to build new interactive systems by demonstrating human actions and computer responses, instead of writing programming code. Fiebrink, R., &amp; Cook, P. R. (2010, January). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht) (Vol. 3, pp. 2-1). ml-lib . ml-lib is a library of machine learning externals for Max and Pure Data. ml-lib is primarily based on the Gesture Recognition Toolkit by Nick Gillian ml-lib is designed to work on a variety of platforms including OS X, Windows, Linux, on Intel and ARM architectures. The goal of ml-lib is to provide a simple, consistent interface to a wide range of machine learning techniques in Max and Pure Data. Bullock, J., &amp; Momeni, A. (2015, May). Ml. lib: robust, cross-platform, open-source machine learning for max and pure data. In NIME (pp. 265-270). nn~ . nn~ is a Pd or Max/MSP external object that allows to load and run neural networks in real-time. It is based on the PyTorch C++ API and can load any network that can be exported from PyTorch to TorchScript. It can be used to load RAVE models. ",
+    "url": "/docs/credits/#generalist-tool-for-ml",
+    
+    "relUrl": "/docs/credits/#generalist-tool-for-ml"
+  },"28": {
+    "doc": "Tools and credits",
+    "title": "Specialized ML tools (audio, text, others…)",
+    "content": "RAVE . Rave is a variational autoencoder for fast and high-quality neural audio synthesis developed by Antoine Caillon and Philippe Esling from IRCAM. Caillon, A., &amp; Esling, P. (2021). RAVE: A variational autoencoder for fast and high-quality neural audio synthesis. arXiv preprint arXiv:2111.05011. LangChain . LangChain is a framework for developing applications powered by language models. It enables applications that: . | Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.) . | Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.) . | . Flucoma . Combination of digital signal processing and machine learning. Connection to SuperCollider, PureData and Max. ",
+    "url": "/docs/credits/#specialized-ml-tools-audio-text-others",
+    
+    "relUrl": "/docs/credits/#specialized-ml-tools-audio-text-others"
+  },"29": {
+    "doc": "Tools and credits",
+    "title": "Generalist tools for audio and visual programming",
+    "content": "Pure Data . Pure Data (or just “Pd”) is an open source visual programming language for multimedia. Pure Data allows you to create and manipulate audio systems using visual elements, rather than writing code. Think of it as building with virtual blocks – simply connect them together to design your unique audio setups. Plug Data . plugdata is a free/open-source visual programming environment based on pure-data. It is available for a wide range of operating systems, and can be used both as a standalone app, or as a VST3, LV2, CLAP or AU plugin. We recommend using Plug Data rather than Pure Data, as it provides a more user-friendly interface. SuperCollider . SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. It is free and open source software available for Windows, macOS, and Linux. P5hs Processing Nannou . Visual Creative Coding, Coupling between Audio and Visual . TouchDesigner . Node-based visual programming language and environment for real-time interaction with different media . ",
+    "url": "/docs/credits/#generalist-tools-for-audio-and-visual-programming",
+    
+    "relUrl": "/docs/credits/#generalist-tools-for-audio-and-visual-programming"
+  },"30": {
+    "doc": "Tools and credits",
+    "title": "More AIArtists tools and ressources",
+    "content": "AIartists . ",
+    "url": "/docs/credits/#more-aiartists-tools-and-ressources",
+    
+    "relUrl": "/docs/credits/#more-aiartists-tools-and-ressources"
+  },"31": {
+    "doc": "Tools and credits",
+    "title": "Tools and credits",
+    "content": " ",
+    "url": "/docs/credits/",
+    
+    "relUrl": "/docs/credits/"
+  },"32": {
+    "doc": "Directions and useful infos",
+    "title": "How to go to the Wavelab ?",
+    "content": "Address . Wavelab, Barerstraße 19, 80333 München . Copy Address . ",
+    "url": "/docs/directions/#how-to-go-to-the-wavelab-",
+    
+    "relUrl": "/docs/directions/#how-to-go-to-the-wavelab-"
+  },"33": {
+    "doc": "Directions and useful infos",
+    "title": "Arrival methods",
+    "content": "Bicycle . | Bicycle parking is available. | . Public Transportation . | Subway: Königsplatz or Odeonsplatz stations. | Tram: Karolinenplatz stop. | City-Railway: Stachus or Hauptbahnhof stations (then a 10-minute walk). | . ",
+    "url": "/docs/directions/#arrival-methods",
+    
+    "relUrl": "/docs/directions/#arrival-methods"
+  },"34": {
+    "doc": "Directions and useful infos",
+    "title": "Route to Wavelab from Barerstraße 19",
+    "content": ". | Enter through the left side entrance of the building and proceed to the green courtyard. Look for and follow the red HMTM signs. | Walk along the building until you see a wheelchair ramp and stairs on your right. This leads into the Wavelab. | The door to Wavelab is not automatic. Please ring the bell labeled Wavelab to gain entry. | . ",
+    "url": "/docs/directions/#route-to-wavelab-from-barerstra%C3%9Fe-19",
+    
+    "relUrl": "/docs/directions/#route-to-wavelab-from-barerstraße-19"
+  },"35": {
+    "doc": "Directions and useful infos",
+    "title": "Important Advice",
+    "content": "The Wavelab is situated in the rear building of the Israeli Consulate General (GKI), which has a high security level. When visiting, please keep the following in mind: . | Avoid lingering or standing on the sidewalk at Barerstraße 19; move close to the tram stop if you need to make a phone call or are waiting for someone. | If approached by GKI security personnel, promptly identify yourself as a guest of the Wavelab. | . ",
+    "url": "/docs/directions/#important-advice",
+    
+    "relUrl": "/docs/directions/#important-advice"
+  },"36": {
+    "doc": "Directions and useful infos",
+    "title": "Location Image",
+    "content": ". ",
+    "url": "/docs/directions/#location-image",
+    
+    "relUrl": "/docs/directions/#location-image"
+  },"37": {
+    "doc": "Directions and useful infos",
+    "title": "Directions and useful infos",
+    "content": " ",
+    "url": "/docs/directions/",
+    
+    "relUrl": "/docs/directions/"
+  },"38": {
+    "doc": "Group feedback",
+    "title": "Group A : Human-machine co-improvisation",
+    "content": ". | An implementation of a factor oracle for Pure Data | Omax | Dicy2 and its video tutorials | Festival on co-improvisation | Valerio Velardo Youtube channel on machine learning for music | Artemi-Maria Gioti was also interested in machine-artist communication and gave a talk in the last Wintersemester for AICA and here is also an interview where she talks about some implementation details. | . Assayag, G., &amp; Dubnov, S. (2004). Using factor oracles for machine improvisation. Soft Computing, 8(9), 604-610. Wilson, A. J. (2016). factorOracle: an Extensible Max External for Investigating Applications of the Factor Oracle Automaton in Real-Time Music Improvisation. Nika, J., Chemillier, M., &amp; Assayag, G. (2017). Improtek: introducing scenarios into human-computer music improvisation. Computers in Entertainment (CIE), 14(2), 1-27. Dubnov, S., Assayag, G., &amp; Cont, A. (2007). Audio oracle: A new algorithm for fast learning of audio structures. In Proceedings of International Computer Music Conference (ICMC). ICMA. ",
+    "url": "/docs/feedback/group_feedback/#group-a--human-machine-co-improvisation",
+    
+    "relUrl": "/docs/feedback/group_feedback/#group-a--human-machine-co-improvisation"
+  },"39": {
+    "doc": "Group feedback",
+    "title": "Group B : Collaborative visual story-telling",
+    "content": ". | How to use Stable diffusion locally | Automatic111 webGUI : AUTOMATIC111 also provides an API so it should be possible to . | Make a history of prompts via some GUI, for example a Python application | Send parts of the history as prompt to Stable Diffusion | Receive and display the image and save the pair (image, prompt) into the archive/history | . | . You can also access Stable Diffusion and other image generators via an API but if it does not run on your machine you have to pay for it. ",
+    "url": "/docs/feedback/group_feedback/#group-b--collaborative-visual-story-telling",
+    
+    "relUrl": "/docs/feedback/group_feedback/#group-b--collaborative-visual-story-telling"
+  },"40": {
+    "doc": "Group feedback",
+    "title": "Group C : Emotion recognition for personalized recommendation",
+    "content": ". | FER | DeepFace | FaceWork : a critical gamification of facial recognition. You can read more about the artist Kyle McDonald that is familiar with the relation between AI and faces. | . ",
+    "url": "/docs/feedback/group_feedback/#group-c--emotion-recognition-for-personalized-recommendation",
+    
+    "relUrl": "/docs/feedback/group_feedback/#group-c--emotion-recognition-for-personalized-recommendation"
+  },"41": {
+    "doc": "Group feedback",
+    "title": "Group D : Virtual archives of clothing artefacts",
+    "content": ". | Gaussian splatting for 3D modelling of items | A tutorial for learning embeddings of (simplistic) fashion item images. | PoseNet for estimating poses | . Gu, X., Wong, Y., Shou, L., Peng, P., Chen, G., &amp; Kankanhalli, M. S. (2018). Multi-modal and multi-domain embedding learning for fashion retrieval and analysis. IEEE Transactions on Multimedia, 21(6), 1524-1537. ",
+    "url": "/docs/feedback/group_feedback/#group-d--virtual-archives-of-clothing-artefacts",
+    
+    "relUrl": "/docs/feedback/group_feedback/#group-d--virtual-archives-of-clothing-artefacts"
+  },"42": {
+    "doc": "Group feedback",
+    "title": "Group E : AI-augmented audio guide",
+    "content": ". | Audio-to-text : DeepSpeech (can run locally) or Whisper (API calls); | Question processing : Langchain or https://www.llamaindex.ai/. My guess is that you will necessary have to call an API for this part; | Have a look to Chat with data and other tutorials. Local Large Language Models exist (llama.cpp) but are heavy to be supported by an embed system like a Raspberry Pi (it is already too heavy for my computer); | Text-to-speech : I don’t know much about it but have a look to Mozilla TTS, Google TTS, and coqui-ai TTS. | . ",
+    "url": "/docs/feedback/group_feedback/#group-e--ai-augmented-audio-guide",
+    
+    "relUrl": "/docs/feedback/group_feedback/#group-e--ai-augmented-audio-guide"
+  },"43": {
+    "doc": "Group feedback",
+    "title": "Group feedback",
+    "content": "Raw notes (sent by email) . ",
+    "url": "/docs/feedback/group_feedback/",
+    
+    "relUrl": "/docs/feedback/group_feedback/"
+  },"44": {
+    "doc": "About",
+    "title": "AI in culture and arts - project workshop",
+    "content": " ",
+    "url": "/#ai-in-culture-and-arts---project-workshop",
+    
+    "relUrl": "/#ai-in-culture-and-arts---project-workshop"
+  },"45": {
+    "doc": "About",
+    "title": "📰 Announcements",
+    "content": "11.01.2023 - Get ready! The third and last bloc of the course will take place on the 5th, 6th, and 7th of February 2024. You will be asked to demonstrate your MVP to our team of experts. 11.01.2023 - 📹 Please upload your minimal viable prototype (MVP) video before the 26th January 2024, 23:59. 11.01.2024 - We watched your proof of concept videos! Congrats to all for your progress. Please find our feedback for the next phase. 10.11.2023 - The presentation slides of the first bloc are now available. ",
+    "url": "/#-announcements",
+    
+    "relUrl": "/#-announcements"
+  },"46": {
+    "doc": "About",
+    "title": "Table of contents",
+    "content": ". | What is AICA? | What is the project workshop ? | Tutorials | Evaluation and ECTS | Credits and attributions | License | . ",
+    "url": "/#table-of-contents",
+    
+    "relUrl": "/#table-of-contents"
+  },"47": {
+    "doc": "About",
+    "title": "What is AICA?",
+    "content": "The Digitization College “Artificial Intelligence in Culture and Arts” (AICA) aims to equip students at the University of Music and Performing Arts Munich (HMTM) and Hochschule München University of Applied Sciences (HM) with necessary skills to impact AI innovations in the creative and cultural industries. Learn more about AICA . ",
+    "url": "/#what-is-aica",
+    
+    "relUrl": "/#what-is-aica"
+  },"48": {
+    "doc": "About",
+    "title": "What is the project workshop ?",
+    "content": "The AICA Project Workshop will be hosted at the Wavelab, in the Winter Semester 2023/2024 starting November 2023. This course will teach you how to build and apply AI and machine learning for the cultural and artistic domains. You will develop your own project at the interface of AI in art and culture, spanning from an intelligent or interactive tool, an artistic performance, or anything in between that applies to the creative and cultural industries. You will form a team with students from HM and HMTM with complementary expertise: computer science, data science, design, music, theater, or cultural management. You will be accompanied on site by technology and culture experts, and coached with Agile software development practices. ",
+    "url": "/#what-is-the-project-workshop-",
+    
+    "relUrl": "/#what-is-the-project-workshop-"
+  },"49": {
+    "doc": "About",
+    "title": "Tutorials",
+    "content": "This website provides a large range of tutorials and ressources, organized by topic and difficulty. Feel free to use and adapt any of the ressources to implement your project ! . Tutorial overview . ",
+    "url": "/#tutorials",
+    
+    "relUrl": "/#tutorials"
+  },"50": {
+    "doc": "About",
+    "title": "Evaluation and ECTS",
+    "content": "You will earn 6 ECTS for the validation of the course. The evaluation will be based on two deliverables: . | A 10-page group term paper describing the development of the project; | A group presentation of the project; | . We highly encourage students to extend and capitalize on their projects to derive a bachelor or master thesis. ",
+    "url": "/#evaluation-and-ects",
+    
+    "relUrl": "/#evaluation-and-ects"
+  },"51": {
+    "doc": "About",
+    "title": "Credits and attributions",
+    "content": "The tutorial are based on several open-source tools and libraries developed by talented researchers and developers. Without them, this course would not be possible. Discover all of them in section Credits and attributions. ",
+    "url": "/#credits-and-attributions",
+    
+    "relUrl": "/#credits-and-attributions"
+  },"52": {
+    "doc": "About",
+    "title": "License",
+    "content": "The new teaching material (tutorials and code) created for the course is available under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Each tool and library demonstrated in the tutorials is subject to its own license. ",
+    "url": "/#license",
+    
+    "relUrl": "/#license"
+  },"53": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"54": {
+    "doc": "Group feedback",
+    "title": "Group A : Human-machine co-improvisation",
+    "content": "Progresses . | Implemented the second half of the pipeline: the factor oracle is now able to generate new notes from the sequence learned. These notes are played by a minimal synthesizer. You almost have a proof of concept of the system. | . Next steps for the PoC . | Crash test the factorOracle: try to really co-impprovise with the machine. Does it stay locked in loops? What if you train with longer musical phrases? Please document your observations. | Improve the audio synthesis: To improve your minimal synthesizer, learn about ADSR envelope and ways to implement it in PureData, learn about the timber quality of a saxophone and how to reimplement it. In addition, please have a look to audio style transfer using RAVE and nn~ on tutorial #3. | . ",
+    "url": "/docs/feedback/office_hours_summary/#group-a--human-machine-co-improvisation",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/#group-a--human-machine-co-improvisation"
+  },"55": {
+    "doc": "Group feedback",
+    "title": "Group B : Collaborative visual story-telling",
+    "content": "Progresses . | The group successfuly use the openAI API to generate prompts from story fragments and generate an image from the prompt (using DALL-E). | The narrative of the project was discussed as it does not clearly match the cultural and creative industries but rather gamify the text-to-image recreative practice. We discussed to reframe the project as a tool for amateur storyboard creation. | The implementation was assigned according to goup member’s technical abilities. Moritz will learn about front-end development while Felix will tackle the back-end devlopment using the Flask python framework. | . Next steps for the PoC . | The narrative of the project is still unclear. Please interview potential users to understand how they would use and comprehend your project | Design and sketch users’ interactions (as a story board?) | The proof of concept should be a working application where users enter a prompt and receive an image. | . ",
+    "url": "/docs/feedback/office_hours_summary/#group-b--collaborative-visual-story-telling",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/#group-b--collaborative-visual-story-telling"
+  },"56": {
+    "doc": "Group feedback",
+    "title": "Group C : Music generation from movements and dance",
+    "content": "Progresses . | The group should possess all necessary hardware (piezoelectric sensors, armband, Arduino, bread board etc.) | The group successfuly assign roles for the project. Fabian is in charge of sound synthesis with SuperCollider. Matthias implemented the project’s architecture and is in charge of the hardware. Marius is in charge of estimating bpm using recurrent neural network. | The program architecture is clear and functionnal. | The group succesfully applied a peak detection algorithm on fake data. | . Next steps for the PoC . | Stream the piezoelectric sensor data to the computer | Try a simple LSTM (recurrent neural network) to estimate the bpm (or localization) from the piezoelectric sensor data | Test the entire pipeline, from sensor to sound synthesis | . ",
+    "url": "/docs/feedback/office_hours_summary/#group-c--music-generation-from-movements-and-dance",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/#group-c--music-generation-from-movements-and-dance"
+  },"57": {
+    "doc": "Group feedback",
+    "title": "Group D : Virtual archives of clothing artefacts",
+    "content": "Progresses . | The group decided to focus an interactive “mirror” for visitors to try moving clothing artefacts. An alternative direction was to let users “look around” a still clothing artefacts by tracking people’s head. This direction was discarded. | The group did a technological watch of proprietary solutions for pose estimation from images. None of them are both free and in real-time. | The group successfully used BlendArMocap in Blender to extract a skeleton from a video stream. The pose estimation is very slow. | The group successfully infered a skeleton from a single frame using Google’s mediapipe. It can potentially speed up the | . Next steps for the PoC . | Model any clothing artefact and map skeleton joints to the clothing artefact. | . ",
+    "url": "/docs/feedback/office_hours_summary/#group-d--virtual-archives-of-clothing-artefacts",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/#group-d--virtual-archives-of-clothing-artefacts"
+  },"58": {
+    "doc": "Group feedback",
+    "title": "Group E : AI-augmented audio guide",
+    "content": "Progresses . | The group successfully called text-to-speech, speech-to-text and conversational bots from the OpenAI API. | The work was divided between group members. Julian would focus on the back-end development with Flask. Philip will focus on the front-end development in HTML, CSS, and JS (audio recording and playback). Scientific tutors will help to conncect the front-end and back-end. | . Next steps for the PoC . | Sketch and prototype the user’s interaction. Keep it simple (no voice detection) and reflect on the relevance of the features for a museum visitor. | Implement the front-end of the application with HTML, CSS, and JS. | Implement the back-end of the application with Flask. | Connect the front-end and back-end. | . ",
+    "url": "/docs/feedback/office_hours_summary/#group-e--ai-augmented-audio-guide",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/#group-e--ai-augmented-audio-guide"
+  },"59": {
+    "doc": "Group feedback",
+    "title": "Group feedback",
+    "content": " ",
+    "url": "/docs/feedback/office_hours_summary/",
+    
+    "relUrl": "/docs/feedback/office_hours_summary/"
+  },"60": {
+    "doc": "PoC video feedback",
+    "title": "Group A : Human-machine co-improvisation",
+    "content": "Great job for the PoC video! Please move on with the improvements you described. ",
+    "url": "/docs/feedback/poc_feedback/#group-a--human-machine-co-improvisation",
+    
+    "relUrl": "/docs/feedback/poc_feedback/#group-a--human-machine-co-improvisation"
+  },"61": {
+    "doc": "PoC video feedback",
+    "title": "Group B : Collaborative visual story-telling",
+    "content": "If the image generation from a story works in python, it has yet to be an interactive application that people can easily use. Please refer to our last office hour feedback for future improvements. Remember to work on the utility and application scope of your system; last time we talked, it still needed to be clarified. Good luck! . ",
+    "url": "/docs/feedback/poc_feedback/#group-b--collaborative-visual-story-telling",
+    
+    "relUrl": "/docs/feedback/poc_feedback/#group-b--collaborative-visual-story-telling"
+  },"62": {
+    "doc": "PoC video feedback",
+    "title": "Group C : Music generation from movements and dance",
+    "content": "The video is not fully clear, but it seems to work and you clearly made progress! Your personal reflections on the results would be appreciated for the next video/bloc. Is the interaction you are designing engaging for users? Improvements evoked during our last office hour are still relevant. The real milestone would be to try a life-size installation! Good luck! . ",
+    "url": "/docs/feedback/poc_feedback/#group-c--music-generation-from-movements-and-dance",
+    
+    "relUrl": "/docs/feedback/poc_feedback/#group-c--music-generation-from-movements-and-dance"
+  },"63": {
+    "doc": "PoC video feedback",
+    "title": "Group D : Virtual archives of clothing artefacts",
+    "content": "The physics of your clothing item is not bad at all! However, the video is a bit long, and only two body points were mapped. Hence, it was unclear if the system was really working. Please map the entire skeleton to your clothing model so we can reflect better on possible improvements: is the bottleneck the skeleton extraction, the clothing model, or something else? Good luck! . ",
+    "url": "/docs/feedback/poc_feedback/#group-d--virtual-archives-of-clothing-artefacts",
+    
+    "relUrl": "/docs/feedback/poc_feedback/#group-d--virtual-archives-of-clothing-artefacts"
+  },"64": {
+    "doc": "PoC video feedback",
+    "title": "Group E : AI-augmented audio guide",
+    "content": "Great job for implementing a user interface. Improvements can now be made in the generation speed and interface design. Do not hesitate to reach out to us for help on these topics. Good luck! . ",
+    "url": "/docs/feedback/poc_feedback/#group-e--ai-augmented-audio-guide",
+    
+    "relUrl": "/docs/feedback/poc_feedback/#group-e--ai-augmented-audio-guide"
+  },"65": {
+    "doc": "PoC video feedback",
+    "title": "PoC video feedback",
+    "content": " ",
+    "url": "/docs/feedback/poc_feedback/",
+    
+    "relUrl": "/docs/feedback/poc_feedback/"
+  },"66": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": "Coming soon… . | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"67": {
+    "doc": "Schedule",
+    "title": "Monday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"68": {
+    "doc": "Schedule",
+    "title": "Tuesday",
+    "content": "| ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"69": {
+    "doc": "Schedule",
+    "title": "Wednesday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"70": {
+    "doc": "Schedule",
+    "title": "Thursday",
+    "content": "| ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"71": {
+    "doc": "Schedule",
+    "title": "Friday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | . --> ",
+    "url": "/docs/schedule/",
+    
+    "relUrl": "/docs/schedule/"
+  },"72": {
+    "doc": "Instructors",
+    "title": "Scientific instructors",
+    "content": "Scientific instructors prepared the technical content hosted on this website. They can guide you through the tutorials and your final project implementation. Dr. Benedikt Zönnchen (HM - MUC.DAI) . Dr. Téo Sanchez (HM - MUC.DAI) . ",
+    "url": "/docs/staff/#scientific-instructors",
+    
+    "relUrl": "/docs/staff/#scientific-instructors"
+  },"73": {
+    "doc": "Instructors",
+    "title": "Art and culture instructors",
+    "content": "Artistic instructors can guide you through the artistic and cultural aspects of your project. Helena Held (HMTM) . ",
+    "url": "/docs/staff/#art-and-culture-instructors",
+    
+    "relUrl": "/docs/staff/#art-and-culture-instructors"
+  },"74": {
+    "doc": "Instructors",
+    "title": "AICA project leader",
+    "content": "Dr. Esther Fee Feichtner (HMTM) . ",
+    "url": "/docs/staff/#aica-project-leader",
+    
+    "relUrl": "/docs/staff/#aica-project-leader"
+  },"75": {
+    "doc": "Instructors",
+    "title": "Lecturers and consultants",
+    "content": "External artists and experts will give lectures and be available on-site to advice you on your project. Holger Neumann . Katja Littow . Nina Stemberger . Prof. Sylvia Rothe . ",
+    "url": "/docs/staff/#lecturers-and-consultants",
+    
+    "relUrl": "/docs/staff/#lecturers-and-consultants"
+  },"76": {
+    "doc": "Instructors",
+    "title": "Teaching assistants",
+    "content": "Students from HM and HMTM will also be present on-site to help organizing the course. David Kosian (HMTM) . David Helm (HM) . ",
+    "url": "/docs/staff/#teaching-assistants",
+    
+    "relUrl": "/docs/staff/#teaching-assistants"
+  },"77": {
+    "doc": "Instructors",
+    "title": "Instructors",
+    "content": " ",
+    "url": "/docs/staff/",
+    
+    "relUrl": "/docs/staff/"
+  },"78": {
+    "doc": "Tutorial overview",
+    "title": "Tutorial overview",
+    "content": "Github repository . ",
+    "url": "/docs/tutorial/",
+    
+    "relUrl": "/docs/tutorial/"
+  },"79": {
+    "doc": "Tutorial overview",
+    "title": "Table of contents",
+    "content": ". | Introduction to machine learning | Mapping by demonstration | Audio modelling and synthesis with neural networks | Embed and explore cultural archives | Language model for domain-specific application | . ",
+    "url": "/docs/tutorial/#table-of-contents",
+    
+    "relUrl": "/docs/tutorial/#table-of-contents"
+  },"80": {
+    "doc": "Tutorial overview",
+    "title": "Introduction to machine learning",
+    "content": "| Topic | Difficulty | Ressources | Installation | . | Train your first image classifier | 🟢 | App |   | . | The development cycle of ML | 🟢 | App |   | . | Train your ML model in Python | 🟠 | Files | Python scikit-learn | . | Create your own interactive ML web application | 🟠 | Tutorial | Marcelle Node.js | . ",
+    "url": "/docs/tutorial/#introduction-to-machine-learning",
+    
+    "relUrl": "/docs/tutorial/#introduction-to-machine-learning"
+  },"81": {
+    "doc": "Tutorial overview",
+    "title": "Mapping by demonstration",
+    "content": "| Topic | Difficulty | Ressources | Installation | . | Use your phone as a sensor device | 🟢 | Files | Pure Data | . | Build a minimal sound synthesizer | 🟢 | Files | Pure Data | . | Map sensors to synthesis parameters with ML | 🟠 | Files | Pure Data ml-lib | . | Reproduce the demo of Benedikt Zönnchen with the Wekinator | 🟠 | Files | Processing SuperCollider | . ",
+    "url": "/docs/tutorial/#mapping-by-demonstration",
+    
+    "relUrl": "/docs/tutorial/#mapping-by-demonstration"
+  },"82": {
+    "doc": "Tutorial overview",
+    "title": "Audio modelling and synthesis with neural networks",
+    "content": "| Topic | Difficulty | Ressources | Installation | . | Audio modelling and synthesis with pre-trained neural networks | 🟢 | Files | Pure Data nn~ | . | Train your model with your own corpus of sound | 🔴 | Colab project | Python RAVE | . ",
+    "url": "/docs/tutorial/#audio-modelling-and-synthesis-with-neural-networks",
+    
+    "relUrl": "/docs/tutorial/#audio-modelling-and-synthesis-with-neural-networks"
+  },"83": {
+    "doc": "Tutorial overview",
+    "title": "Embed and explore cultural archives",
+    "content": "| Topic | Difficulty | Ressources | Installation | . | Visualize embeddings | 🟠 | Coming soon… | Python | . | Train an embedding on your own corpus of text/images | 🔴 | Coming soon… | Python | . ",
+    "url": "/docs/tutorial/#embed-and-explore-cultural-archives",
+    
+    "relUrl": "/docs/tutorial/#embed-and-explore-cultural-archives"
+  },"84": {
+    "doc": "Tutorial overview",
+    "title": "Language model for domain-specific application",
+    "content": "| Topic | Difficulty | Ressources | Installation | . | Understanding language models | 🔴 | Tutorial | Python | . | Chat with data | 🔴 | Tutorial | Python 🦜 LangChain | . ",
+    "url": "/docs/tutorial/#language-model-for-domain-specific-application",
+    
+    "relUrl": "/docs/tutorial/#language-model-for-domain-specific-application"
+  }
+}
