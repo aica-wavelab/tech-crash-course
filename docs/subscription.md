@@ -7,7 +7,7 @@ nav_order: 1
 
 #  **Enroll now! 💥**
 
-Express your interest to Dr. Benedikt Zönnchen directly ([zoennchen.benedikt@hm.edu](mailto:zoennchen.benedikt@hm.edu)) with a **short motivation statement**.
+Express your interest to Dr. Téo Sanchez directly ([teo [dot] sanchez [at] hm [dot] edu](mailto:teo.sanchez@hm.edu)) with a **short motivation statement**.
 
 Second, sign up to the class on the platform of your university.
 
