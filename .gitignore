@@ -1,4 +1,7 @@
+
+# Ignore all DS_Store files
 .DS_Store
-_site
+*.DS_Store
+
+# Ignore built site
 _site/
-_site/*
