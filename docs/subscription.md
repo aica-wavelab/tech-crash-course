@@ -1,11 +1,11 @@
-<!-- ---
+---
 layout: default
 title: Subscription
-nav_exclude: true
-nav_order: 2
+nav_exclude: false
+nav_order: 1
 ---
-<!-- Change color to purple -->
-#  **Enroll now! 💥**{: .text-purple-000}
+
+#  **Enroll now! 💥**
 
 Express your interest to Dr. Benedikt Zönnchen directly ([zoennchen.benedikt@hm.edu](mailto:zoennchen.benedikt@hm.edu)) with a **short motivation statement**.
 
@@ -49,4 +49,4 @@ Second, sign up to the class on the platform of your university.
 
 
 
- --> -->
+ --> 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 4. Embed and explore cultural archives
-permalink: /docs/4_embed_cultural_archives
-nav_order: 7
+# nav_order: 7
+parent: Tutorials
 ---
 # Embed and explore cultural archives
 {: .no_toc}

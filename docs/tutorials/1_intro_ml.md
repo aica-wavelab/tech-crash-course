@@ -2,7 +2,7 @@
 layout: default
 title: 1. Introduction to machine learning
 nav_order: 4
-permalink: /docs/1_intro_ml
+parent : Tutorials
 ---
 
 # Introduction to machine learning

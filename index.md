@@ -2,43 +2,18 @@
 layout: default
 title: About
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Description of the AICA tech crash course (Summer Semester 2024)"
 permalink: /
 ---
 
-# AI in culture and arts - project workshop
+# AI in culture and arts - tech crash course
 {: .no_toc}
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SVcsDDABEkM?si=JcI7kCw3WrDUQ8lj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
-<!-- <iframe src="https://player.vimeo.com/video/868346000?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="315" frameborder="0" allow=" picture-in-picture" title="AICA - project course"></iframe> -->
-
-<!-- <iframe src="https://player.vimeo.com/video/868364836?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="AICA - project workshop"></iframe> -->
 
 
 ## 📰 Announcements
 {: .no_toc }
 
-11.01.2023 - Get ready! The third and last bloc of the course will take place on the 5th, 6th, and 7th of February 2024. You will be asked to demonstrate your MVP to our team of experts.
-
-11.01.2023 - 📹 Please [upload your minimal viable prototype (MVP) video](https://syncandshare.lrz.de/preparefilelink?folderID=2AJY8oqisdFWY5XY39rqv) before the 26th January 2024, 23:59.
-
-11.01.2024 - We watched your proof of concept videos! Congrats to all for your progress. Please find [our feedback](/docs/feedback/poc_feedback) for the next phase.
-
-<!-- 12.12.2023 - 📹 Don't forget to [upload your project's proof of concept video](https://syncandshare.lrz.de/preparefilelink?folderID=28Tg5PGQ2B1KQEbG4GCCD) before the 22nd of December, 23:59. -->
-
-<!-- 11.12.2023 - Summary of the office hour meetings are available [here](/docs/feedback/office_hours_summary). -->
-
-<!-- 19.11.2023 - Visit of [Haus der Kunst](https://www.hausderkunst.de/) on Friday 24.11.2023 at 16:00. If interested to join, please fill [this form](https://forms.gle/zAiruR7BgL67Fzcv5). We'll meet on the steps of Haus der Kunst at 16:00 -->
-
-<!-- 19.11.2023 - Test your knowledge on machine learning fundamentals with [this optional test](/assets/pdf/test_ml_fundamentals.pdf). A correction session will be organized during the 2nd or 3rd bloc. -->
-
-<!-- 15.11.2023 - Personalized feedback for each group is available [here](/docs/feedbacl/group_feedback). -->
-
-<!-- 10.11.2023 - A complete list of tools is available in section [Tools and credits](/docs/credits/). -->
-
-10.11.2023 - The presentation slides of the first bloc are [now available](https://syncandshare.lrz.de/getlink/fiByPXEJ9rS4yR42qToaSr/presentations_aica_2023.zip).
-
+15.01.2023 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Tuesday, April 23rd** and **Thursday, April 25th, 2024**.
 
 ---
 
@@ -58,31 +33,39 @@ The Digitization College "Artificial Intelligence in Culture and Arts" (AICA) ai
 
 ## What is the project workshop ?
 
-The AICA Project Workshop will be hosted at the Wavelab, in the Winter Semester 2023/2024 **starting November 2023**.
-This course will teach you how to build and apply AI and machine learning for the cultural and artistic domains.
+The AICA Project Workshop will be hosted at the Wavelab, in the Summer Semester, **starting April 2024**.
 
-You will develop **your own project** at the interface of AI in art and culture, spanning from an intelligent or interactive tool, an artistic performance, or anything in between that applies to the creative and cultural industries.
+This course is designed to enrich the skills of artists, designers, and computer scientists by delving into the intersection of machine learning with the creative and cultural sectors. The curriculum offers both theoretical and practical knowledge, catering to a diverse range of expertise.
 
-You will form **a team with students from HM and HMTM** with complementary expertise: computer science, data science, design, music, theater, or cultural management. 
+The course is structured in three 2-day blocks and helps participants develop machine learning algorithms for image, sound, and text-based applications in the creative and cultural sectors.
 
-You will be accompanied **on site** by technology and culture experts, and coached with [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development) practices.
+## Course content
 
-## Tutorials
+Structured over three 2-day blocks, the course addresses machine learning in the creative and cultural by increasing complexity and focusing on different data modalities:
 
-This website provides a large range of tutorials and ressources, organized by topic and difficulty. 
-**Feel free to use and adapt any of the ressources to implement your project !**
+1. **Images**: This introductory block focuses on image classification through machine learning. Participants will explore the machine learning development cycle, engaging with interactive applications and Python programming. A practical project involves classifying museum artifacts using the MAMe dataset.
+2. **Sound**: The second block centers on musical applications. Students will have to create a regression model from physical gestures to sound, employing the visual programming environment of Pure Data. Participants will learn Pure Data basics and discover how to transform their smartphones into synthesizers. Alternatively, students will tackle symbolic music generation using traditional programming (Python).
+3. **Text**: Building on the first block, this third bloc explores embedding and navigating cultural archives with machine learning. Students will develop multi-modal models that link images to textual descriptions, aiming to provide innovative tools for exploring and retrieving artifacts in museum archives.
 
-[Tutorial overview](/docs/tutorial){: .btn target="_blank" target="_blank"}
+## Pre-requisites
+
+You do not need prior knowledge to follow this class. Fundamentals in imperative programming is a plus.
+
+## Tutorials and teaching methods
+
+This website provides a range of tutorials and ressources, organized by topic and in increasing order of difficulty.
+
+[Tutorial overview](/docs/tutorials){: .btn target="_blank" target="_blank"}
+
+A typical day of teaching starts with a lecture on a topic, followed by a hands-on session where students can apply the concepts learned in the lecture. The hands-on sessions are based on the tutorials provided on this website.
 
 ## Evaluation and ECTS
 
-You will earn **6 ECTS** for the validation of the course.
+You will earn **2 ECTS** for the validation of the course.
 
-The evaluation will be based on **two deliverables**:
-- A 10-page group term paper describing the development of the project;
-- A group presentation of the project;
-
-We highly encourage students to extend and capitalize on their projects to derive a bachelor or master thesis.
+The evaluation will be based on:
+- Attendance: you must attend at least 4/6 days of teaching. Attending the first bloc is highly recommended.
+- Completion of in-class practical work: you must provide the completed practical work by the end of the course. If you do not finish during the course, you will have to finish it at home.
 
 ## Credits and attributions
 

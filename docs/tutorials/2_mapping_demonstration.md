@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 2. Mapping by demonstration
-permalink: /docs/2_mapping_demonstration
 nav_order: 5
+parent: Tutorials
 ---
 
 # Mapping by demonstration

@@ -2,7 +2,7 @@
 layout: default
 title: Directions and useful infos
 nav_exclude: false
-nav_order: 2
+nav_order: 4
 ---
 
 <script>
@@ -17,7 +17,6 @@ function copyToClipboard(text) {
 </script>
 
 
-<!-- Change color to purple -->
 #  How to go to the Wavelab ?
 
 {: .note-title }

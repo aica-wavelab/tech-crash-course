@@ -31,17 +31,6 @@ Artistic instructors can guide you through the artistic and cultural aspects of 
 {{ staffer }}
 {% endfor %}
 
-
-# Lecturers and consultants
-
-External artists and experts will give lectures and be available on-site to advice you on your project.
-
-{% assign instructors = site.staffers | where: 'role', 'Lecturers and consultants' %}
-{% for staffer in instructors %}
-{{ staffer }}
-{% endfor %}
-
-
 # Teaching assistants
 
 Students from HM and HMTM will also be present on-site to help organizing the course. 
