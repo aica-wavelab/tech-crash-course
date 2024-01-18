@@ -19,7 +19,7 @@ function copyToClipboard(text) {
 
 #  How to go to the Wavelab ?
 
-{: .note-title }
+{: .highlight }
 > Address
 >
 > Wavelab,
