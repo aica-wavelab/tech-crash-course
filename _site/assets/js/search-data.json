@@ -225,7 +225,7 @@
   },"32": {
     "doc": "About",
     "title": "Table of contents",
-    "content": ". | What is AICA? | What is the project workshop ? | Course content | Pre-requisites | Tutorials and teaching methods | Evaluation and ECTS | Credits and attributions | License | . ",
+    "content": ". | What is AICA? | What is the tech crash course ? | Course content | Pre-requisites | Tutorials and teaching methods | Evaluation and ECTS | Credits and attributions | License | . ",
     "url": "/#table-of-contents",
     
     "relUrl": "/#table-of-contents"
@@ -238,11 +238,11 @@
     "relUrl": "/#what-is-aica"
   },"34": {
     "doc": "About",
-    "title": "What is the project workshop ?",
-    "content": "The AICA Project Workshop will be hosted at the Wavelab, in the Summer Semester, starting April 2024. This course is designed to enrich the skills of artists, designers, and computer scientists by delving into the intersection of machine learning with the creative and cultural sectors. The curriculum offers both theoretical and practical knowledge, catering to a diverse range of expertise. The course is structured in three 2-day blocks and helps participants develop machine learning algorithms for image, sound, and text-based applications in the creative and cultural sectors. ",
-    "url": "/#what-is-the-project-workshop-",
+    "title": "What is the tech crash course ?",
+    "content": "The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, starting April 2024. This course is designed to enrich the skills of artists, designers, and computer scientists by delving into the intersection of machine learning with the creative and cultural sectors. The curriculum offers both theoretical and practical knowledge, catering to a diverse range of expertise. The course is structured in three 2-day blocks and helps participants develop machine learning algorithms for image, sound, and text-based applications in the creative and cultural sectors. ",
+    "url": "/#what-is-the-tech-crash-course-",
     
-    "relUrl": "/#what-is-the-project-workshop-"
+    "relUrl": "/#what-is-the-tech-crash-course-"
   },"35": {
     "doc": "About",
     "title": "Course content",

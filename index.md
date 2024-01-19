@@ -31,9 +31,9 @@ The Digitization College "Artificial Intelligence in Culture and Arts" (AICA) ai
 [Learn more about AICA](https://www.wavelab.io/aica/){: .btn target="_blank"}
 
 
-## What is the project workshop ?
+## What is the tech crash course ?
 
-The AICA Project Workshop will be hosted at the Wavelab, in the Summer Semester, **starting April 2024**.
+The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2024**.
 
 This course is designed to enrich the skills of artists, designers, and computer scientists by delving into the intersection of machine learning with the creative and cultural sectors. The curriculum offers both theoretical and practical knowledge, catering to a diverse range of expertise.
 
