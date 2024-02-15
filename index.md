@@ -2,11 +2,11 @@
 layout: default
 title: About
 nav_order: 1
-description: "Description of the AICA tech crash course (Summer Semester 2024)"
+description: "Description of the AICA crash course on Human-AI interaction (Summer Semester 2024)"
 permalink: /
 ---
 
-# AI in culture and arts - tech crash course
+# AI in culture and arts -  Human-AI interaction (tech crash course)
 {: .no_toc}
 
 
@@ -31,7 +31,7 @@ The Digitization College "Artificial Intelligence in Culture and Arts" (AICA) ai
 [Learn more about AICA](https://www.wavelab.io/aica/){: .btn target="_blank"}
 
 
-## What is the tech crash course ?
+## What is the crash course on Human-AI interaction ?
 
 The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2024**.
 
