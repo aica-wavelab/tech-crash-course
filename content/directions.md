@@ -19,7 +19,7 @@ function copyToClipboard(text) {
 
 #  How to go to the Wavelab ?
 
-{: .highlight }
+{: .note-title }
 > Address
 >
 > Wavelab,
@@ -44,6 +44,9 @@ function copyToClipboard(text) {
 1. Enter through the **left side entrance** of the building and proceed to the green courtyard. Look for and follow the red HMTM signs.
 2. Walk along the building until you see a **wheelchair ramp and stairs** on your right. This leads into the Wavelab.
 3. The door to Wavelab is not automatic. Please **ring the bell** labeled Wavelab to gain entry.
+
+
+    <img src="{{ '/assets/images/direction_map.png' | relative_url }}" alt="Directions to the wavelab">
 
 ## Important Advice
 

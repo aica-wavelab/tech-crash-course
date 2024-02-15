@@ -7,3 +7,11 @@ permalink: docs/tutorials
 ---
 
 # Tutorials
+
+{: .note-title }
+> Important note
+>
+> This section contains the tutorials of the class and will be significantly updated until the beginning of the course. 
+
+
+

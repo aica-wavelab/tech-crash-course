@@ -8,6 +8,12 @@ parent : Tutorials
 # Introduction to machine learning
 {: .no_toc}
 
+{: .note-title }
+> Important note
+>
+> This section contains the tutorials of the class and will be significantly updated until the beginning of the course. 
+
+
 
 This chapter will teach you foundational concepts of machine learning (ML) through hands-on turorials.
 The first three chapters only use interactive applications, no programming skills are required.

@@ -1,7 +1,7 @@
 {"0": {
     "doc": "1. Introduction to machine learning",
     "title": "Introduction to machine learning",
-    "content": "This chapter will teach you foundational concepts of machine learning (ML) through hands-on turorials. The first three chapters only use interactive applications, no programming skills are required. The fourth chapter reiterates the same concepts using programming tools that prevail in the ML industry, namely the Python programming language and dedicated ML libraries. Lastly, the fifth section provides ressources to develop your on web-based interactive ML application, using the Marcelle toolkit. Tips . We recommend to all attendants to follow the first four sections. ",
+    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. This chapter will teach you foundational concepts of machine learning (ML) through hands-on turorials. The first three chapters only use interactive applications, no programming skills are required. The fourth chapter reiterates the same concepts using programming tools that prevail in the ML industry, namely the Python programming language and dedicated ML libraries. Lastly, the fifth section provides ressources to develop your on web-based interactive ML application, using the Marcelle toolkit. Tips . We recommend to all attendants to follow the first four sections. ",
     "url": "/content/tutorials/1_intro_ml/#introduction-to-machine-learning",
     
     "relUrl": "/content/tutorials/1_intro_ml/#introduction-to-machine-learning"
@@ -50,7 +50,7 @@
   },"7": {
     "doc": "2. Mapping by demonstration",
     "title": "Mapping by demonstration",
-    "content": "A computer program is a sequence instructions for a computer to execute. Programs often take inputs, process them, and produce outputs. The way inputs are processed are usually explicited by the human programmer, using a programming language. Machine learning (ML) offers an alternative to explicit programmation: ML algorithms can learn to process data from examples. The human developper provides pairs of input and its corresponding output, and the ML model is then optimized to reproduce the mapping from the example provided. We call this approach mapping by demonstration, and finds many applications in the creative and cultural industries: in performing arts (gesture to sound), in video games, in robotics, among others. This chapter will teach you how to build a real-time mapping from gesture to sound using ML and Pure Data (Pd), a free an open-source visual programming language for creating interactive computer music and multimedia works. In particular, this chapter will teach you how to use your smartphone as a gesture sensor device, build a minimal sound synthesizer in Pd, and train a ML model to control the synthesizer from gestures you choose! . Second, you will learn how to do the same using the Wekinator, a free, open source software that allows anyone to use machine learning to map arbitrary OSC messages. ",
+    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. A computer program is a sequence instructions for a computer to execute. Programs often take inputs, process them, and produce outputs. The way inputs are processed are usually explicited by the human programmer, using a programming language. Machine learning (ML) offers an alternative to explicit programmation: ML algorithms can learn to process data from examples. The human developper provides pairs of input and its corresponding output, and the ML model is then optimized to reproduce the mapping from the example provided. We call this approach mapping by demonstration, and finds many applications in the creative and cultural industries: in performing arts (gesture to sound), in video games, in robotics, among others. This chapter will teach you how to build a real-time mapping from gesture to sound using ML and Pure Data (Pd), a free an open-source visual programming language for creating interactive computer music and multimedia works. In particular, this chapter will teach you how to use your smartphone as a gesture sensor device, build a minimal sound synthesizer in Pd, and train a ML model to control the synthesizer from gestures you choose! . Second, you will learn how to do the same using the Wekinator, a free, open source software that allows anyone to use machine learning to map arbitrary OSC messages. ",
     "url": "/content/tutorials/2_mapping_demonstration/#mapping-by-demonstration",
     
     "relUrl": "/content/tutorials/2_mapping_demonstration/#mapping-by-demonstration"
@@ -99,7 +99,7 @@
   },"14": {
     "doc": "3. Symbolic music generation",
     "title": "Audio modelling and synthesis with neural networks",
-    "content": "Neural networks prove to be a powerful tool to model and generate music as events (symbolic domain). This chapter will teach you how to train and use artificial neural networks to generate music. ",
+    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. Neural networks prove to be a powerful tool to model and generate music as events (symbolic domain). This chapter will teach you how to train and use artificial neural networks to generate music. ",
     "url": "/content/tutorials/3_music_generation/#audio-modelling-and-synthesis-with-neural-networks",
     
     "relUrl": "/content/tutorials/3_music_generation/#audio-modelling-and-synthesis-with-neural-networks"
@@ -120,7 +120,7 @@
   },"17": {
     "doc": "4. Embed and explore cultural archives",
     "title": "Embed and explore cultural archives",
-    "content": "Machine learning is used to learn abstract representations of large collection of data. The creative and cultural industries have a long history of collecting and archiving cultural artefacts. These archives are increasingly digitised and made available online. This tutorial will show you how to use machine learning to embed these archives in abstract representational spaces, and explore them in novel ways. This chapter will teach you how to perform dimensional reduction of large collection of data, either from naive algorithms or by learning representations with neural networks. ",
+    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. Machine learning is used to learn abstract representations of large collection of data. The creative and cultural industries have a long history of collecting and archiving cultural artefacts. These archives are increasingly digitised and made available online. This tutorial will show you how to use machine learning to embed these archives in abstract representational spaces, and explore them in novel ways. This chapter will teach you how to perform dimensional reduction of large collection of data, either from naive algorithms or by learning representations with neural networks. ",
     "url": "/content/tutorials/4_embed_cultural_archives/#embed-and-explore-cultural-archives",
     
     "relUrl": "/content/tutorials/4_embed_cultural_archives/#embed-and-explore-cultural-archives"
@@ -300,58 +300,149 @@
     
     "relUrl": "/"
   },"43": {
+    "doc": "Provisional schedule",
+    "title": "Provisional schedule",
+    "content": ". | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"44": {
+    "doc": "Provisional schedule",
+    "title": "Bloc 1",
+    "content": "| ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"45": {
+    "doc": "Provisional schedule",
+    "title": "23th of April",
+    "content": ". | Brief : Module introduction 10:00 AM–10:30 AM | Lecture : Introduction to machine learning 10:30 AM–12:00 PM | Hands-on : Train your first classifier with Marcelle! 1:00 PM–2:00 PM | Assignment : Train an image classifier on museum archives in Python 2:00 PM–5:00 PM | : – | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"46": {
+    "doc": "Provisional schedule",
+    "title": "25th of April",
+    "content": ". | Hands-on : The development cycle of ML 10:00 AM–11:00 AM | Assignment : Train an image classifier on museum archives in Python 11:00 AM–12:00 PM | Assignment : Train an image classifier on museum archives in Python 1:00 PM–4:00 PM | Brief : Feedback session 4:00 PM–5:00 PM | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"47": {
+    "doc": "Provisional schedule",
+    "title": "Bloc2",
+    "content": "| ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"48": {
+    "doc": "Provisional schedule",
+    "title": "4th of June",
+    "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–11:00 AM | Assignment : Option #1: Build a gesture-to-sound synthesizer in Pure Data 11:00 AM–12:00 PM | Assignment : Option #1: Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"49": {
+    "doc": "Provisional schedule",
+    "title": "6th of June",
+    "content": ". | Lecture : Symbolic music generation with ML (Dr. Benedikt Zönnchen) 10:00 AM–11:00 AM | Assignment : Option #2: Generative MIDI with ML in Python 11:00 AM–12:00 PM | Assignment : Option #2: Generative MIDI with ML in Python 1:00 PM–5:00 PM | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"50": {
+    "doc": "Provisional schedule",
+    "title": "Block 3",
+    "content": "| ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"51": {
+    "doc": "Provisional schedule",
+    "title": "11th of June",
+    "content": ". | Lecture : AI in the art scene (Lecture by Helena Held) 10:00 AM–11:00 AM | Assignment : Option #1: Analyse and explore AI artists biographies with ML 11:00 AM–12:00 PM | Assignment : Option #1: Analyse and explore AI artists biographies with ML 1:00 PM–5:00 PM | . | ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"52": {
+    "doc": "Provisional schedule",
+    "title": "12th of June",
+    "content": ". | Lecture : AI and cultural archives (Invited speaker) 10:00 AM–11:00 AM | Assignment : Option #2: Analyse and explore museum archives with ML 11:00 AM–12:00 PM | Assignment : Option #2: Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
+    "url": "/content/program/",
+    
+    "relUrl": "/content/program/"
+  },"53": {
     "doc": "Instructors",
     "title": "Scientific instructors",
     "content": "Scientific instructors prepared the technical content hosted on this website. They can guide you through the tutorials and your final project implementation. Dr. Benedikt Zönnchen (HM - MUC.DAI) . Dr. Téo Sanchez (HM - MUC.DAI) . ",
     "url": "/content/staff/#scientific-instructors",
     
     "relUrl": "/content/staff/#scientific-instructors"
-  },"44": {
+  },"54": {
     "doc": "Instructors",
     "title": "Art and culture instructors",
     "content": "Artistic instructors can guide you through the artistic and cultural aspects of your project. Helena Held (HMTM) . ",
     "url": "/content/staff/#art-and-culture-instructors",
     
     "relUrl": "/content/staff/#art-and-culture-instructors"
-  },"45": {
+  },"55": {
     "doc": "Instructors",
     "title": "AICA project leader",
     "content": "Dr. Esther Fee Feichtner (HMTM) . ",
     "url": "/content/staff/#aica-project-leader",
     
     "relUrl": "/content/staff/#aica-project-leader"
-  },"46": {
+  },"56": {
     "doc": "Instructors",
     "title": "Teaching assistants",
     "content": "Students from HM and HMTM will also be present on-site to help organizing the course. David Kosian (HMTM) . David Helm (HM) . ",
     "url": "/content/staff/#teaching-assistants",
     
     "relUrl": "/content/staff/#teaching-assistants"
-  },"47": {
+  },"57": {
     "doc": "Instructors",
     "title": "Instructors",
     "content": " ",
     "url": "/content/staff/",
     
     "relUrl": "/content/staff/"
-  },"48": {
+  },"58": {
     "doc": "Subscription",
     "title": "Enroll now! 💥",
-    "content": "Express your interest to Dr. Téo Sanchez directly (teo [dot] sanchez [at] hm [dot] edu) with a short motivation statement. Second, sign up to the class on the platform of your university. Hochschule München University of applied sciences . Sign up on Moodle Hochschule für Musik und Theater München . Sign up on eCampus ",
+    "content": "Please follow these steps to enroll in the class. ",
     "url": "/content/subscription/#enroll-now-",
     
     "relUrl": "/content/subscription/#enroll-now-"
-  },"49": {
+  },"59": {
+    "doc": "Subscription",
+    "title": "1. Express your interest",
+    "content": "Express your interest to Dr. Téo Sanchez directly (teo [dot] sanchez [at] hm [dot] edu) with a short motivation statement. ",
+    "url": "/content/subscription/#1-express-your-interest",
+    
+    "relUrl": "/content/subscription/#1-express-your-interest"
+  },"60": {
+    "doc": "Subscription",
+    "title": "2. Sign up on the administrative platform of your university",
+    "content": "To validate the class and get the credits, you need to sign up to the class on the administrative platform of your university. Hochschule München University of applied sciences . Sign up on Nine Hochschule für Musik und Theater München . Sign up on eCampus ",
+    "url": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university",
+    
+    "relUrl": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university"
+  },"61": {
+    "doc": "Subscription",
+    "title": "3. Sign up to the moodle platform",
+    "content": "The moodle platform is open to both HM and HMTM students. It is not an administrative platform, but tool to exchange between students and teachers. It is meant to gather all institutional emails, submit and collect assigments, and publish grades. Sign up on Moodle NB: You can subscribe with and without HM credentials. Just select DFN-AAI/eduGAIN if you are not an HM student. ",
+    "url": "/content/subscription/#3-sign-up-to-the-moodle-platform",
+    
+    "relUrl": "/content/subscription/#3-sign-up-to-the-moodle-platform"
+  },"62": {
     "doc": "Subscription",
     "title": "Subscription",
     "content": " ",
     "url": "/content/subscription/",
     
     "relUrl": "/content/subscription/"
-  },"50": {
+  },"63": {
     "doc": "Tutorials",
     "title": "Tutorials",
-    "content": " ",
+    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. ",
     "url": "/docs/tutorials",
     
     "relUrl": "/docs/tutorials"

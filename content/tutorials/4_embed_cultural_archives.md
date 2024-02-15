@@ -7,6 +7,13 @@ parent: Tutorials
 # Embed and explore cultural archives
 {: .no_toc}
 
+{: .note-title }
+> Important note
+>
+> This section contains the tutorials of the class and will be significantly updated until the beginning of the course. 
+
+
+
 Machine learning is used to learn abstract representations of large collection of data. The creative and cultural industries have a long history of collecting and archiving cultural artefacts. These archives are increasingly digitised and made available online. This tutorial will show you how to use machine learning to embed these archives in abstract representational spaces, and explore them in novel ways.
 
 This chapter will teach you how to perform dimensional reduction of large collection of data, either from naive algorithms or by learning representations with neural networks.
