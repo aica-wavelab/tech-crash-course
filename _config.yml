@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "AICA tech crash course"
+title: "AICA - Human-AI interaction"
 logo: "/assets/images/logos/aica_logo.png"
 favicon_ico: "/assets/images/favicon.ico"
-description: "Artificial Intelligence in Culture and Arts (AICA): Tools and tutorials for the tech crash course (Summer semester 2024)"
+description: "Artificial Intelligence in Culture and Arts (AICA): Tools and tutorials for the crash course on Human-AI interaction (Summer semester 2024)"
 author: Téo Sanchez, Benedikt Zönnchen
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aica-wavelab.github.io/tech-crash-course" # the base hostname & protocol for your site, e.g. http://example.com
