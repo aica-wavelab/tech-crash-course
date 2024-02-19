@@ -16,7 +16,7 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
 schedule:
-  - name: "Bloc 1"
+  - name: "Block 1"
   - name: "23th of April"
     events:
       - name: Module introduction
@@ -54,7 +54,7 @@ schedule:
         type: Brief
         start: 4:00 PM
         end: 5:00 PM
-  - name: "Bloc2"
+  - name: "Block 2"
   - name: "4th of June"
     events:
       - name: Introduction to Pure Data
