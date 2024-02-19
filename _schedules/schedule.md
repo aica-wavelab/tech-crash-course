@@ -31,14 +31,18 @@ schedule:
         type: Hands-on
         start: 1:00 PM
         end: 2:00 PM
-      - name: Train an image classifier on museum archives in Python
-        type: Assignment
+      - name: Train your first classifier in Python
+        type: Hands-on
         start: 2:00 PM
+        end: 4:30 PM
+      - name: Presentation of the first assignment
+        type: Brief
+        start: 4:30 PM
         end: 5:00 PM
       - name: 
   - name: "25th of April"
     events:
-      - name: The development cycle of ML
+      - name: Recap on the development cycle of ML
         type: Hands-on
         start: 10:00 AM
         end: 11:00 AM
