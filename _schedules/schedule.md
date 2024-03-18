@@ -102,7 +102,7 @@ schedule:
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
-  - name: "12th of June"
+  - name: "13th of June"
     events:
       - name: AI and cultural archives (Invited speaker)
         type: Lecture
