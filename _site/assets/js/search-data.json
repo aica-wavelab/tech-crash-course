@@ -308,7 +308,7 @@
     "relUrl": "/content/program/"
   },"44": {
     "doc": "Provisional schedule",
-    "title": "Bloc 1",
+    "title": "Block 1",
     "content": "| ",
     "url": "/content/program/",
     
@@ -316,20 +316,20 @@
   },"45": {
     "doc": "Provisional schedule",
     "title": "23th of April",
-    "content": ". | Brief : Module introduction 10:00 AM–10:30 AM | Lecture : Introduction to machine learning 10:30 AM–12:00 PM | Hands-on : Train your first classifier with Marcelle! 1:00 PM–2:00 PM | Assignment : Train an image classifier on museum archives in Python 2:00 PM–5:00 PM | : – | . | ",
+    "content": ". | Brief : Module introduction 10:00 AM–10:30 AM | Lecture : Introduction to machine learning 10:30 AM–12:00 PM | Hands-on : Train your first classifier with Marcelle! 1:00 PM–2:00 PM | Hands-on : Train your first classifier in Python 2:00 PM–4:30 PM | Brief : Presentation of the first assignment 4:30 PM–5:00 PM | : – | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
   },"46": {
     "doc": "Provisional schedule",
     "title": "25th of April",
-    "content": ". | Hands-on : The development cycle of ML 10:00 AM–11:00 AM | Assignment : Train an image classifier on museum archives in Python 11:00 AM–12:00 PM | Assignment : Train an image classifier on museum archives in Python 1:00 PM–4:00 PM | Brief : Feedback session 4:00 PM–5:00 PM | . | ",
+    "content": ". | Hands-on : Recap on the development cycle of ML 10:00 AM–11:00 AM | Assignment : Train an image classifier on museum archives in Python 11:00 AM–12:00 PM | Assignment : Train an image classifier on museum archives in Python 1:00 PM–4:00 PM | Brief : Feedback session 4:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
   },"47": {
     "doc": "Provisional schedule",
-    "title": "Bloc2",
+    "title": "Block 2",
     "content": "| ",
     "url": "/content/program/",
     
@@ -337,14 +337,14 @@
   },"48": {
     "doc": "Provisional schedule",
     "title": "4th of June",
-    "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–11:00 AM | Assignment : Option #1: Build a gesture-to-sound synthesizer in Pure Data 11:00 AM–12:00 PM | Assignment : Option #1: Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
+    "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–11:00 AM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 11:00 AM–12:00 PM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
   },"49": {
     "doc": "Provisional schedule",
     "title": "6th of June",
-    "content": ". | Lecture : Symbolic music generation with ML (Dr. Benedikt Zönnchen) 10:00 AM–11:00 AM | Assignment : Option #2: Generative MIDI with ML in Python 11:00 AM–12:00 PM | Assignment : Option #2: Generative MIDI with ML in Python 1:00 PM–5:00 PM | . | ",
+    "content": ". | Lecture : Symbolic music generation with ML (Dr. Benedikt Zönnchen) 10:00 AM–11:00 AM | Assignment : Generative MIDI with ML in Python 11:00 AM–12:00 PM | Assignment : Generative MIDI with ML in Python 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
@@ -358,14 +358,14 @@
   },"51": {
     "doc": "Provisional schedule",
     "title": "11th of June",
-    "content": ". | Lecture : AI in the art scene (Lecture by Helena Held) 10:00 AM–11:00 AM | Assignment : Option #1: Analyse and explore AI artists biographies with ML 11:00 AM–12:00 PM | Assignment : Option #1: Analyse and explore AI artists biographies with ML 1:00 PM–5:00 PM | . | ",
+    "content": ". | Lecture : AI in the art scene (Lecture by Helena Held) 10:00 AM–11:00 AM | Assignment : Analyse and explore AI artists biographies with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore AI artists biographies with ML 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
   },"52": {
     "doc": "Provisional schedule",
-    "title": "12th of June",
-    "content": ". | Lecture : AI and cultural archives (Invited speaker) 10:00 AM–11:00 AM | Assignment : Option #2: Analyse and explore museum archives with ML 11:00 AM–12:00 PM | Assignment : Option #2: Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
+    "title": "13th of June",
+    "content": ". | Lecture : AI and cultural archives (Invited speaker) 10:00 AM–11:00 AM | Assignment : Analyse and explore museum archives with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"

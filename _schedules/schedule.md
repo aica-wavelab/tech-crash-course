@@ -65,11 +65,11 @@ schedule:
         type: Hands-on
         start: 10:00 AM
         end: 11:00 AM
-      - name : "Option #1: Build a gesture-to-sound synthesizer in Pure Data"
+      - name : "Build a gesture-to-sound synthesizer in Pure Data"
         type: Assignment
         start: 11:00 AM
         end: 12:00 PM
-      - name: "Option #1: Build a gesture-to-sound synthesizer in Pure Data"
+      - name: "Build a gesture-to-sound synthesizer in Pure Data"
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
@@ -79,11 +79,11 @@ schedule:
         type: Lecture
         start: 10:00 AM
         end: 11:00 AM
-      - name: "Option #2: Generative MIDI with ML in Python"
+      - name: "Generative MIDI with ML in Python"
         type: Assignment
         start: 11:00 AM
         end: 12:00 PM
-      - name: "Option #2: Generative MIDI with ML in Python"
+      - name: "Generative MIDI with ML in Python"
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
@@ -94,11 +94,11 @@ schedule:
         type: Lecture
         start: 10:00 AM
         end: 11:00 AM
-      - name: "Option #1: Analyse and explore AI artists biographies with ML"
+      - name: "Analyse and explore AI artists biographies with ML"
         type: Assignment
         start: 11:00 AM
         end: 12:00 PM
-      - name: "Option #1: Analyse and explore AI artists biographies with ML"
+      - name: "Analyse and explore AI artists biographies with ML"
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
@@ -108,11 +108,11 @@ schedule:
         type: Lecture
         start: 10:00 AM
         end: 11:00 AM
-      - name: "Option #2: Analyse and explore museum archives with ML"
+      - name: "Analyse and explore museum archives with ML"
         type: Assignment
         start: 11:00 AM
         end: 12:00 PM
-      - name: "Option #2: Analyse and explore museum archives with ML"
+      - name: "Analyse and explore museum archives with ML"
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
