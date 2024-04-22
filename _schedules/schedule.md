@@ -31,32 +31,27 @@ schedule:
         type: Hands-on
         start: 1:00 PM
         end: 2:00 PM
-      - name: Train your first classifier in Python
+      - name: Data science and machine learning tutorials
         type: Hands-on
         start: 2:00 PM
-        end: 4:30 PM
-      - name: Presentation of the first assignment
-        type: Brief
-        start: 4:30 PM
         end: 5:00 PM
-      - name: 
   - name: "25th of April"
     events:
-      - name: Recap on the development cycle of ML
-        type: Hands-on
+      - name: Recap on the development cycle of ML and presentation of the first assignment
+        type: Lecture 
         start: 10:00 AM
-        end: 11:00 AM
+        end: 10:30 AM
       - name: Train an image classifier on museum archives in Python
         type: Assignment
-        start: 11:00 AM
+        start: 10:30 AM
         end: 12:00 PM
       - name: Train an image classifier on museum archives in Python
         type: Assignment
         start: 1:00 PM
-        end: 4:00 PM
+        end: 4:30 PM
       - name: Feedback session
         type: Brief
-        start: 4:00 PM
+        start: 4:30 PM
         end: 5:00 PM
   - name: "Block 2"
   - name: "4th of June"

@@ -1,21 +1,16 @@
 ---
 layout: default
-title: 1. Introduction to machine learning
+title: 0. Introduction to data science and machine learning
 nav_order: 4
 parent : Tutorials
 ---
 
-# Introduction to machine learning
+# Day 0. Introduction to data science and machine learning
 {: .no_toc}
 
-{: .note-title }
-> Important note
->
-> This section contains the tutorials of the class and will be significantly updated until the beginning of the course. 
+The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials.
 
 
-
-This chapter will teach you foundational concepts of machine learning (ML) through hands-on turorials.
 The first three chapters only use interactive applications, no programming skills are required.
 The fourth chapter reiterates the same concepts using programming tools that prevail in the ML industry, namely the Python programming language and dedicated ML libraries.
 Lastly, the fifth section provides ressources to develop your on web-based interactive ML application, using the [Marcelle](https://www.marcelle.dev) toolkit.
