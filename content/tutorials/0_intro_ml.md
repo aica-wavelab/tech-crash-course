@@ -30,14 +30,14 @@ parent : Tutorials
 
 Please find the slides of the module description and the schedule of the course below:
 
-[Slides : Module introduction](/slides/0_module_introduction.pdf){: .btn .btn-green
+[Slides : Module introduction](https://github.com/aica-wavelab/aica-assignments/blob/main/A0_introduction/0_module_introduction.pdf){: .btn .btn-green
  target="_blank"}
 
 ## B) Lecture : Introduction to AI and machine learning
 
 Please find the slides of the lecture on the introduction to AI and machine learning below:
 
-[Slides : Introduction to AI and machine learning](/slides/0_introduction_to_ai_and_machine_learning.pdf){: .btn .btn-green
+[Slides : Introduction to AI and machine learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A0_introduction/0_introduction_to_ai_and_machine_learning.pdf){: .btn .btn-green
  target="_blank"}
 
 ## C) Hands-on : train your first image classifier with Marcelle
