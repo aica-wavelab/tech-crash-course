@@ -91,7 +91,7 @@ If the validation loss and validation accuracy are not improving, it means that 
 ### Testing
 
 At this point, the model only saw the training set, eventhough it artificially splited this set into a training and validation set. To really assess the model performance, we need to compute a test accuracy on unseen images. On the [`Testing`](https://aica-wavelab.github.io/tech-crash-course/content/demos/image_classification/#testing) page of the application, you can see two **confusion matrices**. On the left is shown the global accuracy and a confusion matrix computed on the training set only. The rows of the confusion matrix represent the true labels (what should be predicted), while the columns represent the predicted labels. The diagonal of the matrix represents the number of correct predictions. A confusion matrix gives a finer view of which class is confused with which class. 
-On the left, you can see the global accuracy and a confusion matrix computed on the test set only. The test accuracy is a better indicator of the model performance. If the test accuracy is much lower than the training accuracy, it means that the model is overfitting the training set and that it will not generalize well to new data.
+On the right, you can see the global accuracy and a confusion matrix computed on the test set only. The test accuracy is a better indicator of the model performance. If the test accuracy is much lower than the training accuracy, it means that the model is overfitting the training set and that it will not generalize well to new data.
 
 {: .note-title }
 
