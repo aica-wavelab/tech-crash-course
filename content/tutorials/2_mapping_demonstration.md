@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: 2. Mapping by demonstration
 nav_order: 5
@@ -154,4 +154,4 @@ Try to train a new mapping using the Wekinator and the `2a_phone_sensors.pd` and
 Dr. Benedikt Zönnchen provided a live demonstration of the wekinator using [Processing](https://processing.org/) (input) and [SuperCollider](https://supercollider.github.io/) (output). You can find the code and the video of the demonstration at this address:
 
 [Slides: replacing code with machine learning](https://syncandshare.lrz.de/getlink/fiByPXEJ9rS4yR42qToaSr/presentations_aica_2023.zip){: .btn target="_blank"}
-[Code: replacing code with machine learning](https://syncandshare.lrz.de/getlink/fiSxeku21dD6oZ2WZagVKW/){: .btn target="_blank"}
+[Code: replacing code with machine learning](https://syncandshare.lrz.de/getlink/fiSxeku21dD6oZ2WZagVKW/){: .btn target="_blank"} -->

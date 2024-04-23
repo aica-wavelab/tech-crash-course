@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: 4. Embed and explore cultural archives
 # nav_order: 7
@@ -26,4 +26,4 @@ This chapter will teach you how to perform dimensional reduction of large collec
 
 ---
 
-Coming soon...
+Coming soon... -->

@@ -1,445 +1,361 @@
 {"0": {
     "doc": "0. Introduction to data science and machine learning",
-    "title": "Day 0. Introduction to data science and machine learning",
-    "content": "The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials. The first three chapters only use interactive applications, no programming skills are required. The fourth chapter reiterates the same concepts using programming tools that prevail in the ML industry, namely the Python programming language and dedicated ML libraries. Lastly, the fifth section provides ressources to develop your on web-based interactive ML application, using the Marcelle toolkit. Tips . We recommend to all attendants to follow the first four sections. ",
-    "url": "/content/tutorials/0_intro_ml/#day-0-introduction-to-data-science-and-machine-learning",
+    "title": "Day 0 - Introduction to data science and machine learning",
+    "content": "Note . The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials. We recommend all attendants to carefully follow its content. If the content is too easy for you, please tell your scientific instructors and they will provide you with additional resources. Inversely, if the content is too hard for you, please tell your scientific instructors and they will provide you with additional explanations. ",
+    "url": "/content/tutorials/0_intro_ml/#day-0---introduction-to-data-science-and-machine-learning",
     
-    "relUrl": "/content/tutorials/0_intro_ml/#day-0-introduction-to-data-science-and-machine-learning"
+    "relUrl": "/content/tutorials/0_intro_ml/#day-0---introduction-to-data-science-and-machine-learning"
   },"1": {
     "doc": "0. Introduction to data science and machine learning",
     "title": "Table of contents",
-    "content": ". | Train your first image classifier | The development cycle of ML . | Data collection | Training | Testing | Deployment | . | Train your model in Python | Create your own interactive ML web application | . ",
+    "content": ". | A) Brief : Module introduction | B) Lecture : Introduction to AI and machine learning | C) Hands-on : train your first image classifier with Marcelle . | Data collection | Training | Testing | Deployment | . | D) Tutorials in Python . | How to download and launch the tutorials ? | What will you learn ? | . | E) For advanced students: Create your own interactive ML web application | . ",
     "url": "/content/tutorials/0_intro_ml/#table-of-contents",
     
     "relUrl": "/content/tutorials/0_intro_ml/#table-of-contents"
   },"2": {
     "doc": "0. Introduction to data science and machine learning",
-    "title": "Train your first image classifier",
-    "content": "Have you ever trained a machine learning model ? If not, this is the right place to start. First of all, what is a machine learning? . Definition . Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can effectively generalize from examples and thus perform tasks without explicit instructions. In other words, machine learning (ML) part of the field of AI but its specificity lies in the fact that algorithms are learning from data. To give you a concrete example, let’s train your first image classifier from images collected with your webcam and using the application below. Train my first image classifier! . In this application, you can activate the webcam of your laptop on the left side of the screen. Below the webcam, you can choose a label to be associated with the images you will collect. Once the label selected, click on the button hold to collect to collect images with the corresponding label. Doing so, you will see the images you collect appearing in the Training set in the middle of the screen. Reiterate this process for each label you want to collect images for. Once you finalized the creation of your Training set (images + corresponding labels), you can click on the button Train to train your image classifier. Then, you can activate the webcam again and see the predictions of your image classifier in real-time in the component Prediction confidence on the bottom of the screen. Hints . Take the time to test the model you trained. Try to trick its predictions and see how it reacts. What data could you add to the training set to improve its predictions? . You trained your first image classifier! Congratulations! But you don’t know much about how machine learning works… Let’s now see what’s going on under the hood of this web application. ",
-    "url": "/content/tutorials/0_intro_ml/#train-your-first-image-classifier",
+    "title": "A) Brief : Module introduction",
+    "content": "Please find the slides of the module description and the schedule of the course below: . Slides : Module introduction . ",
+    "url": "/content/tutorials/0_intro_ml/#a-brief--module-introduction",
     
-    "relUrl": "/content/tutorials/0_intro_ml/#train-your-first-image-classifier"
+    "relUrl": "/content/tutorials/0_intro_ml/#a-brief--module-introduction"
   },"3": {
     "doc": "0. Introduction to data science and machine learning",
-    "title": "The development cycle of ML",
-    "content": "The development of ML is a cycle composed of 4 main steps. These steps are illustrated in the application below. The development cycle of ML . Data collection . The first step of the development cycle of ML is data collection. It consists in collecting and annotating data samples that can be used by an ML algorithm to learn a mapping from inputs to outputs. In the previous example, the data samples are images collected with your webcam and the corresponding labels you provided. If pairs of input and output are provided in the training set, we talk about supervised learning. If only inputs are provided, we talk about unsupervised learning. The data samples are usually gathered in two sets: the training set and the test set. The training set is used to train the ML model, while the test set is used to evaluate the performance of the trained model. In other words, the training set is the exemples you work on during the semester, while the test set is the final exam. We provide various miniature image datasets that represent classification problems in engineering, medecine, and public health: . | miniMASK: a dataset of 3 classes of images (with masks, without masks, and with masks incorrectly worn); | miniROAD: a dataset of 3 classes or green, orange, and red traffic lights; | miniTRASH: a dataset of 3 classes of images (packaging, transparent glass, and opaque glass); | miniRETINA: a medical dataset of 3 classes of retinoscopic images (healthy, macular degeneration, and diabetic retinopathy); | miniSKIN: a medical dataset of 2 classes of dermatoscopic images (benign and malignant skin lesions); | . On the Data collection page, click on one button to select the dataset you want to work with for the rest of the tutorial. Hints . Take the time observe each images (by clicking on the thumbnails). Are the differences between each classes obvious to you? . Training . The training phase comprises three steps: . 2.1. Features selection : in our case, we will use a pre-trained neural network called MobileNet that extract 1024 features from images. These features were learned from a large dataset of images (ImageNet) and can be used to represent any image. 2.2. Model selection : Many machine learning models exist and were developed. In our case, we will use a model called multi-layer perceptron (MLP). It is a simple artificial neural network composed of an input layer (in our case, the 1024 features from MobileNe, some hidden layers that we can choose, and an output layer (the number of classes). Two other parameters are important to set. The batchSize and the number of epochs. An artificial neural network can updates its neurons using several examples at the same time. The batch size indicates the number of images that will be used at each round to update the neurons. The number of epochs indicates the number of times the whole training set will be used to update the neurons. The higher the number of epochs, the more the model will be trained. However, if the number of epochs is too high, the model might overfit the training set and will not be able to generalize to new data. You can choose the number of hidden layers and neurons per layer, the batch size, and the number of epochs on the Training page of the application. 2.3. Training : Click on the training button to start the neural network optimization. You will then see two different learning curves appearing. The represent the losses and accuracies as a function of the number of epochs. The loss is a measure of the error between the predictions of the model and the true labels. The accuracy is the percentage of correct predictions. A validation loss and accuracy are computed using a portion of the training set that is not used for the training. If the validation loss and validation accuracy are not improving, it means that the model is overfitting the training set and that it will not generalize well to new data. In this case, you should stop the training and reflect on the parameters of the model or the data used for the task. Testing . At this point, the model only saw the training set, eventhough it artificially splited this set into a training and validation set. To really assess the model performance, we need to compute a test accuracy on unseen images. On the Testing page of the application, you can see two confusion matrices. On the left is shown the global accuracy and a confusion matrix computed on the training set only. The rows of the confusion matrix represent the true labels (what should be predicted), while the columns represent the predicted labels. The diagonal of the matrix represents the number of correct predictions. A confusion matrix gives a finer view of which class is confused with which class. On the left, you can see the global accuracy and a confusion matrix computed on the test set only. The test accuracy is a better indicator of the model performance. If the test accuracy is much lower than the training accuracy, it means that the model is overfitting the training set and that it will not generalize well to new data. Questions . | For the task you selected, what averaged accuracy would you obtain with a random classifer? Is the trained classifier better than a random classifier in your case? | What difference do you observe between the training and test accuracies? What does it mean? | Which classes are the most confused? Why do you think so? Among the confusions you identified, is there any would be more problematic than others in the problem selected? | What would you do to improve the model performance? | . Deployment . Now you trained and test a machine learning model, you can learn more about its behavior by observing its predictions on particular images. On the Deployment page of the application, you can see the predictions of the model when you click on the thumbnails of the training or test set. Machine learning models can be noisy and biased. Noisiness indicates that the model is not stable and that it can give different predictions for similar inputs (it’s unpredictably wrong). Bias indicates that the model is wrong or unfair for similar inputs (it’s always wrong in the same way). Biases in ML models can lead to discrimination as illustrated in many different controversies over the past years. These incidents are documented on a public website called AI incident database. Questions . Among erroneous predictions, can you identify biases? Are these biases explained by the training data? Are these biases problematic in the problem selected? . Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries. ",
-    "url": "/content/tutorials/0_intro_ml/#the-development-cycle-of-ml",
+    "title": "B) Lecture : Introduction to AI and machine learning",
+    "content": "Please find the slides of the lecture on the introduction to AI and machine learning below: . Slides : Introduction to AI and machine learning . ",
+    "url": "/content/tutorials/0_intro_ml/#b-lecture--introduction-to-ai-and-machine-learning",
     
-    "relUrl": "/content/tutorials/0_intro_ml/#the-development-cycle-of-ml"
+    "relUrl": "/content/tutorials/0_intro_ml/#b-lecture--introduction-to-ai-and-machine-learning"
   },"4": {
     "doc": "0. Introduction to data science and machine learning",
-    "title": "Train your model in Python",
-    "content": "In this section, you will learn how to train and test a machine learning model using Python and dedicated ML libraries. We recommand you to install Python via Anaconda. This way, you will also have jupyter notebook installed, which is a digital notebook that allows you to write and execute Python code in isolated cells. This way you can follow a step-by-step tutorial and execute the code at each step to see the results. You will also need yo install the following libraries: numpy, tensorflow, keras, matplotlib, and seaborn. You can install them using the following command in your terminal: . pip install numpy tensorflow keras matplotlib seaborn . The tutorial located in the file ml-python-tutorial.ipynb on the github repository of the course: . Python tutorial . The end of the tutorial also explains how to import a model trained in the Marcelle application and use it in Python. ",
-    "url": "/content/tutorials/0_intro_ml/#train-your-model-in-python",
+    "title": "C) Hands-on : train your first image classifier with Marcelle",
+    "content": "Let’s practice ! . Go to the Marcelle app! . You can find the source files of this activity in the folder train_your_first_classifier of the github repository of the course. Data collection . The first step of the development cycle of ML is data collection. It consists in collecting and annotating data samples that can be used by an ML algorithm to learn a mapping from inputs to outputs. In the previous example, the data samples are images collected with your webcam and the corresponding labels you provided. If pairs of input and output are provided in the training set, we talk about supervised learning. If only inputs are provided, we talk about unsupervised learning. The data samples are usually gathered in two sets: the training set and the test set. The training set is used to train the ML model, while the test set is used to evaluate the performance of the trained model. In other words, the training set is the exemples you work on during the semester, while the test set is the final exam. We provide various miniature image datasets that represent classification problems in engineering, medecine, and public health: . | miniMASK: a dataset of 3 classes of images (with masks, without masks, and with masks incorrectly worn); | miniROAD: a dataset of 3 classes or green, orange, and red traffic lights; | miniTRASH: a dataset of 3 classes of images (packaging, transparent glass, and opaque glass); | miniRETINA: a medical dataset of 3 classes of retinoscopic images (healthy, macular degeneration, and diabetic retinopathy); | miniSKIN: a medical dataset of 2 classes of dermatoscopic images (benign and malignant skin lesions); | . On the Data collection page, click on one button to select the dataset you want to work with for the rest of the tutorial. Hints . Take the time observe each images (by clicking on the thumbnails). Are the differences between each classes obvious to you? . Training . The training phase comprises three steps: . C.1. Features selection : in our case, we will use a pre-trained neural network called MobileNet that extract 1024 features from images. These features were learned from a large dataset of images (ImageNet) and can be used to represent any image. C.2. Model selection : Many machine learning models exist and were developed. In our case, we will use a model called multi-layer perceptron (MLP). It is a simple artificial neural network composed of an input layer (in our case, the 1024 features from MobileNe, some hidden layers that we can choose, and an output layer (the number of classes). Two other parameters are important to set. The batchSize and the number of epochs. An artificial neural network can updates its neurons using several examples at the same time. The batch size indicates the number of images that will be used at each round to update the neurons. The number of epochs indicates the number of times the whole training set will be used to update the neurons. The higher the number of epochs, the more the model will be trained. However, if the number of epochs is too high, the model might overfit the training set and will not be able to generalize to new data. You can choose the number of hidden layers and neurons per layer, the batch size, and the number of epochs on the Training page of the application. C.3. Training : Click on the training button to start the neural network optimization. You will then see two different learning curves appearing. The represent the losses and accuracies as a function of the number of epochs. The loss is a measure of the error between the predictions of the model and the true labels. The accuracy is the percentage of correct predictions. A validation loss and accuracy are computed using a portion of the training set that is not used for the training. If the validation loss and validation accuracy are not improving, it means that the model is overfitting the training set and that it will not generalize well to new data. In this case, you should stop the training and reflect on the parameters of the model or the data used for the task. Testing . At this point, the model only saw the training set, eventhough it artificially splited this set into a training and validation set. To really assess the model performance, we need to compute a test accuracy on unseen images. On the Testing page of the application, you can see two confusion matrices. On the left is shown the global accuracy and a confusion matrix computed on the training set only. The rows of the confusion matrix represent the true labels (what should be predicted), while the columns represent the predicted labels. The diagonal of the matrix represents the number of correct predictions. A confusion matrix gives a finer view of which class is confused with which class. On the left, you can see the global accuracy and a confusion matrix computed on the test set only. The test accuracy is a better indicator of the model performance. If the test accuracy is much lower than the training accuracy, it means that the model is overfitting the training set and that it will not generalize well to new data. Questions . | For the task you selected, what averaged accuracy would you obtain with a random classifer? Is the trained classifier better than a random classifier in your case? | What difference do you observe between the training and test accuracies? What does it mean? | Which classes are the most confused? Why do you think so? Among the confusions you identified, is there any would be more problematic than others in the problem selected? | What would you do to improve the model performance? | . Deployment . Now you trained and test a machine learning model, you can learn more about its behavior by observing its predictions on particular images. On the Deployment page of the application, you can see the predictions of the model when you click on the thumbnails of the training or test set. Machine learning models can be noisy and biased. Noisiness indicates that the model is not stable and that it can give different predictions for similar inputs (it’s unpredictably wrong). Bias indicates that the model is wrong or unfair for similar inputs (it’s always wrong in the same way). Biases in ML models can lead to discrimination as illustrated in many different controversies over the past years. These incidents are documented on a public website called AI incident database. Questions . Among erroneous predictions, can you identify biases? Are these biases explained by the training data? Are these biases problematic in the problem selected? . Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries. ",
+    "url": "/content/tutorials/0_intro_ml/#c-hands-on--train-your-first-image-classifier-with-marcelle",
     
-    "relUrl": "/content/tutorials/0_intro_ml/#train-your-model-in-python"
+    "relUrl": "/content/tutorials/0_intro_ml/#c-hands-on--train-your-first-image-classifier-with-marcelle"
   },"5": {
     "doc": "0. Introduction to data science and machine learning",
-    "title": "Create your own interactive ML web application",
-    "content": "The interactive applications you used were programmed using Marcelle. Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. If you want to learn how to create your own interactive machine learning application, please read the introduction and follow the tutorial on the Marcelle website: . Marcelle tutorial . ",
-    "url": "/content/tutorials/0_intro_ml/#create-your-own-interactive-ml-web-application",
+    "title": "D) Tutorials in Python",
+    "content": "How to download and launch the tutorials ? . First go to the github repository of the course: . Github repository of the course . Then, download the repository on your computer. In a terminal, launch the following command: . git clone https://github.com/aica-wavelab/aica-assignments.git . If you struggle with terminal commands, you can also download the repository as a zip file by clicking on the green button Code on the top right of the github repository page, then Download ZIP. Now open the folder A0_introduction and launch the jupyter notebook server by typing the following command in the terminal: . jupyter notebook . Then click on the first file 01_tutorial_jupyter_notebook.ipynb to open the tutorial and follow the instructions. Alternatively, you can launch the Anaconda navigator (desktop application) and open the jupyter notebook application from there. Then, navigate to the folder A0_introduction and open the first file 01_tutorial_jupyter_notebook.ipynb. What will you learn ? . For the first day, all tutorials are in Python and use jupyter notebooks. This folder A0_introduction contains: . | A tutorial on jupyter notebooks: 01_tutorial_jupyter_notebook.ipynb | A tutorial on the basics of the Python programming language: 02_tutorial_python.ipynb | A tutorial on data science basics using the pandas library and seaborn library: 03_tutorial_data_science.ipynb. You will apply data sciences techniques to analyze the curation of the Museum of Modern Art (MoMA) in New York City, USA. | A tutorial to train your first classifier in Python using the keras library: 04_tutorial_machine_learning.ipynb. You will apply machine learning techniques to predict the number of visitors in the museums of Bristol, UK. | . ",
+    "url": "/content/tutorials/0_intro_ml/#d-tutorials-in-python",
     
-    "relUrl": "/content/tutorials/0_intro_ml/#create-your-own-interactive-ml-web-application"
+    "relUrl": "/content/tutorials/0_intro_ml/#d-tutorials-in-python"
   },"6": {
+    "doc": "0. Introduction to data science and machine learning",
+    "title": "E) For advanced students: Create your own interactive ML web application",
+    "content": "The interactive applications you used were programmed using Marcelle. Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. If you want to learn how to create your own interactive machine learning application, please read the introduction and follow the tutorial on the Marcelle website: . Marcelle tutorial . ",
+    "url": "/content/tutorials/0_intro_ml/#e-for-advanced-students-create-your-own-interactive-ml-web-application",
+    
+    "relUrl": "/content/tutorials/0_intro_ml/#e-for-advanced-students-create-your-own-interactive-ml-web-application"
+  },"7": {
     "doc": "0. Introduction to data science and machine learning",
     "title": "0. Introduction to data science and machine learning",
     "content": " ",
     "url": "/content/tutorials/0_intro_ml/",
     
     "relUrl": "/content/tutorials/0_intro_ml/"
-  },"7": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Mapping by demonstration",
-    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. A computer program is a sequence instructions for a computer to execute. Programs often take inputs, process them, and produce outputs. The way inputs are processed are usually explicited by the human programmer, using a programming language. Machine learning (ML) offers an alternative to explicit programmation: ML algorithms can learn to process data from examples. The human developper provides pairs of input and its corresponding output, and the ML model is then optimized to reproduce the mapping from the example provided. We call this approach mapping by demonstration, and finds many applications in the creative and cultural industries: in performing arts (gesture to sound), in video games, in robotics, among others. This chapter will teach you how to build a real-time mapping from gesture to sound using ML and Pure Data (Pd), a free an open-source visual programming language for creating interactive computer music and multimedia works. In particular, this chapter will teach you how to use your smartphone as a gesture sensor device, build a minimal sound synthesizer in Pd, and train a ML model to control the synthesizer from gestures you choose! . Second, you will learn how to do the same using the Wekinator, a free, open source software that allows anyone to use machine learning to map arbitrary OSC messages. ",
-    "url": "/content/tutorials/2_mapping_demonstration/#mapping-by-demonstration",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#mapping-by-demonstration"
   },"8": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Table of contents",
-    "content": ". | Use your phone as a sensor device . | Send OSC messages from your phone | Receive OSC messages on your computer in Pure Data | . | Build a minimal sound synthesizer | Map sensors to synthesis parameters with ml-lib in Pure Data | Map sensors to synthesis parameters with Wekinator | . ",
-    "url": "/content/tutorials/2_mapping_demonstration/#table-of-contents",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#table-of-contents"
-  },"9": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Use your phone as a sensor device",
-    "content": "Smartphones are excellent sensor devices because they include a large array of built-in sensors. For motion, they are equipped with accelerometers, gyroscopes, and step detection sensors. For geolocalisation, they are equipped with geopositioning, magnetic field detection, and light sensors. For touch detection, most touch screen enable precise multi-finger detection. Additionally, smartphones are widely accessible and come with the advantage of wireless connectivity, allowing for seamless data transmission without the need for physical cables. Their portability ensures they can be used in various settings, especially in performance-based contexts where mobility is essential. Moreover, smartphones have significant computing power, enabling them to not only collect but also process complex data in real-time. Open Sound Control (OSC) serves as an effective way to stream this sensor data. OSC is a communication protocol initially designed for networking sound synthesizers, computers, and other multimedia devices, offering more flexibility and a higher level of organization than traditional MIDI protocols. OSC signals can carry a variety of data types and are sent over standard network protocols like UDP or TCP. This compatibility with modern networking technologies makes OSC an ideal choice for transmitting the rich sensor data collected by smartphones. In creative and technical applications, OSC allows for this data to be streamed in real-time, enabling dynamic and interactive experiences. An Open Sound Control (OSC) message is structured to include an address pattern followed by typed arguments. Here’s a simple example of an OSC message: . | Address Pattern: /filter/frequency | Arguments: 440.0 | . In this example, /filter/frequency is the address pattern that indicates where the message is destined within the OSC namespace. It’s akin to a URL path in web development, pointing to a specific function or parameter in the receiving device or software. The argument 440.0 is the value that is being sent to the specified address. In this context, it could represent a frequency value in Hertz that is being sent to a sound synthesizer’s filter frequency parameter. The OSC message is compact and efficient, capable of supporting multiple arguments of different types (like integers, floats, strings, etc.) following the address pattern. Send OSC messages from your phone . Free mobile applications exist to stream sensor data from your phone. We recommend: . | Sensors2OCS (Android) allowing to stream all the sensors of your phone as OSC messages | Osc controller (Android) that proposes generic button and slider interfaces to send OSC messages | . To send OSC messages from your phone to your computer, you need to connect your phone and your computer to the same network. You can either use a local network (wifi) or a global network (internet). In both cases, you need to know the IP address of your computer. You can find it by typing ipconfig in the terminal (MacOS) or ipconfig in the command prompt (Windows), or in the network settings of your computer. Both application should be configurated with the IP address of your computer and the port number to send OSC messages to. The port number is a number between 0 and 65535. We recommend to use a number between 8000 and 9000. Receive OSC messages on your computer in Pure Data . Pure Data is a free and open-source visual programming language for creating interactive computer music and multimedia works. Pd enables musicians, visual artists, performers, researchers, and developers to create software graphically, without writing lines of code. Pd is used to process and generate sound, video, 2D/3D graphics, and interface sensors, input devices, and MIDI. Pd can easily run on micro-computers such as Raspberry Py and is hence a great tool for prototyping interactive systems. We recommend using the Plug Data version of Pd, as it provides a more user-friendly interface, and can be used as a standalone app or as a VST3, LV2, CLAP or AU plugin. You can download below a Pd patch we wrote to receive OSC messages from your phone. You can open it with Plug Data. 2a_phone_sensors.pd . Let’s go through the patch. The loadband object send a bang message (trigger signal) when the Pd patch is loaded. It is generally used to initialize settings. The listen 8000 object is a message triggered by the loadbang. It indicates that the program will listen for incoming OSC messages on port 8000. netreceive -u -b is configured to receive network messages using UDP protocol (-u for UDP and -b for binding to a port, which is set at 8000 from the previous object). Hence, the netreceive object will receive all raw messages, including those formatted in OSC, sent to port 8000. oscparse takes the raw OSC messages received from netreceive and parses them into a format that can be understood and used in Pd. Note that oscparse belongs to an external library named osc that you can install with the external manager named deken. The deken is a repository of all available external developed for Pd, and allow you to quickly install their last version from within Pd. You can access it from the menu Settings/Externals. Search for osc and install the library. At this stage, you should be able to receive OSC messages from your phone in Pd. You can also use the print object to display incomming messages in the console and check that you received the formatted OSC messages correctly. The rest is just a matter of extracting the information you need from the OSC messages: route the numerical values (arguments) from their address pattern, process, and scale the numerical values to fit your needs. The two applications might have a different OSC message format (might add a keyword in the address pattern, or send the values in a different order), so you might need to adapt the patch to your needs. ",
-    "url": "/content/tutorials/2_mapping_demonstration/#use-your-phone-as-a-sensor-device",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#use-your-phone-as-a-sensor-device"
-  },"10": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Build a minimal sound synthesizer",
-    "content": "Now we can stream sensor data from our phone to Pd, we can for exemple track and record motion gestures. Let’s now build a sound synthesizer that we will control from the gestures. 2b_sound_synthesis.pd . Many techniques exist to synthesize sound. In this example, we will use substractive synthesis. The principle is to start from a complex sound (e.g., white noise) and remove some of its harmonics using a filter, in order to obtain a simpler sound. The noise~ object generates white noise. The ~ indicates that the object is a signal object (rather than a message), i.e., it processes audio signals. The vcf~ object is a voltage-controlled filter. It takes the white noise as input and two filter paramters: . | The cut-off frequency (in Hz) , which is the frequency above which the harmonics are removed. | The Q factor, which is the resonance of the filter. The higher the Q factor, the more the harmonics are removed. | . Both parameters are controled using horizontal sliders. Be sure to turn the volume of your computer down before playing with the sliders, as the sound can be very loud! . The output of the filter is sent to the dac~ object, which is the digital-to-analog converter that converts the digital signal into an analog signal that can be played by your speakers. You can activate the DSP (digital signal processing) by clicking on the ⏼ button on the bottom right corner of your screen. ",
-    "url": "/content/tutorials/2_mapping_demonstration/#build-a-minimal-sound-synthesizer",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#build-a-minimal-sound-synthesizer"
-  },"11": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Map sensors to synthesis parameters with ml-lib in Pure Data",
-    "content": "At this stage, we successfully received OSC messages from a smartphone and created a simple sound synthesizer controlled by two parameters (cut-off frequency and Q value). However, we still do not have a mapping between the OSC messages and the synthesis parameters and programming such a mapping by hand can be tedious and time-consuming. We will now use machine learning to learn this mapping from examples. You can download below the Pd patch to train a ML model to map OSC messages to the cut-off frequency and Q value of the filter. 2c_ml_regression_mapping.pd . This patch require to install the ml-lib library. Unfortunately, this library is not up-to-date in the Deken, so you will have to install it manually. You can find the latest releases of the library at this address: . ml-lib . Once downloaded, copy paste the folter ml.lib in the folder Library/plugdata/Library/Extra (MacOS) or PlugData/extra (Windows) and reboot Plug Data. You should now be able to load various machine learning classifier or regressor. We will use the ml.ann which is a generalist artificial neural network. First, we must conduct data collection, e.g, gathering input (gesture data) and their corresponding outputs (synthesizer parameters). Open both patches 2a_phone_sensors.pd, 2b_sound_synthesis.pd, and check that your patch 2c_ml_regression_mapping.pd receive the signals from both the phone and the synthesizer. Then, click on the radio button and select the middle one (data collection). This will start the recording of the data in the ml.ann object. You can record as many examples as you want, while changing the position of the phone, and the values of the sound synthesizer. When you are done, click on the train message to start training your artificial neural network. Check the console to see if there’s any error messages. Once the model is trained, click on the third mode (right button) to start the prediction. You should now be able to control the sound synthesizer from the OSC messages sent by your phone. ",
-    "url": "/content/tutorials/2_mapping_demonstration/#map-sensors-to-synthesis-parameters-with-ml-lib-in-pure-data",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#map-sensors-to-synthesis-parameters-with-ml-lib-in-pure-data"
-  },"12": {
-    "doc": "2. Mapping by demonstration",
-    "title": "Map sensors to synthesis parameters with Wekinator",
-    "content": "The Wekinator is a free and standalone software that allows to do the exact same steps as in the patch 2c_ml_regression_mapping.pd but in a more user-friendly interface. The wekinator accept and send arbitrary OSC messages. You can download the Wekinator at this address: . Wekinator . Try to train a new mapping using the Wekinator and the 2a_phone_sensors.pd and 2b_sound_synthesis.pd patches. Dr. Benedikt Zönnchen provided a live demonstration of the wekinator using Processing (input) and SuperCollider (output). You can find the code and the video of the demonstration at this address: . Slides: replacing code with machine learning Code: replacing code with machine learning . ",
-    "url": "/content/tutorials/2_mapping_demonstration/#map-sensors-to-synthesis-parameters-with-wekinator",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/#map-sensors-to-synthesis-parameters-with-wekinator"
-  },"13": {
-    "doc": "2. Mapping by demonstration",
-    "title": "2. Mapping by demonstration",
-    "content": " ",
-    "url": "/content/tutorials/2_mapping_demonstration/",
-    
-    "relUrl": "/content/tutorials/2_mapping_demonstration/"
-  },"14": {
-    "doc": "3. Symbolic music generation",
-    "title": "Audio modelling and synthesis with neural networks",
-    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. Neural networks prove to be a powerful tool to model and generate music as events (symbolic domain). This chapter will teach you how to train and use artificial neural networks to generate music. ",
-    "url": "/content/tutorials/3_music_generation/#audio-modelling-and-synthesis-with-neural-networks",
-    
-    "relUrl": "/content/tutorials/3_music_generation/#audio-modelling-and-synthesis-with-neural-networks"
-  },"15": {
-    "doc": "3. Symbolic music generation",
-    "title": "Table of contents",
-    "content": ". TODO . ",
-    "url": "/content/tutorials/3_music_generation/#table-of-contents",
-    
-    "relUrl": "/content/tutorials/3_music_generation/#table-of-contents"
-  },"16": {
-    "doc": "3. Symbolic music generation",
-    "title": "3. Symbolic music generation",
-    "content": " ",
-    "url": "/content/tutorials/3_music_generation/",
-    
-    "relUrl": "/content/tutorials/3_music_generation/"
-  },"17": {
-    "doc": "4. Embed and explore cultural archives",
-    "title": "Embed and explore cultural archives",
-    "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. Machine learning is used to learn abstract representations of large collection of data. The creative and cultural industries have a long history of collecting and archiving cultural artefacts. These archives are increasingly digitised and made available online. This tutorial will show you how to use machine learning to embed these archives in abstract representational spaces, and explore them in novel ways. This chapter will teach you how to perform dimensional reduction of large collection of data, either from naive algorithms or by learning representations with neural networks. ",
-    "url": "/content/tutorials/4_embed_cultural_archives/#embed-and-explore-cultural-archives",
-    
-    "relUrl": "/content/tutorials/4_embed_cultural_archives/#embed-and-explore-cultural-archives"
-  },"18": {
-    "doc": "4. Embed and explore cultural archives",
-    "title": "Table of contents",
-    "content": ". Coming soon… . ",
-    "url": "/content/tutorials/4_embed_cultural_archives/#table-of-contents",
-    
-    "relUrl": "/content/tutorials/4_embed_cultural_archives/#table-of-contents"
-  },"19": {
-    "doc": "4. Embed and explore cultural archives",
-    "title": "4. Embed and explore cultural archives",
-    "content": " ",
-    "url": "/content/tutorials/4_embed_cultural_archives/",
-    
-    "relUrl": "/content/tutorials/4_embed_cultural_archives/"
-  },"20": {
     "doc": "Tools and credits",
     "title": "Generalist tool for ML",
     "content": "Marcelle . Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. Jules Françoise, Baptiste Caramiaux, Téo Sanchez. Marcelle: Composing Interactive Machine Learning Workflows and Interfaces. Annual ACM Symposium on User Interface Software and Technology (UIST ’21), Oct 2021, Virtual. DOI: 10.1145/3472749.3474734. PDF . Wekinator . The Wekinator is free, open source software that allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more. The Wekinator allows users to build new interactive systems by demonstrating human actions and computer responses, instead of writing programming code. Fiebrink, R., &amp; Cook, P. R. (2010, January). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht) (Vol. 3, pp. 2-1). ml-lib . ml-lib is a library of machine learning externals for Max and Pure Data. ml-lib is primarily based on the Gesture Recognition Toolkit by Nick Gillian ml-lib is designed to work on a variety of platforms including OS X, Windows, Linux, on Intel and ARM architectures. The goal of ml-lib is to provide a simple, consistent interface to a wide range of machine learning techniques in Max and Pure Data. Bullock, J., &amp; Momeni, A. (2015, May). Ml. lib: robust, cross-platform, open-source machine learning for max and pure data. In NIME (pp. 265-270). nn~ . nn~ is a Pd or Max/MSP external object that allows to load and run neural networks in real-time. It is based on the PyTorch C++ API and can load any network that can be exported from PyTorch to TorchScript. It can be used to load RAVE models. ",
     "url": "/content/credits/#generalist-tool-for-ml",
     
     "relUrl": "/content/credits/#generalist-tool-for-ml"
-  },"21": {
+  },"9": {
     "doc": "Tools and credits",
     "title": "Specialized ML tools (audio, text, others…)",
     "content": "RAVE . Rave is a variational autoencoder for fast and high-quality neural audio synthesis developed by Antoine Caillon and Philippe Esling from IRCAM. Caillon, A., &amp; Esling, P. (2021). RAVE: A variational autoencoder for fast and high-quality neural audio synthesis. arXiv preprint arXiv:2111.05011. LangChain . LangChain is a framework for developing applications powered by language models. It enables applications that: . | Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.) . | Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.) . | . Flucoma . Combination of digital signal processing and machine learning. Connection to SuperCollider, PureData and Max. ",
     "url": "/content/credits/#specialized-ml-tools-audio-text-others",
     
     "relUrl": "/content/credits/#specialized-ml-tools-audio-text-others"
-  },"22": {
+  },"10": {
     "doc": "Tools and credits",
     "title": "Generalist tools for audio and visual programming",
     "content": "Pure Data . Pure Data (or just “Pd”) is an open source visual programming language for multimedia. Pure Data allows you to create and manipulate audio systems using visual elements, rather than writing code. Think of it as building with virtual blocks – simply connect them together to design your unique audio setups. Plug Data . plugdata is a free/open-source visual programming environment based on pure-data. It is available for a wide range of operating systems, and can be used both as a standalone app, or as a VST3, LV2, CLAP or AU plugin. We recommend using Plug Data rather than Pure Data, as it provides a more user-friendly interface. SuperCollider . SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. It is free and open source software available for Windows, macOS, and Linux. P5hs Processing Nannou . Visual Creative Coding, Coupling between Audio and Visual . TouchDesigner . Node-based visual programming language and environment for real-time interaction with different media . ",
     "url": "/content/credits/#generalist-tools-for-audio-and-visual-programming",
     
     "relUrl": "/content/credits/#generalist-tools-for-audio-and-visual-programming"
-  },"23": {
+  },"11": {
     "doc": "Tools and credits",
     "title": "More AIArtists tools and ressources",
     "content": "AIartists . ",
     "url": "/content/credits/#more-aiartists-tools-and-ressources",
     
     "relUrl": "/content/credits/#more-aiartists-tools-and-ressources"
-  },"24": {
+  },"12": {
     "doc": "Tools and credits",
     "title": "Tools and credits",
     "content": " ",
     "url": "/content/credits/",
     
     "relUrl": "/content/credits/"
-  },"25": {
+  },"13": {
     "doc": "Directions and useful infos",
     "title": "How to go to the Wavelab ?",
     "content": "Address . Wavelab, Barerstraße 19, 80333 München . Copy Address . ",
     "url": "/content/directions/#how-to-go-to-the-wavelab-",
     
     "relUrl": "/content/directions/#how-to-go-to-the-wavelab-"
-  },"26": {
+  },"14": {
     "doc": "Directions and useful infos",
     "title": "Arrival methods",
     "content": "Bicycle . | Bicycle parking is available. | . Public Transportation . | Subway: Königsplatz or Odeonsplatz stations. | Tram: Karolinenplatz stop. | City-Railway: Stachus or Hauptbahnhof stations (then a 10-minute walk). | . ",
     "url": "/content/directions/#arrival-methods",
     
     "relUrl": "/content/directions/#arrival-methods"
-  },"27": {
+  },"15": {
     "doc": "Directions and useful infos",
     "title": "Route to Wavelab from Barerstraße 19",
     "content": ". | Enter through the left side entrance of the building and proceed to the green courtyard. Look for and follow the red HMTM signs. | Walk along the building until you see a wheelchair ramp and stairs on your right. This leads into the Wavelab. | The door to Wavelab is not automatic. Please ring the bell labeled Wavelab to gain entry. | . ",
     "url": "/content/directions/#route-to-wavelab-from-barerstra%C3%9Fe-19",
     
     "relUrl": "/content/directions/#route-to-wavelab-from-barerstraße-19"
-  },"28": {
+  },"16": {
     "doc": "Directions and useful infos",
     "title": "Important Advice",
     "content": "The Wavelab is situated in the rear building of the Israeli Consulate General (GKI), which has a high security level. When visiting, please keep the following in mind: . | Avoid lingering or standing on the sidewalk at Barerstraße 19; move close to the tram stop if you need to make a phone call or are waiting for someone. | If approached by GKI security personnel, promptly identify yourself as a guest of the Wavelab. | . ",
     "url": "/content/directions/#important-advice",
     
     "relUrl": "/content/directions/#important-advice"
-  },"29": {
+  },"17": {
     "doc": "Directions and useful infos",
     "title": "Directions and useful infos",
     "content": " ",
     "url": "/content/directions/",
     
     "relUrl": "/content/directions/"
-  },"30": {
+  },"18": {
     "doc": "About",
     "title": "AI in culture and arts -  Human-AI interaction (tech crash course)",
     "content": " ",
     "url": "/#ai-in-culture-and-arts----human-ai-interaction-tech-crash-course",
     
     "relUrl": "/#ai-in-culture-and-arts----human-ai-interaction-tech-crash-course"
-  },"31": {
+  },"19": {
     "doc": "About",
     "title": "📰 Announcements",
     "content": "15.01.2023 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on Tuesday, April 23rd and Thursday, April 25th, 2024. ",
     "url": "/#-announcements",
     
     "relUrl": "/#-announcements"
-  },"32": {
+  },"20": {
     "doc": "About",
     "title": "Table of contents",
     "content": ". | What is AICA? | What is the crash course on Human-AI interaction ? | Learning outcomes | Prerequisites | Course content | Tutorials and teaching methods | Evaluation and ECTS | Credits and attributions | License | . ",
     "url": "/#table-of-contents",
     
     "relUrl": "/#table-of-contents"
-  },"33": {
+  },"21": {
     "doc": "About",
     "title": "What is AICA?",
     "content": "The Digitization College “Artificial Intelligence in Culture and Arts” (AICA) aims to equip students at the University of Music and Performing Arts Munich (HMTM) and Hochschule München University of Applied Sciences (HM) with necessary skills to impact AI innovations in the creative and cultural industries. Learn more about AICA . ",
     "url": "/#what-is-aica",
     
     "relUrl": "/#what-is-aica"
-  },"34": {
+  },"22": {
     "doc": "About",
     "title": "What is the crash course on Human-AI interaction ?",
     "content": "Artificial intelligence (AI) is increasingly impacting the cultural and creative sectors. In particular, machine learning algorithms can now generate unprecedented synthetic media, transforming how we create, produce, and distribute art and culture. Students must develop a theoretical and practical understanding of machine learning to comprehend such transformative technology and foster the development of meaningful human-AI interactions. This course addresses this need and delves into interactive machine learning for the cultural and creative sectors. The course is intended for art, cultural management, design, and computer science students. After this course, students will master the theoretical and technological foundations of machine learning, be able to train and (critically) evaluate machine learning models, and deploy them in meaningful interactive systems. The course is structured in three 2-day blocks (6 days in total). Each block provides theoretical lectures and hands-on activities to develop interactive machine-learning systems for image, sound, and text-based applications in the creative and cultural sectors. Every teaching day starts with a lecture and discussion in the morning, followed by a hands-on session on the same topic in the afternoon. The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, starting April 2024. ",
     "url": "/#what-is-the-crash-course-on-human-ai-interaction-",
     
     "relUrl": "/#what-is-the-crash-course-on-human-ai-interaction-"
-  },"35": {
+  },"23": {
     "doc": "About",
     "title": "Learning outcomes",
     "content": "After successful participation in this course, students are able to: . | Understand the history and current state of AI: students will be able to explain the different waves of AI (symbolic, connectionist), precisely identify machine learning algorithms, and ex- plain their distinctive characteristics (dataset, optimization, loss, etc.). | Trainand(critically)evaluateamachinelearningalgorithm:studentswillbeabletoexplain and apply the main steps of the development cycle of machine learning, from data collection, analysis, preprocessing, training, and evaluation. They will be able to critically examine a lear- ning curve and performance metrics to assess the performance of their machine-learning mo- dels. Furthermore, they will be able to critically discuss the limitations of their model from the content of their dataset and from the perspective of bias and fairness. | Create interactive machine learning systems: students can design and implement interac- tive machine learning systems for image, sound, and text-based applications in the creative and cultural sectors. Three examples of interactive systems will be showcased in this course: a teachable image classifier, a gesture-to-sound synthesizer, and a tool for semantic and multi- modal exploration of museum archives. Students already familiar with programming and ma- chine learning will be able to dive deeper into the design and development of novel interactions with machine learning algorithms. | . ",
     "url": "/#learning-outcomes",
     
     "relUrl": "/#learning-outcomes"
-  },"36": {
+  },"24": {
     "doc": "About",
     "title": "Prerequisites",
     "content": "The module is designed as an interdisciplinary venue that brings together a range of perspective. It is aimed at all students enrolled in a third-year Bachelor’s program at Hochschule München University of Applied Sciences (HM) or the Hochschule für Musik und Theater München (HMTM). Students in Master’s programs are also welcome. Students with prior computer science and machine learning knowledge will be assigned dedicated and more advanced activities to develop interactive ML systems using the open source Marcelle toolkit. To apply, please refer to the Subscription section. ",
     "url": "/#prerequisites",
     
     "relUrl": "/#prerequisites"
-  },"37": {
+  },"25": {
     "doc": "About",
     "title": "Course content",
     "content": "Structured over three 2-day blocks (6 days in total), the course addresses: . | Image: This introductory block focuses on image classification using machine learning. After a general introduction to AI’s history and current state, participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces). | Sound: The second block centers on musical applications. Students will be guided to create a regression model from physical gestures to sound using an open-source visual programming language for music and art (Pure Data). Participants will learn Pure Data basics and discover how to transform their smartphones into synthesizers. Students will also have the opportunity to tackle symbolic music generation using traditional programming (computational notebooks in Python). | Text: Building on the first block, this third bloc explores the use of machine learning to “embed” and navigate cultural archives. Students will use multi-modal models that link images to textual descriptions to design interactive tools for exploring and retrieving artifacts in museum archives. The more advanced students will be able to train their own embedding models on personalized datasets in Python. | . ",
     "url": "/#course-content",
     
     "relUrl": "/#course-content"
-  },"38": {
+  },"26": {
     "doc": "About",
     "title": "Tutorials and teaching methods",
     "content": "This website provides a range of tutorials and ressources, organized by topic and in increasing order of difficulty. Tutorial overview . A typical day of teaching starts with a lecture on a topic, followed by a hands-on session where students can apply the concepts learned in the lecture. The hands-on sessions are based on the tutorials provided on this website. ",
     "url": "/#tutorials-and-teaching-methods",
     
     "relUrl": "/#tutorials-and-teaching-methods"
-  },"39": {
+  },"27": {
     "doc": "About",
     "title": "Evaluation and ECTS",
     "content": "You will earn 2 ECTS for the validation of the course. The evaluation will be based on: . | Attendance: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory. | Completion of in-class practical work: you must submit the completed practical work by the end of the course. If you do not finish during the in-class sessions, you will have to finish it at home. | . ",
     "url": "/#evaluation-and-ects",
     
     "relUrl": "/#evaluation-and-ects"
-  },"40": {
+  },"28": {
     "doc": "About",
     "title": "Credits and attributions",
     "content": "The tutorial are based on several open-source tools and libraries developed by talented researchers and developers. Without them, this course would not be possible. Discover all of them in section Credits and attributions. ",
     "url": "/#credits-and-attributions",
     
     "relUrl": "/#credits-and-attributions"
-  },"41": {
+  },"29": {
     "doc": "About",
     "title": "License",
     "content": "The new teaching material (tutorials and code) created for the course is available under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Each tool and library demonstrated in the tutorials is subject to its own license. ",
     "url": "/#license",
     
     "relUrl": "/#license"
-  },"42": {
+  },"30": {
     "doc": "About",
     "title": "About",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"43": {
+  },"31": {
     "doc": "Provisional schedule",
     "title": "Provisional schedule",
     "content": ". | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"44": {
+  },"32": {
     "doc": "Provisional schedule",
     "title": "Block 1",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"45": {
+  },"33": {
     "doc": "Provisional schedule",
     "title": "23th of April",
     "content": ". | Brief : Module introduction 10:00 AM–10:30 AM | Lecture : Introduction to machine learning 10:30 AM–12:00 PM | Hands-on : Train your first classifier with Marcelle! 1:00 PM–2:00 PM | Hands-on : Data science and machine learning tutorials 2:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"46": {
+  },"34": {
     "doc": "Provisional schedule",
     "title": "25th of April",
     "content": ". | Lecture : Recap on the development cycle of ML and presentation of the first assignment 10:00 AM–10:30 AM | Assignment : Train an image classifier on museum archives in Python 10:30 AM–12:00 PM | Assignment : Train an image classifier on museum archives in Python 1:00 PM–4:30 PM | Brief : Feedback session 4:30 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"47": {
+  },"35": {
     "doc": "Provisional schedule",
     "title": "Block 2",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"48": {
+  },"36": {
     "doc": "Provisional schedule",
     "title": "4th of June",
     "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–11:00 AM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 11:00 AM–12:00 PM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"49": {
+  },"37": {
     "doc": "Provisional schedule",
     "title": "6th of June",
     "content": ". | Lecture : Symbolic music generation with ML (Dr. Benedikt Zönnchen) 10:00 AM–11:00 AM | Assignment : Generative MIDI with ML in Python 11:00 AM–12:00 PM | Assignment : Generative MIDI with ML in Python 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"50": {
+  },"38": {
     "doc": "Provisional schedule",
     "title": "Block 3",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"51": {
+  },"39": {
     "doc": "Provisional schedule",
     "title": "11th of June",
     "content": ". | Lecture : AI in the art scene (Lecture by Helena Held) 10:00 AM–11:00 AM | Assignment : Analyse and explore AI artists biographies with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore AI artists biographies with ML 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"52": {
+  },"40": {
     "doc": "Provisional schedule",
     "title": "13th of June",
     "content": ". | Lecture : AI and cultural archives (Invited speaker) 10:00 AM–11:00 AM | Assignment : Analyse and explore museum archives with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"53": {
+  },"41": {
     "doc": "Instructors",
     "title": "Scientific instructors",
     "content": "Scientific instructors prepared the technical content hosted on this website. They can guide you through the tutorials and your final project implementation. Dr. Benedikt Zönnchen (HM - MUC.DAI) . Dr. Téo Sanchez (HM - MUC.DAI) . ",
     "url": "/content/staff/#scientific-instructors",
     
     "relUrl": "/content/staff/#scientific-instructors"
-  },"54": {
+  },"42": {
     "doc": "Instructors",
     "title": "Art and culture instructors",
     "content": "Artistic instructors can guide you through the artistic and cultural aspects of your project. Helena Held (HMTM) . ",
     "url": "/content/staff/#art-and-culture-instructors",
     
     "relUrl": "/content/staff/#art-and-culture-instructors"
-  },"55": {
+  },"43": {
     "doc": "Instructors",
     "title": "AICA project leader",
     "content": "Dr. Esther Fee Feichtner (HMTM) . ",
     "url": "/content/staff/#aica-project-leader",
     
     "relUrl": "/content/staff/#aica-project-leader"
-  },"56": {
+  },"44": {
     "doc": "Instructors",
     "title": "Teaching assistants",
     "content": "Students from HM and HMTM will also be present on-site to help organizing the course. David Kosian (HMTM) . David Helm (HM) . ",
     "url": "/content/staff/#teaching-assistants",
     
     "relUrl": "/content/staff/#teaching-assistants"
-  },"57": {
+  },"45": {
     "doc": "Instructors",
     "title": "Instructors",
     "content": " ",
     "url": "/content/staff/",
     
     "relUrl": "/content/staff/"
-  },"58": {
+  },"46": {
     "doc": "Subscription",
     "title": "Enroll now! 💥",
     "content": "Please follow these steps to enroll in the class. ",
     "url": "/content/subscription/#enroll-now-",
     
     "relUrl": "/content/subscription/#enroll-now-"
-  },"59": {
+  },"47": {
     "doc": "Subscription",
     "title": "1. Express your interest",
     "content": "Express your interest to Dr. Téo Sanchez directly (teo [dot] sanchez [at] hm [dot] edu) with a short motivation statement. ",
     "url": "/content/subscription/#1-express-your-interest",
     
     "relUrl": "/content/subscription/#1-express-your-interest"
-  },"60": {
+  },"48": {
     "doc": "Subscription",
     "title": "2. Sign up on the administrative platform of your university",
     "content": "To validate the class and get the credits, you need to sign up to the class on the administrative platform of your university. Hochschule München University of applied sciences . Sign up on Nine Hochschule für Musik und Theater München . Sign up on eCampus ",
     "url": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university",
     
     "relUrl": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university"
-  },"61": {
+  },"49": {
     "doc": "Subscription",
     "title": "3. Sign up to the moodle platform",
     "content": "The moodle platform is open to both HM and HMTM students. It is not an administrative platform, but tool to exchange between students and teachers. It is meant to gather all institutional emails, submit and collect assigments, and publish grades. Sign up on Moodle NB: You can subscribe with and without HM credentials. Just select DFN-AAI/eduGAIN if you are not an HM student. ",
     "url": "/content/subscription/#3-sign-up-to-the-moodle-platform",
     
     "relUrl": "/content/subscription/#3-sign-up-to-the-moodle-platform"
-  },"62": {
+  },"50": {
     "doc": "Subscription",
     "title": "Subscription",
     "content": " ",
     "url": "/content/subscription/",
     
     "relUrl": "/content/subscription/"
-  },"63": {
+  },"51": {
     "doc": "Tutorials",
     "title": "Tutorials",
     "content": "Important note . This section contains the tutorials of the class and will be significantly updated until the beginning of the course. ",

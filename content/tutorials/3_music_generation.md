@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: 3. Symbolic music generation
 nav_order: 6
@@ -28,4 +28,4 @@ This chapter will teach you how to train and use artificial neural networks to g
 
 ---
 
-TODO
+TODO -->
