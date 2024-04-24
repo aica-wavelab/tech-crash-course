@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 0. Introduction to data science and machine learning
+title: 1. Introduction to data science and machine learning
 nav_order: 4
 parent : Tutorials
 ---
 
-# Day 0 - Introduction to data science and machine learning
+# Day 1 - Introduction to data science and machine learning
 {: .no_toc}
 
 {: .note-title }
@@ -30,14 +30,14 @@ parent : Tutorials
 
 Please find the slides of the module description and the schedule of the course below:
 
-[Slides : Module introduction](https://github.com/aica-wavelab/aica-assignments/blob/main/A0_introduction/0_module_introduction.pdf){: .btn .btn-green
+[Slides : Module introduction](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/module_introduction.pdf){: .btn .btn-green
  target="_blank"}
 
 ## B) Lecture : Introduction to AI and machine learning
 
 Please find the slides of the lecture on the introduction to AI and machine learning below:
 
-[Slides : Introduction to AI and machine learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A0_introduction/0_introduction_to_ai_and_machine_learning.pdf){: .btn .btn-green
+[Slides : Introduction to AI and machine learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/introduction_to_ai_and_machine_learning.pdf){: .btn .btn-green
  target="_blank"}
 
 ## C) Hands-on : train your first image classifier with Marcelle
@@ -135,23 +135,23 @@ In a terminal, launch the following command:
 
 If you struggle with terminal commands, you can also download the repository as a zip file by clicking on the green button `Code` on the top right of the github repository page, then `Download ZIP`.
 
-Now open the folder `A0_introduction` and launch the jupyter notebook server by typing the following command in the terminal:
+Now open the folder `A1_introduction` and launch the jupyter notebook server by typing the following command in the terminal:
 
     jupyter notebook
 
-Then click on the first file `01_tutorial_jupyter_notebook.ipynb` to open the tutorial and follow the instructions.
+Then click on the first file `1_tutorial_jupyter_notebook.ipynb` to open the tutorial and follow the instructions.
 
-Alternatively, you can launch the Anaconda navigator (desktop application) and open the jupyter notebook application from there. Then, navigate to the folder `A0_introduction` and open the first file `01_tutorial_jupyter_notebook.ipynb`.
+Alternatively, you can launch the Anaconda navigator (desktop application) and open the jupyter notebook application from there. Then, navigate to the folder `A1_introduction` and open the first file `1_tutorial_jupyter_notebook.ipynb`.
 
 ### What will you learn ?
 
 For the first day, all tutorials are in Python and use jupyter notebooks.
 
-This folder `A0_introduction` contains:
-- A tutorial on [jupyter notebooks](https://jupyter.org/): `01_tutorial_jupyter_notebook.ipynb`
-- A tutorial on the basics of the [Python programming language](https://www.python.org/): `02_tutorial_python.ipynb`
-- A tutorial on data science basics using the [pandas library](https://pandas.pydata.org/) and [seaborn library](https://seaborn.pydata.org/): `03_tutorial_data_science.ipynb`. You will apply data sciences techniques to analyze the curation of the Museum of Modern Art (MoMA) in New York City, USA.
-- A tutorial to train your first classifier in Python using the [keras library](https://keras.io/): `04_tutorial_machine_learning.ipynb`. You will apply machine learning techniques to predict the number of visitors in the museums of Bristol, UK.
+This folder `A1_introduction` contains:
+- A tutorial on [jupyter notebooks](https://jupyter.org/): `1_tutorial_jupyter_notebook.ipynb`
+- A tutorial on the basics of the [Python programming language](https://www.python.org/): `2_tutorial_python.ipynb`
+- A tutorial on data science basics using the [pandas library](https://pandas.pydata.org/) and [seaborn library](https://seaborn.pydata.org/): `3_tutorial_data_science.ipynb`. You will apply data sciences techniques to analyze the curation of the Museum of Modern Art (MoMA) in New York City, USA.
+- A tutorial to train your first classifier in Python using the [keras library](https://keras.io/): `4_tutorial_machine_learning.ipynb`. You will apply machine learning techniques to predict the number of visitors in the museums of Bristol, UK.
 
 
 ## E) For advanced students: Create your own interactive ML web application
