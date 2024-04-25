@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1. Introduction to data science and machine learning
-nav_order: 4
+nav_order: 1
 parent : Tutorials
 ---
 

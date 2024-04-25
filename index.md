@@ -28,7 +28,8 @@ permalink: /
 
 The Digitization College "Artificial Intelligence in Culture and Arts" (AICA) aims to equip students at the [University of Music and Performing Arts Munich](https://hmtm.de/) (HMTM) and [Hochschule München University of Applied Sciences](https://www.hm.edu/en/index.en.html) (HM) with necessary skills to impact AI innovations in the creative and cultural industries.
 
-[Learn more about AICA](https://www.wavelab.io/aica/){: .btn target="_blank"}
+[Learn more about AICA](https://www.wavelab.io/aica/){: .btn .btn-green
+ target="_blank"}
 
 
 ## What is the crash course on Human-AI interaction ?
@@ -67,7 +68,8 @@ Structured over three 2-day blocks (6 days in total), the course addresses:
 
 This website provides a range of tutorials and ressources, organized by topic and in increasing order of difficulty.
 
-[Tutorial overview](/docs/tutorials){: .btn target="_blank" target="_blank"}
+[Tutorial overview](/docs/tutorials){: .btn .btn-green
+ target="_blank"}
 
 A typical day of teaching starts with a lecture on a topic, followed by a hands-on session where students can apply the concepts learned in the lecture. The hands-on sessions are based on the tutorials provided on this website.
 
@@ -79,10 +81,10 @@ The evaluation will be based on:
 - Attendance: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory.
 - Completion of in-class practical work: you must submit the completed practical work by the end of the course. If you do not finish during the in-class sessions, you will have to finish it at home.
 
-## Credits and attributions
+<!-- ## Credits and attributions
 
 The tutorial are based on several **open-source tools and libraries** developed by talented researchers and developers. Without them, this course would not be possible. 
-Discover all of them in section [Credits and attributions](/docs/credits){: target="_blank"}.
+Discover all of them in section [Credits and attributions](/docs/credits){: target="_blank"}. -->
 
 ## License
 

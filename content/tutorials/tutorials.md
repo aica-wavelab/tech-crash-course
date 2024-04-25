@@ -11,7 +11,7 @@ permalink: docs/tutorials
 {: .note-title }
 > Important note
 >
-> This section contains the tutorials of the class and will be significantly updated until the beginning of the course. 
+> This section contains the tutorials of the class and will be updated before and during the course
 
 
 
