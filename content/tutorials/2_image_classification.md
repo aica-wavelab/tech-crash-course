@@ -9,7 +9,7 @@ parent : Tutorials
 {: .no_toc}
 
 <image src="https://production-media.paperswithcode.com/datasets/Screenshot_2021-02-01_at_15.22.19.png" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
-
+<figcaption>Example of artefacts from the Museum Art Medium (MAMe) dataset you will be working on</a></figcaption>
 ---
 
 ## Table of contents

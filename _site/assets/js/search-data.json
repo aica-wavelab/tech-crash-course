@@ -1,7 +1,7 @@
 {"0": {
     "doc": "1. Introduction to data science and machine learning",
     "title": "Day 1 - Introduction to data science and machine learning",
-    "content": "Note . The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials. We recommend all attendants to carefully follow its content. If the content is too easy for you, please tell your scientific instructors and they will provide you with additional resources. Inversely, if the content is too hard for you, please tell your scientific instructors and they will provide you with additional explanations. ",
+    "content": "In addition to learning the basics of programming and machine learning, you'll also have to predict the number of visitors to Bristol's museums based on the weather forecast. Note . The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials. We recommend all attendants to carefully follow its content. If the content is too easy for you, please tell your scientific instructors and they will provide you with additional resources. Inversely, if the content is too hard for you, please tell your scientific instructors and they will provide you with additional explanations. ",
     "url": "/content/tutorials/1_intro_ml/#day-1---introduction-to-data-science-and-machine-learning",
     
     "relUrl": "/content/tutorials/1_intro_ml/#day-1---introduction-to-data-science-and-machine-learning"
@@ -57,7 +57,7 @@
   },"8": {
     "doc": "2. Image classification of museum artefacts",
     "title": "Day 2 - Image classification of museum artefact",
-    "content": ". ",
+    "content": "Example of artefacts from the Museum Art Medium (MAMe) dataset you will be working on&lt;/a&gt; . ",
     "url": "/content/tutorials/2_image_classification/#day-2---image-classification-of-museum-artefact",
     
     "relUrl": "/content/tutorials/2_image_classification/#day-2---image-classification-of-museum-artefact"
@@ -90,300 +90,349 @@
     
     "relUrl": "/content/tutorials/2_image_classification/"
   },"13": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Day 3 - Mapping gestures to sounds from demonstrations",
+    "content": "Photography from Corpus Nil from the artist Marco Donnarumma (IT/DE). The artist is using muscle contraction sensors to generate sounds. Link to the video: Corpus Nil . ",
+    "url": "/content/tutorials/3_gesture_to_sound/#day-3---mapping-gestures-to-sounds-from-demonstrations",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#day-3---mapping-gestures-to-sounds-from-demonstrations"
+  },"14": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Table of contents",
+    "content": ". | Introduction | Content of the repository | Assigment | Installation required . | Plugdata | ml-lib | Streaming data from your phone | . | . ",
+    "url": "/content/tutorials/3_gesture_to_sound/#table-of-contents",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#table-of-contents"
+  },"15": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Introduction",
+    "content": "The third day of this class will show you: . | A novel application of machine learning in culture and art: mapping gestures to sounds from demonstrations. | A novel graphical programming environment to develop interactive prototypes: PureData | . Your goal will be to train a machine learning model to generate sounds from gestures. The training data will be collected by you, on spot, using the sensors from your smartphone. Please download the code and data from the github repository and follow the instructions in the A3_gesture_to_sound_mapping. Github repository of the course . ",
+    "url": "/content/tutorials/3_gesture_to_sound/#introduction",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#introduction"
+  },"16": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Content of the repository",
+    "content": "The repository contains the following folders: . | puredata_cheatsheet.pd: A patch with the main objects seen during the course and their keyboard shortcuts. | dub_siren_box: A practical and fun exercise to start apply the concepts seen before. The patch reimplement this hardware. | mapping_by_demonstration: Demonstration of how to map gestures to sound using the ml-lib library. | . ",
+    "url": "/content/tutorials/3_gesture_to_sound/#content-of-the-repository",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#content-of-the-repository"
+  },"17": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Assigment",
+    "content": "Implement a musical instrument using Plugdata and ml-lib. The instrument can map any signal to any sound or sound effect you’d like. You are then assigned to upload the files along with a short video of your instrument in action ! . ",
+    "url": "/content/tutorials/3_gesture_to_sound/#assigment",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#assigment"
+  },"18": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "Installation required",
+    "content": "Plugdata . Plugdata is a free/open-source visual programming environment based on pure-data. It is available for a wide range of operating systems. Please install plugdata for your operating system from the plugdata website. ml-lib . ml-lib is a library of machine learning externals for Max and Pure Data designed and developed by Ali Momeni and Jamie Bullock. The goal of ml-lib is to provide a simple, consistent interface to a wide range of machine learning techniques in Max and Pure Data. The canonical NIME 2015 paper on ml-lib can be found here. Full class documentation can be found here. Please download the latest release of ml-lib for your operating system from the ml-lib website. Then copy the files into the PureData folder. | On Windows, you can copy the files into the folder C:\\Program Files\\plugdata\\Extra\\ml.lib | On MacOS, you can copy the files into the folder Documents/plugdata/Extra/ml.lib | . Streaming data from your phone . To stream sensors’ data from your phone via the protocol OSC to your computer, you can use the following open-source applications: . | On Android: Sensors2OSC can be installed via F-Droid | On iPhone: Data OSC can be installed via the App Store | . Both applications are free, open-source, and developed by independent developers. For this reason, it is possible that they trigger security alerts on your phone. ",
+    "url": "/content/tutorials/3_gesture_to_sound/#installation-required",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/#installation-required"
+  },"19": {
+    "doc": "3. Mapping gestures to sounds from demonstrations",
+    "title": "3. Mapping gestures to sounds from demonstrations",
+    "content": " ",
+    "url": "/content/tutorials/3_gesture_to_sound/",
+    
+    "relUrl": "/content/tutorials/3_gesture_to_sound/"
+  },"20": {
     "doc": "Tools and credits",
     "title": "Generalist tool for ML",
     "content": "Marcelle . Marcelle is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users. Jules Françoise, Baptiste Caramiaux, Téo Sanchez. Marcelle: Composing Interactive Machine Learning Workflows and Interfaces. Annual ACM Symposium on User Interface Software and Technology (UIST ’21), Oct 2021, Virtual. DOI: 10.1145/3472749.3474734. PDF . Wekinator . The Wekinator is free, open source software that allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more. The Wekinator allows users to build new interactive systems by demonstrating human actions and computer responses, instead of writing programming code. Fiebrink, R., &amp; Cook, P. R. (2010, January). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht) (Vol. 3, pp. 2-1). ml-lib . ml-lib is a library of machine learning externals for Max and Pure Data. ml-lib is primarily based on the Gesture Recognition Toolkit by Nick Gillian ml-lib is designed to work on a variety of platforms including OS X, Windows, Linux, on Intel and ARM architectures. The goal of ml-lib is to provide a simple, consistent interface to a wide range of machine learning techniques in Max and Pure Data. Bullock, J., &amp; Momeni, A. (2015, May). Ml. lib: robust, cross-platform, open-source machine learning for max and pure data. In NIME (pp. 265-270). nn~ . nn~ is a Pd or Max/MSP external object that allows to load and run neural networks in real-time. It is based on the PyTorch C++ API and can load any network that can be exported from PyTorch to TorchScript. It can be used to load RAVE models. ",
     "url": "/content/credits/#generalist-tool-for-ml",
     
     "relUrl": "/content/credits/#generalist-tool-for-ml"
-  },"14": {
+  },"21": {
     "doc": "Tools and credits",
     "title": "Specialized ML tools (audio, text, others…)",
     "content": "RAVE . Rave is a variational autoencoder for fast and high-quality neural audio synthesis developed by Antoine Caillon and Philippe Esling from IRCAM. Caillon, A., &amp; Esling, P. (2021). RAVE: A variational autoencoder for fast and high-quality neural audio synthesis. arXiv preprint arXiv:2111.05011. LangChain . LangChain is a framework for developing applications powered by language models. It enables applications that: . | Are context-aware: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.) . | Reason: rely on a language model to reason (about how to answer based on provided context, what actions to take, etc.) . | . Flucoma . Combination of digital signal processing and machine learning. Connection to SuperCollider, PureData and Max. ",
     "url": "/content/credits/#specialized-ml-tools-audio-text-others",
     
     "relUrl": "/content/credits/#specialized-ml-tools-audio-text-others"
-  },"15": {
+  },"22": {
     "doc": "Tools and credits",
     "title": "Generalist tools for audio and visual programming",
     "content": "Pure Data . Pure Data (or just “Pd”) is an open source visual programming language for multimedia. Pure Data allows you to create and manipulate audio systems using visual elements, rather than writing code. Think of it as building with virtual blocks – simply connect them together to design your unique audio setups. Plug Data . plugdata is a free/open-source visual programming environment based on pure-data. It is available for a wide range of operating systems, and can be used both as a standalone app, or as a VST3, LV2, CLAP or AU plugin. We recommend using Plug Data rather than Pure Data, as it provides a more user-friendly interface. SuperCollider . SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. It is free and open source software available for Windows, macOS, and Linux. P5hs Processing Nannou . Visual Creative Coding, Coupling between Audio and Visual . TouchDesigner . Node-based visual programming language and environment for real-time interaction with different media . ",
     "url": "/content/credits/#generalist-tools-for-audio-and-visual-programming",
     
     "relUrl": "/content/credits/#generalist-tools-for-audio-and-visual-programming"
-  },"16": {
+  },"23": {
     "doc": "Tools and credits",
     "title": "More AIArtists tools and ressources",
     "content": "AIartists . ",
     "url": "/content/credits/#more-aiartists-tools-and-ressources",
     
     "relUrl": "/content/credits/#more-aiartists-tools-and-ressources"
-  },"17": {
+  },"24": {
     "doc": "Tools and credits",
     "title": "Tools and credits",
     "content": " ",
     "url": "/content/credits/",
     
     "relUrl": "/content/credits/"
-  },"18": {
+  },"25": {
     "doc": "Directions and useful infos",
     "title": "How to go to the Wavelab ?",
     "content": "Address . Wavelab, Barerstraße 19, 80333 München . Copy Address . ",
     "url": "/content/directions/#how-to-go-to-the-wavelab-",
     
     "relUrl": "/content/directions/#how-to-go-to-the-wavelab-"
-  },"19": {
+  },"26": {
     "doc": "Directions and useful infos",
     "title": "Arrival methods",
     "content": "Bicycle . | Bicycle parking is available. | . Public Transportation . | Subway: Königsplatz or Odeonsplatz stations. | Tram: Karolinenplatz stop. | City-Railway: Stachus or Hauptbahnhof stations (then a 10-minute walk). | . ",
     "url": "/content/directions/#arrival-methods",
     
     "relUrl": "/content/directions/#arrival-methods"
-  },"20": {
+  },"27": {
     "doc": "Directions and useful infos",
     "title": "Route to Wavelab from Barerstraße 19",
     "content": ". | Enter through the left side entrance of the building and proceed to the green courtyard. Look for and follow the red HMTM signs. | Walk along the building until you see a wheelchair ramp and stairs on your right. This leads into the Wavelab. | The door to Wavelab is not automatic. Please ring the bell labeled Wavelab to gain entry. | . ",
     "url": "/content/directions/#route-to-wavelab-from-barerstra%C3%9Fe-19",
     
     "relUrl": "/content/directions/#route-to-wavelab-from-barerstraße-19"
-  },"21": {
+  },"28": {
     "doc": "Directions and useful infos",
     "title": "Important Advice",
     "content": "The Wavelab is situated in the rear building of the Israeli Consulate General (GKI), which has a high security level. When visiting, please keep the following in mind: . | Avoid lingering or standing on the sidewalk at Barerstraße 19; move close to the tram stop if you need to make a phone call or are waiting for someone. | If approached by GKI security personnel, promptly identify yourself as a guest of the Wavelab. | . ",
     "url": "/content/directions/#important-advice",
     
     "relUrl": "/content/directions/#important-advice"
-  },"22": {
+  },"29": {
     "doc": "Directions and useful infos",
     "title": "Directions and useful infos",
     "content": " ",
     "url": "/content/directions/",
     
     "relUrl": "/content/directions/"
-  },"23": {
+  },"30": {
     "doc": "About",
     "title": "AI in culture and arts -  Human-AI interaction (tech crash course)",
     "content": " ",
     "url": "/#ai-in-culture-and-arts----human-ai-interaction-tech-crash-course",
     
     "relUrl": "/#ai-in-culture-and-arts----human-ai-interaction-tech-crash-course"
-  },"24": {
+  },"31": {
     "doc": "About",
     "title": "📰 Announcements",
     "content": "15.01.2023 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on Tuesday, April 23rd and Thursday, April 25th, 2024. ",
     "url": "/#-announcements",
     
     "relUrl": "/#-announcements"
-  },"25": {
+  },"32": {
     "doc": "About",
     "title": "Table of contents",
     "content": ". | What is AICA? | What is the crash course on Human-AI interaction ? | Learning outcomes | Prerequisites | Course content | Tutorials and teaching methods | Evaluation and ECTS | License | . ",
     "url": "/#table-of-contents",
     
     "relUrl": "/#table-of-contents"
-  },"26": {
+  },"33": {
     "doc": "About",
     "title": "What is AICA?",
     "content": "The Digitization College “Artificial Intelligence in Culture and Arts” (AICA) aims to equip students at the University of Music and Performing Arts Munich (HMTM) and Hochschule München University of Applied Sciences (HM) with necessary skills to impact AI innovations in the creative and cultural industries. Learn more about AICA . ",
     "url": "/#what-is-aica",
     
     "relUrl": "/#what-is-aica"
-  },"27": {
+  },"34": {
     "doc": "About",
     "title": "What is the crash course on Human-AI interaction ?",
     "content": "Artificial intelligence (AI) is increasingly impacting the cultural and creative sectors. In particular, machine learning algorithms can now generate unprecedented synthetic media, transforming how we create, produce, and distribute art and culture. Students must develop a theoretical and practical understanding of machine learning to comprehend such transformative technology and foster the development of meaningful human-AI interactions. This course addresses this need and delves into interactive machine learning for the cultural and creative sectors. The course is intended for art, cultural management, design, and computer science students. After this course, students will master the theoretical and technological foundations of machine learning, be able to train and (critically) evaluate machine learning models, and deploy them in meaningful interactive systems. The course is structured in three 2-day blocks (6 days in total). Each block provides theoretical lectures and hands-on activities to develop interactive machine-learning systems for image, sound, and text-based applications in the creative and cultural sectors. Every teaching day starts with a lecture and discussion in the morning, followed by a hands-on session on the same topic in the afternoon. The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, starting April 2024. ",
     "url": "/#what-is-the-crash-course-on-human-ai-interaction-",
     
     "relUrl": "/#what-is-the-crash-course-on-human-ai-interaction-"
-  },"28": {
+  },"35": {
     "doc": "About",
     "title": "Learning outcomes",
     "content": "After successful participation in this course, students are able to: . | Understand the history and current state of AI: students will be able to explain the different waves of AI (symbolic, connectionist), precisely identify machine learning algorithms, and ex- plain their distinctive characteristics (dataset, optimization, loss, etc.). | Trainand(critically)evaluateamachinelearningalgorithm:studentswillbeabletoexplain and apply the main steps of the development cycle of machine learning, from data collection, analysis, preprocessing, training, and evaluation. They will be able to critically examine a lear- ning curve and performance metrics to assess the performance of their machine-learning mo- dels. Furthermore, they will be able to critically discuss the limitations of their model from the content of their dataset and from the perspective of bias and fairness. | Create interactive machine learning systems: students can design and implement interac- tive machine learning systems for image, sound, and text-based applications in the creative and cultural sectors. Three examples of interactive systems will be showcased in this course: a teachable image classifier, a gesture-to-sound synthesizer, and a tool for semantic and multi- modal exploration of museum archives. Students already familiar with programming and ma- chine learning will be able to dive deeper into the design and development of novel interactions with machine learning algorithms. | . ",
     "url": "/#learning-outcomes",
     
     "relUrl": "/#learning-outcomes"
-  },"29": {
+  },"36": {
     "doc": "About",
     "title": "Prerequisites",
     "content": "The module is designed as an interdisciplinary venue that brings together a range of perspective. It is aimed at all students enrolled in a third-year Bachelor’s program at Hochschule München University of Applied Sciences (HM) or the Hochschule für Musik und Theater München (HMTM). Students in Master’s programs are also welcome. Students with prior computer science and machine learning knowledge will be assigned dedicated and more advanced activities to develop interactive ML systems using the open source Marcelle toolkit. To apply, please refer to the Subscription section. ",
     "url": "/#prerequisites",
     
     "relUrl": "/#prerequisites"
-  },"30": {
+  },"37": {
     "doc": "About",
     "title": "Course content",
     "content": "Structured over three 2-day blocks (6 days in total), the course addresses: . | Image: This introductory block focuses on image classification using machine learning. After a general introduction to AI’s history and current state, participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces). | Sound: The second block centers on musical applications. Students will be guided to create a regression model from physical gestures to sound using an open-source visual programming language for music and art (Pure Data). Participants will learn Pure Data basics and discover how to transform their smartphones into synthesizers. Students will also have the opportunity to tackle symbolic music generation using traditional programming (computational notebooks in Python). | Text: Building on the first block, this third bloc explores the use of machine learning to “embed” and navigate cultural archives. Students will use multi-modal models that link images to textual descriptions to design interactive tools for exploring and retrieving artifacts in museum archives. The more advanced students will be able to train their own embedding models on personalized datasets in Python. | . ",
     "url": "/#course-content",
     
     "relUrl": "/#course-content"
-  },"31": {
+  },"38": {
     "doc": "About",
     "title": "Tutorials and teaching methods",
     "content": "This website provides a range of tutorials and ressources, organized by topic and in increasing order of difficulty. Tutorial overview . A typical day of teaching starts with a lecture on a topic, followed by a hands-on session where students can apply the concepts learned in the lecture. The hands-on sessions are based on the tutorials provided on this website. ",
     "url": "/#tutorials-and-teaching-methods",
     
     "relUrl": "/#tutorials-and-teaching-methods"
-  },"32": {
+  },"39": {
     "doc": "About",
     "title": "Evaluation and ECTS",
-    "content": "You will earn 2 ECTS for the validation of the course. The evaluation will be based on: . | Attendance: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory. | Completion of in-class practical work: you must submit the completed practical work by the end of the course. If you do not finish during the in-class sessions, you will have to finish it at home. | . ",
+    "content": "You will earn 2 ECTS for the validation of the course. The evaluation will be based on: . | Attendance: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory. | Completion of in-class practical work: you must submit 3/6 of the completed practical work by the end of the course. The first assignment is mandatory. If you do not finish during the in-class sessions, you will have to finish it at home. Asigments must be uploaded all at once on the following link and before the 10th of July. | . ",
     "url": "/#evaluation-and-ects",
     
     "relUrl": "/#evaluation-and-ects"
-  },"33": {
+  },"40": {
     "doc": "About",
     "title": "License",
     "content": "The new teaching material (tutorials and code) created for the course is available under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Each tool and library demonstrated in the tutorials is subject to its own license. ",
     "url": "/#license",
     
     "relUrl": "/#license"
-  },"34": {
+  },"41": {
     "doc": "About",
     "title": "About",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"35": {
+  },"42": {
     "doc": "Provisional schedule",
     "title": "Provisional schedule",
     "content": ". | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"36": {
+  },"43": {
     "doc": "Provisional schedule",
     "title": "Block 1",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"37": {
+  },"44": {
     "doc": "Provisional schedule",
     "title": "23th of April",
     "content": ". | Brief : Module introduction 10:00 AM–10:30 AM | Lecture : Introduction to machine learning 10:30 AM–12:00 PM | Hands-on : Train your first classifier with Marcelle! 1:00 PM–2:00 PM | Hands-on : Data science and machine learning tutorials 2:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"38": {
+  },"45": {
     "doc": "Provisional schedule",
     "title": "25th of April",
     "content": ". | Lecture : Recap on the development cycle of ML and presentation of the first assignment 10:00 AM–10:30 AM | Assignment : Train an image classifier on museum archives in Python 10:30 AM–12:00 PM | Assignment : Train an image classifier on museum archives in Python 1:00 PM–4:30 PM | Brief : Feedback session 4:30 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"39": {
+  },"46": {
     "doc": "Provisional schedule",
     "title": "Block 2",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"40": {
+  },"47": {
     "doc": "Provisional schedule",
     "title": "4th of June",
-    "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–11:00 AM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 11:00 AM–12:00 PM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
+    "content": ". | Hands-on : Introduction to Pure Data 10:00 AM–12:00 PM | Assignment : Build a gesture-to-sound synthesizer in Pure Data 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"41": {
+  },"48": {
     "doc": "Provisional schedule",
     "title": "6th of June",
     "content": ". | Lecture : Symbolic music generation with ML (Dr. Benedikt Zönnchen) 10:00 AM–11:00 AM | Assignment : Generative MIDI with ML in Python 11:00 AM–12:00 PM | Assignment : Generative MIDI with ML in Python 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"42": {
+  },"49": {
     "doc": "Provisional schedule",
     "title": "Block 3",
     "content": "| ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"43": {
+  },"50": {
     "doc": "Provisional schedule",
     "title": "11th of June",
     "content": ". | Lecture : AI in the art scene (Lecture by Helena Held) 10:00 AM–11:00 AM | Assignment : Analyse and explore AI artists biographies with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore AI artists biographies with ML 1:00 PM–5:00 PM | . | ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"44": {
+  },"51": {
     "doc": "Provisional schedule",
     "title": "13th of June",
-    "content": ". | Lecture : AI and cultural archives (Invited speaker) 10:00 AM–11:00 AM | Assignment : Analyse and explore museum archives with ML 11:00 AM–12:00 PM | Assignment : Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
+    "content": ". | Assignment : Analyse and explore museum archives with ML 10:00 AM–12:00 PM | Assignment : Analyse and explore museum archives with ML 1:00 PM–5:00 PM | . | . ",
     "url": "/content/program/",
     
     "relUrl": "/content/program/"
-  },"45": {
+  },"52": {
     "doc": "Instructors",
     "title": "Scientific instructors",
     "content": "Scientific instructors prepared the technical content hosted on this website. They can guide you through the tutorials and your final project implementation. Dr. Benedikt Zönnchen (HM - MUC.DAI) . Dr. Téo Sanchez (HM - MUC.DAI) . ",
     "url": "/content/staff/#scientific-instructors",
     
     "relUrl": "/content/staff/#scientific-instructors"
-  },"46": {
+  },"53": {
     "doc": "Instructors",
     "title": "Art and culture instructors",
     "content": "Artistic instructors can guide you through the artistic and cultural aspects of your project. Helena Held (HMTM) . ",
     "url": "/content/staff/#art-and-culture-instructors",
     
     "relUrl": "/content/staff/#art-and-culture-instructors"
-  },"47": {
+  },"54": {
     "doc": "Instructors",
     "title": "AICA project leader",
     "content": "Dr. Esther Fee Feichtner (HMTM) . ",
     "url": "/content/staff/#aica-project-leader",
     
     "relUrl": "/content/staff/#aica-project-leader"
-  },"48": {
+  },"55": {
     "doc": "Instructors",
     "title": "Teaching assistants",
     "content": "Students from HM and HMTM will also be present on-site to help organizing the course. David Kosian (HMTM) . David Helm (HM) . ",
     "url": "/content/staff/#teaching-assistants",
     
     "relUrl": "/content/staff/#teaching-assistants"
-  },"49": {
+  },"56": {
     "doc": "Instructors",
     "title": "Instructors",
     "content": " ",
     "url": "/content/staff/",
     
     "relUrl": "/content/staff/"
-  },"50": {
+  },"57": {
     "doc": "Subscription",
     "title": "Enroll now! 💥",
     "content": "Please follow these steps to enroll in the class. ",
     "url": "/content/subscription/#enroll-now-",
     
     "relUrl": "/content/subscription/#enroll-now-"
-  },"51": {
+  },"58": {
     "doc": "Subscription",
     "title": "1. Express your interest",
     "content": "Express your interest to Dr. Téo Sanchez directly (teo [dot] sanchez [at] hm [dot] edu) with a short motivation statement. ",
     "url": "/content/subscription/#1-express-your-interest",
     
     "relUrl": "/content/subscription/#1-express-your-interest"
-  },"52": {
+  },"59": {
     "doc": "Subscription",
     "title": "2. Sign up on the administrative platform of your university",
     "content": "To validate the class and get the credits, you need to sign up to the class on the administrative platform of your university. Hochschule München University of applied sciences . Sign up on Nine Hochschule für Musik und Theater München . Sign up on eCampus ",
     "url": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university",
     
     "relUrl": "/content/subscription/#2-sign-up-on-the-administrative-platform-of-your-university"
-  },"53": {
+  },"60": {
     "doc": "Subscription",
     "title": "3. Sign up to the moodle platform",
     "content": "The moodle platform is open to both HM and HMTM students. It is not an administrative platform, but tool to exchange between students and teachers. It is meant to gather all institutional emails, submit and collect assigments, and publish grades. Sign up on Moodle NB: You can subscribe with and without HM credentials. Just select DFN-AAI/eduGAIN if you are not an HM student. ",
     "url": "/content/subscription/#3-sign-up-to-the-moodle-platform",
     
     "relUrl": "/content/subscription/#3-sign-up-to-the-moodle-platform"
-  },"54": {
+  },"61": {
     "doc": "Subscription",
     "title": "Subscription",
     "content": " ",
     "url": "/content/subscription/",
     
     "relUrl": "/content/subscription/"
-  },"55": {
+  },"62": {
     "doc": "Tutorials",
     "title": "Tutorials",
     "content": "Important note . This section contains the tutorials of the class and will be updated before and during the course . ",

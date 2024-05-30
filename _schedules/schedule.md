@@ -59,10 +59,6 @@ schedule:
       - name: Introduction to Pure Data
         type: Hands-on
         start: 10:00 AM
-        end: 11:00 AM
-      - name : "Build a gesture-to-sound synthesizer in Pure Data"
-        type: Assignment
-        start: 11:00 AM
         end: 12:00 PM
       - name: "Build a gesture-to-sound synthesizer in Pure Data"
         type: Assignment
@@ -99,13 +95,9 @@ schedule:
         end: 5:00 PM
   - name: "13th of June"
     events:
-      - name: AI and cultural archives (Invited speaker)
-        type: Lecture
-        start: 10:00 AM
-        end: 11:00 AM
       - name: "Analyse and explore museum archives with ML"
         type: Assignment
-        start: 11:00 AM
+        start: 10:00 AM
         end: 12:00 PM
       - name: "Analyse and explore museum archives with ML"
         type: Assignment
