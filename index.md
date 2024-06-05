@@ -78,8 +78,12 @@ A typical day of teaching starts with a lecture on a topic, followed by a hands-
 You will earn **2 ECTS** for the validation of the course.
 
 The evaluation will be based on:
-- Attendance: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory.
-- Completion of in-class practical work: you must submit 3/6 of the completed practical work by the end of the course. The first assignment is mandatory. If you do not finish during the in-class sessions, you will have to finish it at home. Asigments must be uploaded all at once on the [following link](https://syncandshare.lrz.de/preparefilelink?folderID=2T2RaHJC89QbsksttbdtP) and before the 10th of July.
+- **Attendance**: you must attend at least 4/6 days of teaching. Attending the first day of the course is mandatory.
+- **Completion of in-class practical work**: 
+    - HM students must submit 3/5 of the completed practical work by the end of the course. The first assignment is mandatory.
+    - HMTM students must submit the first assignment A1.
+
+If you do not finish during the in-class sessions, you will have to finish it at home. Asigments must be uploaded all at once on the [following link](https://syncandshare.lrz.de/preparefilelink?folderID=2T2RaHJC89QbsksttbdtP) and before the 10th of July.
 
 <!-- ## Credits and attributions
 
