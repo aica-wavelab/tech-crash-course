@@ -67,7 +67,7 @@ schedule:
       - name: TBA
         type: Lecture
         start: 10:00 AM
-        end: 12:00 AM
+        end: 12:00 PM
       - name: TBA
         type: Assignment
         start: 1:00 PM
