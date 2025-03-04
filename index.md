@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 1
-description: "Description of the AICA crash course on Human-AI interaction (Summer Semester 2024)"
+description: "Description of the AICA crash course on Human-AI interaction (Summer Semester 2025)"
 permalink: /
 ---
 
@@ -13,7 +13,7 @@ permalink: /
 ## 📰 Announcements
 {: .no_toc }
 
-15.01.2023 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Tuesday, April 23rd** and **Thursday, April 25th, 2024**.
+04.03.2025 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Wednesday, April 9th** and **Thursday, April 10th, 2025**.
 
 ---
 
@@ -60,15 +60,15 @@ To apply, please refer to the [Subscription section](/content/subscription/).
 
 Structured over three 2-day blocks (6 days in total), the course addresses:
 
-1. **Image**: This introductory block focuses on image classification using machine learning. After a general introduction to AI's history and current state, participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces).
-2. **Sound**: The second block centers on musical applications. Students will be guided to create a regression model from physical gestures to sound using an open-source visual programming language for music and art (Pure Data). Participants will learn Pure Data basics and discover how to transform their smartphones into synthesizers. Students will also have the opportunity to tackle symbolic music generation using traditional programming (computational notebooks in Python).
-3. **Text**: Building on the first block, this third bloc explores the use of machine learning to "embed" and navigate cultural archives. Students will use multi-modal models that link images to textual descriptions to design interactive tools for exploring and retrieving artifacts in museum archives. The more advanced students will be able to train their own embedding models on personalized datasets in Python.
+1. **Introduction**: This introductory block focuses on image classification using machine learning. After a general introduction to AI's history and current state, participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces).
+2. **Sound / Music**: TBA
+3. **Image**: TBA
 
 ## Tutorials and teaching methods
 
 This website provides a range of tutorials and ressources, organized by topic and in increasing order of difficulty.
 
-[Tutorial overview](/docs/tutorials){: .btn .btn-green
+[Tutorial overview]({% link content/tutorials/tutorials.md %}){: .btn .btn-green
  target="_blank"}
 
 A typical day of teaching starts with a lecture on a topic, followed by a hands-on session where students can apply the concepts learned in the lecture. The hands-on sessions are based on the tutorials provided on this website.
