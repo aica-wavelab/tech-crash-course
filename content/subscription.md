@@ -11,7 +11,7 @@ Please follow these steps to enroll in the class.
 
 ## 1. Express your interest
 
-Express your interest to Dr. Téo Sanchez directly ([teo [dot] sanchez [at] hm [dot] edu](mailto:teo.sanchez@hm.edu)) with a **short** motivation statement.
+Express your interest to Dr. Téo Sanchez directly ([zoennchen [dot] benedikt [at] hm [dot] edu](mailto:zoennchen.benedikt@hm.edu)) with a **short** motivation statement.
 
 ## 2. Sign up on the administrative platform of your university 
 
@@ -40,7 +40,7 @@ It is meant to gather all institutional emails, submit and collect assigments, a
 
 <div class="column">
     <img src="{{ '/assets/images/logos/moodle_logo.png' | relative_url }}" alt="HM logo">
-        <a href="https://moodle.hm.edu/course/view.php?id=21877" class="btn fs-5 mb-4 mb-md-0 mr-2" target="_blank">Sign up on Moodle</a>
+        <a href="https://moodle.hm.edu/course/view.php?id=23408" class="btn fs-5 mb-4 mb-md-0 mr-2" target="_blank">Sign up on Moodle</a>
   </div>
 
 NB: You can subscribe with and without HM credentials. Just select *DFN-AAI/eduGAIN* if you are not an HM student.

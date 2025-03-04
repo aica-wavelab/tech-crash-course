@@ -38,23 +38,26 @@ Artificial intelligence (AI) is increasingly impacting the cultural and creative
 This course addresses this need and delves into interactive machine learning for the cultural and creative sectors. The course is intended for art, cultural management, design, and computer science students. After this course, students will master the theoretical and technological foundations of machine learning, be able to train and (critically) evaluate machine learning models, and deploy them in meaningful interactive systems.
 The course is structured in three 2-day blocks (6 days in total). Each block provides theoretical lectures and hands-on activities to develop interactive machine-learning systems for image, sound, and text-based applications in the creative and cultural sectors. Every teaching day starts with a lecture and discussion in the morning, followed by a hands-on session on the same topic in the afternoon.
 
-The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2024**.
+The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2025**.
 
 
 ## Learning outcomes
 
 After successful participation in this course, students are able to:
 
-- Understand the history and current state of AI: students will be able to explain the different waves of AI (symbolic, connectionist), precisely identify machine learning algorithms, and ex- plain their distinctive characteristics (dataset, optimization, loss, etc.).
-- Trainand(critically)evaluateamachinelearningalgorithm:studentswillbeabletoexplain and apply the main steps of the development cycle of machine learning, from data collection, analysis, preprocessing, training, and evaluation. They will be able to critically examine a lear- ning curve and performance metrics to assess the performance of their machine-learning mo- dels. Furthermore, they will be able to critically discuss the limitations of their model from the content of their dataset and from the perspective of bias and fairness.
-- Create interactive machine learning systems: students can design and implement interac- tive machine learning systems for image, sound, and text-based applications in the creative and cultural sectors. Three examples of interactive systems will be showcased in this course: a teachable image classifier, a gesture-to-sound synthesizer, and a tool for semantic and multi- modal exploration of museum archives. Students already familiar with programming and ma- chine learning will be able to dive deeper into the design and development of novel interactions with machine learning algorithms.
+- Understand the history and current state of AI: students will be able to explain the different waves of AI (symbolic, connectionist), precisely identify machine learning algorithms, and explain their distinctive characteristics (dataset, optimization, loss, etc.).
+- Trainand (critically) evaluate machinelearning algorithm: students will be able to explain and apply the main steps of the development cycle of machine learning, from data collection, analysis, preprocessing, training, and evaluation. They will be able to critically examine a learning curve and performance metrics to assess the performance of their machine-learning models. Furthermore, they will be able to critically discuss the limitations of their model from the content of their dataset and from the perspective of bias and fairness.
+- Create interactive machine learning systems: students can design and implement interactive machine learning systems for image, sound, and text-based applications in the creative and cultural sectors. Three examples of interactive systems will be showcased in this course: a teachable image classifier, a gesture-to-sound synthesizer, and a tool for semantic and multi- modal exploration of museum archives. Students already familiar with programming and ma- chine learning will be able to dive deeper into the design and development of novel interactions with machine learning algorithms.
 
 ## Prerequisites
 
 The module is designed as an interdisciplinary venue that brings together a range of perspective.
 It is aimed at all students enrolled in a third-year Bachelor's program at Hochschule München University of Applied Sciences (HM) or the Hochschule für Musik und Theater München (HMTM). Students in Master's programs are also welcome. Students with prior computer science and machine learning knowledge will be assigned dedicated and more advanced activities to develop interactive ML systems using the open source [Marcelle toolkit](https://marcelle.dev/).
 
-To apply, please refer to the [Subscription section](/content/subscription/).
+To apply, please refer to the [Subscription section]({% link content/subscription.md %}).
+
+
+
 
 ## Course content
 

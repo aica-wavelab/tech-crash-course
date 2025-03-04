@@ -13,11 +13,9 @@ timeline:
   - '3:00 PM'
   - '3:30 PM'
   - '4:00 PM'
-  - '4:30 PM'
-  - '5:00 PM'
 schedule:
   - name: "Block 1"
-  - name: "23th of April"
+  - name: "9th of April"
     events:
       - name: Module introduction
         type: Brief
@@ -34,8 +32,8 @@ schedule:
       - name: Data science and machine learning tutorials
         type: Hands-on
         start: 2:00 PM
-        end: 5:00 PM
-  - name: "25th of April"
+        end: 4:00 PM
+  - name: "10th of April"
     events:
       - name: Recap on the development cycle of ML and presentation of the first assignment
         type: Lecture 
@@ -52,55 +50,47 @@ schedule:
       - name: Feedback session
         type: Brief
         start: 4:30 PM
-        end: 5:00 PM
+        end: 4:00 PM
   - name: "Block 2"
-  - name: "4th of June"
+  - name: "6th of Mai"
     events:
-      - name: Introduction to Pure Data
+      - name: TBA
         type: Hands-on
         start: 10:00 AM
         end: 12:00 PM
-      - name: "Build a gesture-to-sound synthesizer in Pure Data"
+      - name: TBA
         type: Assignment
         start: 1:00 PM
-        end: 5:00 PM
-  - name: "6th of June"
+        end: 4:00 PM
+  - name: "7th of Mai"
     events:
-      - name: Symbolic music generation with ML (Dr. Benedikt Zönnchen)
+      - name: TBA
         type: Lecture
         start: 10:00 AM
-        end: 11:00 AM
-      - name: "Generative MIDI with ML in Python"
-        type: Assignment
-        start: 11:00 AM
-        end: 12:00 PM
-      - name: "Generative MIDI with ML in Python"
+        end: 12:00 AM
+      - name: TBA
         type: Assignment
         start: 1:00 PM
         end: 5:00 PM
   - name: "Block 3"
-  - name: "11th of June"
+  - name: "4th of June"
     events:
-      - name: AI in the art scene (Lecture by Helena Held)
+      - name: TBA
         type: Lecture
         start: 10:00 AM
-        end: 11:00 AM
-      - name: "Analyse and explore AI artists biographies with ML"
-        type: Assignment
-        start: 11:00 AM
-        end: 12:00 PM
-      - name: "Analyse and explore AI artists biographies with ML"
+        end: 12:00 AM
+      - name: TBA
         type: Assignment
         start: 1:00 PM
-        end: 5:00 PM
-  - name: "13th of June"
+        end: 4:00 PM
+  - name: "5th of June"
     events:
-      - name: "Analyse and explore museum archives with ML"
+      - name: TBA
         type: Assignment
         start: 10:00 AM
         end: 12:00 PM
-      - name: "Analyse and explore museum archives with ML"
+      - name: TBA
         type: Assignment
         start: 1:00 PM
-        end: 5:00 PM
+        end: 4:00 PM
 ---
