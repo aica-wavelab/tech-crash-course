@@ -46,10 +46,10 @@ schedule:
       - name: Train an image classifier on museum archives in Python
         type: Assignment
         start: 1:00 PM
-        end: 4:30 PM
+        end: 3:30 PM
       - name: Feedback session
         type: Brief
-        start: 4:30 PM
+        start: 3:30 PM
         end: 4:00 PM
   - name: "Block 2"
   - name: "6th of Mai"
@@ -71,14 +71,14 @@ schedule:
       - name: TBA
         type: Assignment
         start: 1:00 PM
-        end: 5:00 PM
+        end: 4:00 PM
   - name: "Block 3"
   - name: "4th of June"
     events:
       - name: TBA
         type: Lecture
         start: 10:00 AM
-        end: 12:00 AM
+        end: 12:00 PM
       - name: TBA
         type: Assignment
         start: 1:00 PM
