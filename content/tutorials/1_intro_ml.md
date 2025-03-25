@@ -37,11 +37,14 @@ Please find the slides of the module description and the schedule of the course 
 [Slides : Module introduction](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/module_introduction.pdf){: .btn .btn-green
  target="_blank"}
 
-## B) Lecture : Introduction to AI and machine learning
+## B) Lecture : Introduction to artificial intelligence
 
 Please find the slides of the lecture on the introduction to AI and machine learning below:
 
-[Slides : Introduction to AI and machine learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/introduction_to_ai_and_machine_learning.pdf){: .btn .btn-green
+[Slides : Brief History of AI](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/history_of_ai.pdf){: .btn .btn-green
+ target="_blank"}
+
+ [Slides : Introduction to Deep Learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/deep_neural_networks.pdf){: .btn .btn-green
  target="_blank"}
 
 ## C) Hands-on : train your first image classifier with Marcelle

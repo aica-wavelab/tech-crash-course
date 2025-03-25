@@ -56,16 +56,13 @@ It is aimed at all students enrolled in a third-year Bachelor's program at Hochs
 
 To apply, please refer to the [Subscription section]({% link content/subscription.md %}).
 
-
-
-
 ## Course content
 
 Structured over three 2-day blocks (6 days in total), the course addresses:
 
 1. **Introduction**: This introductory block focuses on image classification using machine learning. After a general introduction to AI's history and current state, participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces).
-2. **Sound / Music**: TBA
-3. **Image**: TBA
+2. **Sound / Music**: The two-day AI Audio section of the AICA Tech Crash Course focuses on the fundamentals of artificial intelligence in audio processing. We start by introducing key audio data concepts and foundational AI techniques. Participants will explore crucial principles through interactive examples covering various applications, including speech recognition, music synthesis, and audio style transfer. Throughout the course, attendees will have ample opportunities to experiment with practical, hands-on demonstrations. The objective is to provide participants with a thorough understanding of AI-driven audio processing and equip them with the necessary skills to perform their own creative experiments.
+3. **Image**: In the two-day AI Image section we will explore the creative potential of current AI image generation systems for artistic and design processes in a practical way. Through hands-on exercises, participants will get to know different Image AI tools, develop effective prompting strategies and critically reflect on the aesthetic, ethical and copyright implications of these technologies. The workshop combines experimental work with in-depth background knowledge on the current development of generative image processes.
 
 ## Tutorials and teaching methods
 
