@@ -27,7 +27,7 @@ In our second day, you will be asked to train an image classifier to classify im
 
 Your goal will be to recognize the artistic medium of the artefact in the image. 
 
-Please download the code and data from the [github repository](https://github.com/aica-wavelab/aica-assignments) and follow the instructions in the `A1_image_classification_of_museum_artefacts`.
+Please download the code and data from the [github repository](https://github.com/aica-wavelab/aica-assignments) and follow the instructions in the `A2_image_classification_of_museum_artefacts`.
 
 [Github repository of the course](https://github.com/aica-wavelab/aica-assignments){: .btn .btn-green
  target="_blank"}
@@ -54,11 +54,7 @@ The dataset is available at [MAMe dataset](https://hpai.bsc.es/MAMe-dataset/) an
 
 In addition, we provide the file `data/MAMe_dataset_extended.csv`, which is similar to `MAMe_dataset.csv` but we added an extra column that contains the MobileNetV1 features for each image. [MobileNetV1](https://paperswithcode.com/method/mobilenetv1) is a generalist and pre-trained neural network specialized to extract visual features. It has been trained on 1000 categories of images from the ImageNet dataset. 
 
-<div class="alert alert-info">
-
 **Assignment**: Your goal is to train the most accurate model to predict the medium of an museum artefact. Beside vision-related data, you are allowed to use the dimension of the object (width, height etc.) in your features. You must document all steps of the development cycle: data collection, data processing, feature selection, training, and evaluation.
-</div>
 
 - Figures are encouraged and should be commented and interpreted
 - Every choice must be discussed and explained
-
