@@ -34,7 +34,7 @@ Please download the code and data from the [github repository](https://github.co
 
 Alternatively, you can work in Google Colab.
 
-[Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/assignment_classification_museum_artefact.ipynb){: .btn .btn-green
+[Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A2_image_classification_of_museum_artefacts/assignment_classification_museum_artefact.ipynb){: .btn .btn-green
  target="_blank"}
 
 ## Dataset
