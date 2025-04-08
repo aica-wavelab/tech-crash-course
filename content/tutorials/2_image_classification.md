@@ -32,6 +32,11 @@ Please download the code and data from the [github repository](https://github.co
 [Github repository of the course](https://github.com/aica-wavelab/aica-assignments){: .btn .btn-green
  target="_blank"}
 
+Alternatively, you can work in Google Colab.
+
+[Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/assignment_classification_museum_artefact.ipynb){: .btn .btn-green
+ target="_blank"}
+
 ## Dataset
 
 To train your machine learning image classifier, you will use the [Museum Art Medium (MAMe) dataset](https://hpai.bsc.es/MAMe-dataset/), that contains high and low resolution images of artefacts from:

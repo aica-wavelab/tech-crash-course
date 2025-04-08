@@ -129,14 +129,27 @@ Now you know the elementary steps to train and test a machine learning model, yo
 
 ### How to download and launch the tutorials ?
 
+#### Using Google Colab
+
 First go to the github repository of the course:
 
-[Github repository of the course](https://github.com/aica-wavelab/aica-assignments){: .btn .btn-green
+[Github repository of the course](https://github.com/aica-wavelab/aica-assignments/tree/main/A1_introduction){: .btn .btn-green
  target="_blank"}
 
-Then, download the repository on your computer.
+There you find 6 different Jupyter notebooks, i.e. files ending with ``.ipynb``.
+You can start each notebook by clicking on it and then clicking on the Colab icon.
+Alternatively, you can click on the following links to start each notebook in Google Colab:
 
-In a terminal, launch the following command:
++ [1_tutorial_jupyter_notebook.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/1_tutorial_jupyter_notebook.ipynb)
++ [2_1_tutorial_python_variables_operators.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_1_tutorial_python_variables_operators.ipynb)
++ [2_2_tutorial_python_conditions_loops.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_2_tutorial_python_conditions_loops.ipynb)
++ [2_3_tutorial_python_packages.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_3_tutorial_python_packages.ipynb)
++ [3_tutorial_data_science.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/3_tutorial_data_science.ipynb)
++ [4_tutorial_machine_learning.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_tutorial_machine_learning.ipynb)
+
+#### Using your own machine
+
+If you are advanced and you want to run the code on your machine you can clone the Git repo. Launch the following command:
     
     git clone https://github.com/aica-wavelab/aica-assignments.git
 

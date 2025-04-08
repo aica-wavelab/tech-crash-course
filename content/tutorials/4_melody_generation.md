@@ -1,14 +1,12 @@
 ---
 layout: default
-title: 4. Melody generation using machine learning
+title: 4. TBA
 nav_order: 4
 parent : Tutorials
 ---
 
-# Day 4 - Melody generation using machine learning
+# Day 4 - TBA
 {: .no_toc}
-
-<image src="https://upload.wikimedia.org/wikipedia/commons/d/df/Partition_musique_film_inconnu.jpg" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
 
@@ -18,9 +16,6 @@ parent : Tutorials
 2. TOC
 {:toc}
 
----
-
-Please refers to the `A4_melody_generation` folder in the [github repository](https://github.com/aica-wavelab/aica-assignments) and follow the instructions in the first notebook.
 
 
 
