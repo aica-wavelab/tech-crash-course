@@ -185,6 +185,6 @@ If you want to learn how to create your own interactive machine learning applica
 
 ## F) Recap what you have learned in the lecture
 
-The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandetory for all students.
+The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandatory for all students.
 
 {: .note-title }
