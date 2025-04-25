@@ -82,6 +82,7 @@ The evaluation will be based on:
 - **Completion of in-class practical work**: 
     - HM students must submit 3/4 of the completed practical work by the end of the course. The assignment ``A2`` is mandatory.
     - HMTM students must submit the first assignment ``A1``.
+    - All students must submit a [theoretical introductory assignment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf).
 
 If you do not finish during the in-class sessions, you will have to finish it at home. Asigments must be uploaded all at once on the [following link](https://syncandshare.lrz.de/preparefilelink?folderID=2Hfd4Vs1JDrZaXf9gLPLT) and before the 10th of July. The **password** will be provided in the course.
 

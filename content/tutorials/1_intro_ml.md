@@ -183,4 +183,8 @@ If you want to learn how to create your own interactive machine learning applica
 
 [Marcelle tutorial](https://marcelle.dev/guide/getting-started.html){: .btn .btn-green target="_blank"}
 
+### Recap what you have learned in the lecture
+
+The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandetory for all students.
+
 {: .note-title }
