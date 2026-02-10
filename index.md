@@ -13,7 +13,7 @@ permalink: /
 ## 📰 Announcements
 {: .no_toc }
 
-10.02.2026 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Wednesday, April 22nd** and **Thursday, April 23rd, 2026**.
+10.02.2026 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Wednesday, April 22nd** and **Thursday, April 23rd, 2026** at the **MUC.DAI**.
 
 ---
 
