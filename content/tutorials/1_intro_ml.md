@@ -173,7 +173,7 @@ This folder `A1_introduction` contains:
 - A tutorial on data science basics using the [pandas library](https://pandas.pydata.org/) and [seaborn library](https://seaborn.pydata.org/): `3_tutorial_data_science.ipynb`. You will apply data sciences techniques to analyze the curation of the Museum of Modern Art (MoMA) in New York City, USA.
 - A tutorial to train your first classifier in Python using the [keras library](https://keras.io/): `4_tutorial_machine_learning.ipynb`. You will apply machine learning techniques to predict the number of visitors in the museums of Bristol, UK.
 
-
+ 
 ## E) For advanced students: Create your own interactive ML web application
 
 The interactive applications you used were programmed using Marcelle.

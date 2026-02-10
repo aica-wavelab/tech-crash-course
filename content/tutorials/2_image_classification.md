@@ -8,7 +8,7 @@ parent : Tutorials
 # Day 2 - Image classification of museum artefact
 {: .no_toc}
 
-<image src="https://production-media.paperswithcode.com/datasets/Screenshot_2021-02-01_at_15.22.19.png" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+<image src="https://github.com/SrLozano/MAMe_DL/blob/main/docs/images/show_images.png" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
 <figcaption>Example of artefacts from the Museum Art Medium (MAMe) dataset you will be working on</a></figcaption>
 ---
 

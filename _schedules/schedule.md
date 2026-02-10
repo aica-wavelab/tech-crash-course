@@ -15,13 +15,13 @@ timeline:
   - '4:00 PM'
 schedule:
   - name: "Block 1"
-  - name: "9th of April"
+  - name: "22nd of April"
     events:
       - name: Module introduction
         type: Brief
         start: 10:00 AM
         end: 10:30 AM
-      - name: Introduction to machine learning
+      - name: Introduction to AI and ML
         type: Lecture
         start: 10:30 AM
         end: 12:00 PM
@@ -33,14 +33,14 @@ schedule:
         type: Hands-on
         start: 2:00 PM
         end: 4:00 PM
-  - name: "10th of April"
+  - name: "23rd of April"
     events:
-      - name: Recap on the development cycle of ML and presentation of the first assignment
-        type: Lecture 
+      - name: Recap on the development cycle of ML
+        type: Brief 
         start: 10:00 AM
         end: 10:30 AM
-      - name: Train an image classifier on museum archives in Python
-        type: Assignment
+      - name: Baysian probability or learning as updated beliefs
+        type: Lecture
         start: 10:30 AM
         end: 12:00 PM
       - name: Train an image classifier on museum archives in Python
@@ -52,7 +52,7 @@ schedule:
         start: 3:30 PM
         end: 4:00 PM
   - name: "Block 2"
-  - name: "6th of Mai"
+  - name: "20th of Mai"
     events:
       - name: TBA
         type: Hands-on
@@ -62,7 +62,7 @@ schedule:
         type: Assignment
         start: 1:00 PM
         end: 4:00 PM
-  - name: "7th of Mai"
+  - name: "21th of Mai"
     events:
       - name: TBA
         type: Lecture
@@ -73,7 +73,7 @@ schedule:
         start: 1:00 PM
         end: 4:00 PM
   - name: "Block 3"
-  - name: "4th of June"
+  - name: "17th of June"
     events:
       - name: TBA
         type: Lecture
@@ -83,7 +83,7 @@ schedule:
         type: Assignment
         start: 1:00 PM
         end: 4:00 PM
-  - name: "5th of June"
+  - name: "18th of June"
     events:
       - name: TBA
         type: Assignment
