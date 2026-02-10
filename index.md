@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 1
-description: "Description of the AICA crash course on Human-AI interaction (Summer Semester 2025)"
+description: "Description of the AICA crash course on Human-AI interaction (Summer Semester 2026)"
 permalink: /
 ---
 
@@ -13,7 +13,7 @@ permalink: /
 ## 📰 Announcements
 {: .no_toc }
 
-10.02.2026 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Wednesday, April 22nd** and **Thursday, April 23rd, 2025**.
+10.02.2026 - Save the date! The tech crash course on AI in Culture and Arts is coming soon. First bloc will be on **Wednesday, April 22nd** and **Thursday, April 23rd, 2026**.
 
 ---
 
@@ -38,7 +38,7 @@ Artificial intelligence (AI) is increasingly impacting the cultural and creative
 This course addresses this need and delves into interactive machine learning for the cultural and creative sectors. The course is intended for art, cultural management, design, and computer science students. After this course, students will master the theoretical and technological foundations of machine learning, be able to train and (critically) evaluate machine learning models, and deploy them in meaningful interactive systems.
 The course is structured in three 2-day blocks (6 days in total). Each block provides theoretical lectures and hands-on activities to develop interactive machine-learning systems for image, sound, and text-based applications in the creative and cultural sectors. Every teaching day starts with a lecture and discussion in the morning, followed by a hands-on session on the same topic in the afternoon.
 
-The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2025**.
+The AICA tech crash course will be hosted at the Wavelab, in the Summer Semester, **starting April 2026**.
 
 
 ## Learning outcomes
