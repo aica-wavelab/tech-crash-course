@@ -22,7 +22,7 @@ function copyToClipboard(text) {
 {: .note-title }
 > Address
 >
-> MUC.DAI,
+> MUC.DAI (Room N0.17),
 > Infanteriestraße 13,
 > 80797 München
 
