@@ -30,16 +30,6 @@ function copyToClipboard(text) {
 
 Using public transportation you can go by bus (Infanteriestraße Süd), tram (Hochschule München (Lothstraße) or Infanteriestraße) and also by subway if you enjoy a little walk.
 
-## Arrival methods
-
-### Bicycle
-- Bicycle parking is limited.
-
-### Public Transportation
-- **Subway**: Königsplatz or Odeonsplatz stations.
-- **Tram**: Karolinenplatz stop.
-- **City-Railway**: Stachus or Hauptbahnhof stations (then a 10-minute walk).
-
 #  How to go to the Wavelab?
 
 {: .note-title }
