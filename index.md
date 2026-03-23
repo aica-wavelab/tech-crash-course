@@ -61,7 +61,7 @@ To apply, please refer to the [Subscription section]({% link content/subscriptio
 
 Structured over three 2-day blocks (6 days in total), the course addresses:
 
-1. **Introduction**: This introductory bloc focuses on basics history and principle in artificial intelligence as a reasearch field from a computer science perspective. You will learn about basic concepts, such as,  *logic*, *information*, *learning*, *(Baysian) probability* on an intuitive level. After a general introduction to AI's history and current state, we will together try to answer the questions:
+1. **Introduction**: This introductory bloc focuses on basics history and principle in artificial intelligence as a reasearch field from a computer science perspective. You will learn about basic concepts, such as, *logic*, *information*, *surprise*, *(Baysian) probability*, *regression* and *classification* on an intuitive level. After a general introduction to AI's history and current state, we will together try to answer the questions:
 
 + How to model intelligence?
 + When is learning possible?
@@ -69,10 +69,11 @@ Structured over three 2-day blocks (6 days in total), the course addresses:
 + How do humans train machines?
 + How to interact with learning machines?
 
-Participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with Marcelle) and computational notebooks in Python. The hands-on session will focus on training and evaluating museum artifacts using open-access and open-source datasets (MAMe, Smithsonian Open Acces).
+Participants will explore the machine learning development cycle, engaging with dedicated interactive applications (made with [Marcelle](https://marcelle.dev/) / Google's [Teachable Machine](https://teachablemachine.withgoogle.com/) / [Wekinator](https://doc.gold.ac.uk/~mas01rf/Wekinator/)) and computational notebooks in Python. Within minuts you begin training the machine. Afterwards, we move into Python and Jupyter notebooks to understand what happens under the hood.
 
-2. **TBA**: 
-3. **TBA**: 
+2. **Learning Representations**: Why do some *classifications* fail? Because the features you choose matter more than the algorithm. In this bloc, we discover how neural networks learn their own features. You visualise what a network "sees" at different layers, explore how *embeddings* map images and sounds into a space where similarity has meaning, and use *transfer learning* to fine-tune powerful pre-trained models on your own small datasets. We also go deeper into a *probabilistic understanding* of "the world" the machine models, thouching, for example, on the *free energy principle*.
+
+3. **Generating New Things**: In the final bloc, you move from analysing existing data to creating something new. You explore how variational autoencoders and diffusion models generate images, how sequence models (like large language models) compose music, and what "*sampling*" and "*temperature*" really mean.
 
 ## Tutorials and teaching methods
 
