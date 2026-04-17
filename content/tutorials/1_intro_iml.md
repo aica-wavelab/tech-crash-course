@@ -1,12 +1,11 @@
-<!--
 ---
 layout: default
-title: 1. Introduction to data science and machine learning
+title: 1. Introduction to interactive machine learning
 nav_order: 1
 parent : Tutorials
 ---
 
-# Day 1 - Introduction to data science and machine learning
+# Day 1 - Introduction to interactive machine learning
 {: .no_toc}
 
 <image src="https://live.staticflickr.com/1571/25139082514_36dcf31ae0_b.jpg" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
@@ -16,7 +15,7 @@ parent : Tutorials
 {: .note-title }
 > Note
 >
-> The first day of the course aims to homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials.
+> The first day of the course aims to partly homogenize levels and teach foundational concepts in data science and machine learning (ML) through hands-on turorials.
 > We recommend all attendants to carefully follow its content. If the content is too easy for you, please tell your scientific instructors and they will provide you with additional resources. Inversely, if the content is too hard for you, please tell your scientific instructors and they will provide you with additional explanations.
 
 ---
@@ -29,8 +28,6 @@ parent : Tutorials
 
 ---
 
-
-
 ## A) Brief : Module introduction
 
 Please find the slides of the module description and the schedule of the course below:
@@ -40,15 +37,89 @@ Please find the slides of the module description and the schedule of the course 
 
 ## B) Lecture : Introduction to artificial intelligence
 
-Please find the slides of the lecture on the introduction to AI and machine learning below:
+Please find the slides of the lecture on the introduction to AI and machine learning below (we will probably revisit these slides from time to time):
 
-[Slides : Brief History of AI](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/history_of_ai.pdf){: .btn .btn-green
+ [Slides : Introduction to Deep Learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/ai_ml_introduction_deep_dives.pdf){: .btn .btn-green
  target="_blank"}
 
- [Slides : Introduction to Deep Learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/deep_neural_networks.pdf){: .btn .btn-green
- target="_blank"}
+## C) Hands-on : train your first model (classification and regression)
 
-## C) Hands-on : train your first image classifier with Marcelle
+First go to [classification sketch](https://editor.p5js.org/BZoennchen/sketches/mHhBWnuoI).
+
+You are looking at a blank canvas. By clicking on it, you will teach a small neural network to associate **locations in space** with **musical notes**. Once trained, the network will listen to your clicks and predict which note belongs at that spot — and play it.
+
+This is supervised learning in its most direct form: you provide the examples, the network generalises from them.
+
+### Step 1 - Start the program
+
+Click on the play button.
+
+### Step 2 — Collect training data
+
+Your first job is to be the teacher.
+
+1. **Choose a note** by holding down one of the letter keys on your keyboard: `A`, `B`, `C`, `D`, `E`, `F`, or `G`.
+2. **Click somewhere on the canvas.** A circle appears at that spot labelled with your chosen note, and you hear the note play.
+3. **Repeat** — build up a collection of points across the canvas, one region per note.
+
+> **Tip:** Think of dividing the canvas into territories. Maybe `C` lives in the top-left, `G` in the bottom-right, and so on. You don't have to be tidy about it — messy, overlapping regions make the exercise more interesting.
+
+You can use as many or as few notes as you like, but **at least 3 notes with roughly 5–10 points each** gives the network something meaningful to learn.
+
+### Step 3 — Train the network
+
+Once you have collected enough data, press **`T`** to start training.
+
+The network will run for **200 epochs** — 200 passes through your training data, adjusting its internal weights a little each time to reduce the number of mistakes. You can follow the progress in the browser. A popup window will appear.
+
+When training is finished, the canvas label changes from *collecting* to *predicting*.
+
+### Step 4 — Test your model
+
+Now you are no longer the teacher — you are the examiner.
+
+**Click anywhere on the canvas.** The network predicts which note belongs at that location (shown as a blue circle) and plays it.
+
+Ask yourself:
+- Does the prediction match what you intended when you placed your training points?
+- Where does the network get it right? Where does it make mistakes?
+- What does it do in areas where you placed **no training data at all**?
+
+### Step 5 - Iterate
+
+Press **`R`** to go back to collecting mode. Your training data is still there but but your network resets — now you can add more training points and retrain.
+
+Try these experiments:
+
+**Experiment 1 — More data, cleaner regions**
+Place 20+ points per note in clearly separated areas. Does accuracy improve?
+
+**Experiment 2 — Intentional overlap**
+Place two different notes in almost the same location. What does the network do? What does this tell you about classification boundaries?
+
+**Experiment 3 — Sparse data**
+Train with only 2–3 points per note. Where does the network feel confident? Where does it hesitate (listen to the predictions in border zones)?
+
+**Experiment 4 — Non-obvious patterns**
+Try placing one note in two completely separate corners of the canvas, with other notes in between. Can the network learn a non-contiguous region?
+
+### What is the network actually doing?
+
+Under the hood, this sketch uses a small neural network (via **ml5.js**) with:
+
+- **2 inputs:** the `x` and `y` coordinates of your click
+- **Hidden layers** that learn weighted combinations of those inputs
+- **7 possible outputs:** one probability per note — the network picks the highest
+
+During training, it is finding a way to divide the 2D canvas into regions — a **decision boundary** — that best fits your examples. With only 2 inputs, you can almost imagine this geometrically: the network is drawing curved lines through the canvas to separate one note's territory from another's.
+
+### Step 6 - Regression
+
+Now go to [regression sketch](https://editor.p5js.org/BZoennchen/sketches/lHQAFZhCi).
+
+Repeat *Step 1* to *Step 5* what do you observer?
+
+## D) Hands-on : train your first image classifier with Marcelle
 
 Let's practice !
 
@@ -78,7 +149,6 @@ On the [`Data collection`](https://aica-wavelab.github.io/tech-crash-course/cont
 > Hints
 >
 > Take the time observe each images (by clicking on the thumbnails). Are the differences between each classes obvious to you?
-
 
 
 ### Training
@@ -125,28 +195,10 @@ Biases in ML models can lead to discrimination as illustrated in many different 
 
 Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries.
 
+## E) 
 
-## D) Tutorials in Python
 
-### How to download and launch the tutorials ?
 
-#### Using Google Colab
-
-First go to the github repository of the course:
-
-[Github repository of the course](https://github.com/aica-wavelab/aica-assignments/tree/main/A1_introduction){: .btn .btn-green
- target="_blank"}
-
-There you find 6 different Jupyter notebooks, i.e. files ending with ``.ipynb``.
-You can start each notebook by clicking on it and then clicking on the Colab icon.
-Alternatively, you can click on the following links to start each notebook in Google Colab:
-
-+ [1_tutorial_jupyter_notebook.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/1_tutorial_jupyter_notebook.ipynb)
-+ [2_1_tutorial_python_variables_operators.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_1_tutorial_python_variables_operators.ipynb)
-+ [2_2_tutorial_python_conditions_loops.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_2_tutorial_python_conditions_loops.ipynb)
-+ [2_3_tutorial_python_packages.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_3_tutorial_python_packages.ipynb)
-+ [3_tutorial_data_science.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/3_tutorial_data_science.ipynb)
-+ [4_tutorial_machine_learning.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_tutorial_machine_learning.ipynb)
 
 #### Using your own machine
 
@@ -189,4 +241,3 @@ If you want to learn how to create your own interactive machine learning applica
 The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandatory for all students.
 
 {: .note-title }
--->

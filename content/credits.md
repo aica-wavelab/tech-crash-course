@@ -21,6 +21,10 @@ The Wekinator is free, open source software that allows anyone to use machine le
 
 > Fiebrink, R., & Cook, P. R. (2010, January). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht) (Vol. 3, pp. 2-1).
 
+[ml5js](https://docs.ml5js.org/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+ml5.js is an open source library with a goal of making machine learning approachable for a broad audience of artists, creative coders, and students. Drawing inspiration from Processing and p5.js, ml5.js aims to bridge the gap between the technical complexity of machine learning and the creativity of beginners and artists. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js. A key feature of ml5.js is its ability to run pretrained models for interaction. These models can classify images, identify body poses, recognize facial landmarks, hand positions, and more. You can use these models as they are, or as a starting point for further learning along with ml5.js's neural network module which enables training your own models.
+
 [ml-lib](https://github.com/irllabs/ml-lib){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 ml-lib is a library of machine learning externals for Max and Pure Data. ml-lib is primarily based on the Gesture Recognition Toolkit by Nick Gillian ml-lib is designed to work on a variety of platforms including OS X, Windows, Linux, on Intel and ARM architectures.
@@ -33,7 +37,6 @@ The goal of ml-lib is to provide a simple, consistent interface to a wide range 
 nn~ is a Pd or Max/MSP external object that allows to load and run neural networks in real-time. It is based on the PyTorch C++ API and can load any network that can be exported from PyTorch to TorchScript. It can be used to load RAVE models.
 
 # Specialized ML tools (audio, text, others...)
-
 
 [RAVE](https://github.com/acids-ircam/RAVE){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
