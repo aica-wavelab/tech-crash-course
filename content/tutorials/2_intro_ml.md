@@ -57,7 +57,7 @@ We take a break from the interactive part and go a little bit more deep into the
 
 Everything should work on [Google Colab](https://colab.research.google.com/) but if you want you can also run everything on your local machine but you probably have to do some setup. In each notebook in the git repository you find a link that opens the notebook in [Google Colab](https://colab.research.google.com/):
 
-<img src="{{ '/assets/images/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
+<img src="{{ '/assets/images/tutorials/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
 
 [Regression on Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb){: .btn .btn-green target="_blank"}
 
@@ -65,12 +65,7 @@ Everything should work on [Google Colab](https://colab.research.google.com/) but
 
 We take a break from the interactive part and go a little bit more deep into the details. Here we rely on `Pyhton` programming. However, most of the code is just there to be executed and analyzed. To to form groups and explain each other what is actually going on in the notebooks. We do not expect students unfamiliar with coding to be able to code but we expect you to give it a shoot!
 
-[Github repository of the course](https://github.com/aica-wavelab/aica-assignments){: .btn .btn-green
- target="_blank"}
-
-Everything should work on [Google Colab](https://colab.research.google.com/) but if you want you can also run everything on your local machine but you probably have to do some setup. In each notebook in the git repository you find a link that opens the notebook in [Google Colab](https://colab.research.google.com/):
-
-<img src="{{ '/assets/images/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
+<img src="{{ '/assets/images/tutorials/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
 
 [Classification on Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb){: .btn .btn-green target="_blank"}
 
@@ -78,14 +73,12 @@ Everything should work on [Google Colab](https://colab.research.google.com/) but
 
 ### How to download and launch the tutorials ?
 
-#### Using Google Colab
-
 First go to the github repository of the course:
 
 [Github repository of the course](https://github.com/aica-wavelab/aica-assignments/tree/main/A1_introduction){: .btn .btn-green
  target="_blank"}
 
-There you find 6 different Jupyter notebooks, i.e. files ending with ``.ipynb``.
+There you find different Jupyter notebooks, i.e. files ending with ``.ipynb``.
 You can start each notebook by clicking on it and then clicking on the Colab icon.
 Alternatively, you can click on the following links to start each notebook in Google Colab:
 
@@ -95,3 +88,9 @@ Alternatively, you can click on the following links to start each notebook in Go
 + [2_3_tutorial_python_packages.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_3_tutorial_python_packages.ipynb)
 + [2_4_tutorial_python_functions.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_4_tutorial_python_functions.ipynb)
 + [3_tutorial_data_science.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/3_tutorial_data_science.ipynb)
+
+## G) Recap what you have learned in the lecture
+
+The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandatory for all students.
+
+{: .note-title }

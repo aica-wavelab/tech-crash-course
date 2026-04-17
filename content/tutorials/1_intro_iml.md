@@ -195,10 +195,6 @@ Biases in ML models can lead to discrimination as illustrated in many different 
 
 Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries.
 
-## E) 
-
-
-
 
 #### Using your own machine
 
@@ -215,29 +211,3 @@ Now open the folder `A1_introduction` and launch the jupyter notebook server by 
 Then click on the first file `1_tutorial_jupyter_notebook.ipynb` to open the tutorial and follow the instructions.
 
 Alternatively, you can launch the Anaconda navigator (desktop application) and open the jupyter notebook application from there. Then, navigate to the folder `A1_introduction` and open the first file `1_tutorial_jupyter_notebook.ipynb`.
-
-### What will you learn ?
-
-For the first day, all tutorials are in Python and use jupyter notebooks.
-
-This folder `A1_introduction` contains:
-- A tutorial on [jupyter notebooks](https://jupyter.org/): `1_tutorial_jupyter_notebook.ipynb`
-- A tutorial on the basics of the [Python programming language](https://www.python.org/): `2_tutorial_python.ipynb`
-- A tutorial on data science basics using the [pandas library](https://pandas.pydata.org/) and [seaborn library](https://seaborn.pydata.org/): `3_tutorial_data_science.ipynb`. You will apply data sciences techniques to analyze the curation of the Museum of Modern Art (MoMA) in New York City, USA.
-- A tutorial to train your first classifier in Python using the [keras library](https://keras.io/): `4_tutorial_machine_learning.ipynb`. You will apply machine learning techniques to predict the number of visitors in the museums of Bristol, UK.
-
- 
-## E) For advanced students: Create your own interactive ML web application
-
-The interactive applications you used were programmed using Marcelle.
-[Marcelle](https://marcelle.dev/) is a modular open source toolkit for programming interactive machine learning applications. Marcelle is built around components embedding computation and interaction that can be composed to form reactive machine learning pipelines and custom user interfaces. This architecture enables rapid prototyping and extension. Marcelle can be used to build interfaces to Python scripts, and it provides flexible data stores to facilitate collaboration between machine learning experts, designers and end users.
-
-If you want to learn how to create your own interactive machine learning application, please read the [introduction](https://marcelle.dev/guide/) and follow the tutorial on the Marcelle website:
-
-[Marcelle tutorial](https://marcelle.dev/guide/getting-started.html){: .btn .btn-green target="_blank"}
-
-## F) Recap what you have learned in the lecture
-
-The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandatory for all students.
-
-{: .note-title }
