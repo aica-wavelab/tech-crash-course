@@ -117,7 +117,7 @@ During training, it is finding a way to divide the 2D canvas into regions — a 
 
 Now go to [regression sketch](https://editor.p5js.org/BZoennchen/sketches/lHQAFZhCi).
 
-Repeat *Step 1* to *Step 5* what do you observer?
+Repeat *Step 1* to *Step 5* what do you observe?
 
 ## D) Hands-on : train your first image classifier with Marcelle
 
@@ -201,13 +201,3 @@ Now you know the elementary steps to train and test a machine learning model, yo
 If you are advanced and you want to run the code on your machine you can clone the Git repo. Launch the following command:
     
     git clone https://github.com/aica-wavelab/aica-assignments.git
-
-If you struggle with terminal commands, you can also download the repository as a zip file by clicking on the green button `Code` on the top right of the github repository page, then `Download ZIP`.
-
-Now open the folder `A1_introduction` and launch the jupyter notebook server by typing the following command in the terminal:
-
-    jupyter notebook
-
-Then click on the first file `1_tutorial_jupyter_notebook.ipynb` to open the tutorial and follow the instructions.
-
-Alternatively, you can launch the Anaconda navigator (desktop application) and open the jupyter notebook application from there. Then, navigate to the folder `A1_introduction` and open the first file `1_tutorial_jupyter_notebook.ipynb`.
