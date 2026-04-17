@@ -196,7 +196,7 @@ Biases in ML models can lead to discrimination as illustrated in many different 
 Now you know the elementary steps to train and test a machine learning model, you can try the same process on another dataset. The next section will teach you how to conduct the same steps using a programming langage (Python) and dedicated ML libraries.
 
 
-#### Using your own machine
+## Using your own machine
 
 If you are advanced and you want to run the code on your machine you can clone the Git repo. Launch the following command:
     
