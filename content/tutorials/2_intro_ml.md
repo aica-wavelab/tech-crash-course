@@ -67,6 +67,8 @@ We take a break from the interactive part and go a little bit more deep into the
 
 <img src="{{ '/assets/images/tutorials/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
 
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_tutorial_machine_learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 [Classification on Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb){: .btn .btn-green target="_blank"}
 
 ## G) Tutorials in Python
