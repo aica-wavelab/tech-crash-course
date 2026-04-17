@@ -57,19 +57,14 @@ We take a break from the interactive part and go a little bit more deep into the
 
 Everything should work on [Google Colab](https://colab.research.google.com/) but if you want you can also run everything on your local machine but you probably have to do some setup. In each notebook in the git repository you find a link that opens the notebook in [Google Colab](https://colab.research.google.com/):
 
-<img src="{{ '/assets/images/tutorials/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-[Regression on Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb){: .btn .btn-green target="_blank"}
 
 ## F) Classification : A deep dive
 
 We take a break from the interactive part and go a little bit more deep into the details. Here we rely on `Pyhton` programming. However, most of the code is just there to be executed and analyzed. To to form groups and explain each other what is actually going on in the notebooks. We do not expect students unfamiliar with coding to be able to code but we expect you to give it a shoot!
 
-<img src="{{ '/assets/images/tutorials/colab-icon.png' | relative_url }}" alt="Google Colab Icon">
-
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_tutorial_machine_learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-[Classification on Google Colab](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb){: .btn .btn-green target="_blank"}
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## G) Tutorials in Python
 
@@ -82,7 +77,7 @@ First go to the github repository of the course:
 
 There you find different Jupyter notebooks, i.e. files ending with ``.ipynb``.
 You can start each notebook by clicking on it and then clicking on the Colab icon.
-Alternatively, you can click on the following links to start each notebook in Google Colab:
+Alternatively, you can click on the following links to start each notebook in [Google Colab](https://colab.research.google.com/):
 
 + [1_tutorial_jupyter_notebook.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/1_tutorial_jupyter_notebook.ipynb)
 + [2_1_tutorial_python_variables_operators.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_1_tutorial_python_variables_operators.ipynb)
