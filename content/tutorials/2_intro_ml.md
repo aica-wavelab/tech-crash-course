@@ -57,14 +57,14 @@ We take a break from the interactive part and go a little bit more deep into the
 
 Everything should work on [Google Colab](https://colab.research.google.com/) but if you want you can also run everything on your local machine but you probably have to do some setup. In each notebook in the git repository you find a link that opens the notebook in [Google Colab](https://colab.research.google.com/):
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 ## F) Classification : A deep dive
 
 We take a break from the interactive part and go a little bit more deep into the details. Here we rely on `Pyhton` programming. However, most of the code is just there to be executed and analyzed. To to form groups and explain each other what is actually going on in the notebooks. We do not expect students unfamiliar with coding to be able to code but we expect you to give it a shoot!
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/5_classification.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## G) Tutorials in Python
 
