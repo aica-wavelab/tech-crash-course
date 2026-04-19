@@ -89,6 +89,8 @@ We take a break from the interactive part and go a little bit more deep into the
 
 ### How to download and launch the tutorials ?
 
+This exercise is part of the homework for HMTM students and optional for HM students.
+HM students will receive a different homework which HMTM student can also do instead of theirs.
 First go to the github repository of the course:
 
 [Github repository of the course](https://github.com/aica-wavelab/aica-assignments/tree/main/A1_introduction){: .btn .btn-green
@@ -105,8 +107,12 @@ Alternatively, you can click on the following links to start each notebook in [G
 + [2_4_tutorial_python_functions.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/2_4_tutorial_python_functions.ipynb)
 + [3_tutorial_data_science.ipynb](https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/3_tutorial_data_science.ipynb)
 
+<!-- 
+
 ## G) Recap what you have learned in the lecture
 
 The following [assigment](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/assigment.pdf) tests your theoretical knowledge of the first block. It is mandatory for all students.
+
+-->
 
 {: .note-title }
