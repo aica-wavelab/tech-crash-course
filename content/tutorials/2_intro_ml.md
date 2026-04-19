@@ -8,6 +8,25 @@ parent : Tutorials
 # Day 2 - Introduction to data science and machine learning
 {: .no_toc}
 
+In addition to learning the **basics of programming** and **(interactive) machine learning**, you'll also have to predict the house prices in California (**regression**) and the genre of different songs (**classification**).
+
+For both days of the first bloc you have to fill out an *reflection log* you find here:
+
+[Docx : Reflection Log Template](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
+
+You are encouraged to work in mixed teams!
+
+<!--
+Furthermore, there is homework to do:
+
+[Docx : Homework for HM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HM-Students.docx){: .btn .btn-green target="_blank"}
+
+[Docx : Homework for HMTM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HMTM-Students.docx){: .btn .btn-green target="_blank"}
+
+HMTM students can also do the homework of HM students if they prefer it!
+
+-->
+
 ---
 
 ## Table of contents

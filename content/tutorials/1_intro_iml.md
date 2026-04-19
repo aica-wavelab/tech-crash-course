@@ -8,8 +8,13 @@ parent : Tutorials
 # Day 1 - Introduction to interactive machine learning
 {: .no_toc}
 
-<image src="https://live.staticflickr.com/1571/25139082514_36dcf31ae0_b.jpg" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
-<figcaption>In addition to learning the basics of programming and machine learning, you'll also have to predict the number of visitors to Bristol's museums based on the weather forecast.</figcaption>
+The first day is all about learning about **machine learning** by doing **interactive machine learning**.
+
+For both days of the first bloc you have to fill out an *reflection log* you find here:
+
+[Slides : Introduction to Deep Learning](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
+
+You are encouraged to work in mixed teams!
 
 
 {: .note-title }
