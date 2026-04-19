@@ -66,8 +66,9 @@ Can you make the game work for different people?
 
 Each team plays a game in front of the class. The team with the most points wins!
 
+## F) Supervised machine learning : A deep dive
 
-## F) Regression : A deep dive
+### Regression
 
 We take a break from the interactive part and go a little bit more deep into the details. Here we rely on `Pyhton` programming. However, most of the code is just there to be executed and analyzed. To to form groups and explain each other what is actually going on in the notebooks. We do not expect students unfamiliar with coding to be able to code but we expect you to give it a shoot!
 
@@ -78,8 +79,7 @@ Everything should work on [Google Colab](https://colab.research.google.com/) but
 
 <a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A1_introduction/4_linear_regression.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
-## F) Classification : A deep dive
+### Classification
 
 We take a break from the interactive part and go a little bit more deep into the details. Here we rely on `Pyhton` programming. However, most of the code is just there to be executed and analyzed. To to form groups and explain each other what is actually going on in the notebooks. We do not expect students unfamiliar with coding to be able to code but we expect you to give it a shoot!
 
