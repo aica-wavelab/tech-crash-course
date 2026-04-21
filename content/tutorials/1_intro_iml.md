@@ -10,6 +10,18 @@ parent : Tutorials
 
 The first day is all about learning about **machine learning** by doing **interactive machine learning**.
 
+For both days of the first bloc you have to fill out an *reflection log* you find here:
+
+[Docx : Reflection Log Template](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
+
+You are encouraged to work in mixed teams! Furthermore, there is homework to do:
+
+[Docx : Homework for HM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HM-Students.docx){: .btn .btn-green target="_blank"}
+
+[Docx : Homework for HMTM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HMTM-Students.docx){: .btn .btn-green target="_blank"}
+
+HMTM students can also do the homework of HM students if they prefer it!
+
 {: .note-title }
 > Note
 >
@@ -202,14 +214,9 @@ If you are advanced and you want to run the code on your machine you can clone t
 
 ## Submission
 
-Submit your work [here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN). For both days of the first bloc you have to fill out an *reflection log* you find here:
+Submit your work i.e.:
 
-[Docx : Reflection Log Template](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
++ the reflection log
++ your homework
 
-You are encouraged to work in mixed teams! Furthermore, there is homework to do:
-
-[Docx : Homework for HM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HM-Students.docx){: .btn .btn-green target="_blank"}
-
-[Docx : Homework for HMTM students](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Homework-Block1-HMTM-Students.docx){: .btn .btn-green target="_blank"}
-
-HMTM students can also do the homework of HM students if they prefer it!
+[here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN).
