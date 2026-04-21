@@ -87,7 +87,7 @@ The evaluation will be based on:
     - HMTM students must ... TBA
     - All students must ... TBA
 
-If you do not finish during the in-class sessions, you will have to finish it at home. Asigments must be uploaded until **11th of July** all at once on the [following link](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN) and before the 10th of July. The **password** will be provided in the course.
+If you do not finish during the in-class sessions, you will have to finish it at home. Tutorials and your homework / assignments must be uploaded before the end of **10th of July** [here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN). The **password** will be provided in the course.
 
 <!-- ## Credits and attributions
 
