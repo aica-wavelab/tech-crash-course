@@ -39,6 +39,14 @@ Students from HM and HMTM will also be present on-site to help organizing the co
 {{ staffer }}
 {% endfor %}
 
+# Former instructors
+
+{% assign instructors = site.staffers | where: 'role', 'Former instructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
+
 <!-- 
 # Lecturers
 
