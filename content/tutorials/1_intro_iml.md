@@ -12,7 +12,7 @@ The first day is all about learning about **machine learning** by doing **intera
 
 For both days of the first bloc you have to fill out an *reflection log* you find here:
 
-[Docx : Reflection Log Template](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
+[Docx : Reflection Log Template (Block 1)](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_introduction/Reflection-Log-Block1.docx){: .btn .btn-green target="_blank"}
 
 You are encouraged to work in mixed teams! Furthermore, there is homework to do:
 
