@@ -16,6 +16,11 @@ For both days of the second bloc you have to fill out an *reflection log* you fi
 
 You are encouraged to work in mixed teams! 
 
+You can download the lecture slides here
+
+[Slides : Algorithmic Composition using Neural Networks](https://github.com/aica-wavelab/aica-assignments/blob/main/A1_generation/melodygeneration_aica.pdf){: .btn .btn-green
+ target="_blank"}
+
 <!--
 
 Furthermore, there is homework to do:
