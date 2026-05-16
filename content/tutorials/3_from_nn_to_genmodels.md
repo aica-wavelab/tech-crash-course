@@ -117,6 +117,4 @@ This model requires no gradient descent. The "training" is simply counting: how 
 
 ## Submission
 
-Submit your work i.e. your reflection log.
-
-[here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN).
+Submit your work, i.e. your reflection log, [here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN).

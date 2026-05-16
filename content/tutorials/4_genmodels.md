@@ -106,6 +106,4 @@ As a group, generate a short melody (8–16 notes) using the same seed material 
 
 ## Submission
 
-Submit your work i.e. your reflection log.
-
-[here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN).
+Submit your work, i.e. your reflection log, [here](https://syncandshare.lrz.de/preparefilelink?folderID=2Jmzaj6Sx24nh96gohfFN).
