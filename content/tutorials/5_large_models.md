@@ -31,7 +31,7 @@ Modern AI models are not trained from scratch for every application. They are **
 
 In the following notebook you will load a pre-trained sentence-transformer, inspect its embedding space, visualise how musical and textual concepts cluster, and use cosine similarity to measure semantic relatedness.
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_using_large_models/10_1_pretrained_models_and_embeddings.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_existing_models/10_1_pretrained_models_and_embeddings.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ---
 
@@ -41,7 +41,7 @@ A language model does not generate text directly. At each step it produces a **p
 
 This notebook compares four strategies: **greedy decoding** (always pick the most likely token), **temperature sampling** (scale the distribution before sampling), **top-k sampling** (restrict to the *k* most likely tokens), and **top-p (nucleus) sampling** (restrict to the smallest set of tokens whose cumulative probability reaches *p*). You will see how each strategy changes the character of the generated output.
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_using_large_models/10_2_decoding_strategies.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_existing_models/10_2_decoding_strategies.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ---
 
@@ -51,7 +51,7 @@ The folk-song transformer trained in block 2 learned the style of German folk mu
 
 The answer is sometimes yes: by **freezing** most of the network's weights and only updating the last few layers, we preserve the general musical knowledge while nudging the output towards the new style. This notebook walks through the freeze-and-fine-tune procedure and lets you listen to the result.
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_using_large_models/10_3_transfer_learning.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_existing_models/10_3_transfer_learning.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ---
 
@@ -61,7 +61,7 @@ Freezing layers is practical but coarse: you choose entire layers to update or l
 
 You will implement a `LoRALinear` module from scratch, inject adapters into the folk-song transformer, and compare the result with the partial-freeze approach from section T. A bonus section demonstrates LoRA at real scale: GPT-2 (124 million parameters) fine-tuned on Shakespeare's plays, where the style shift from modern English to Elizabethan prose is immediately readable.
 
-<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_using_large_models/10_4_lora.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/aica-wavelab/aica-assignments/blob/main/A3_existing_models/10_4_lora.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ---
 
