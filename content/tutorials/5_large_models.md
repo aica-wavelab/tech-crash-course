@@ -25,6 +25,9 @@ On days five and six you shift from training models from scratch to working with
 
 ---
 
+[Slides : Using Large Models](https://github.com/aica-wavelab/aica-assignments/blob/main/A3_existing_models/using_large_models_aica.pdf){: .btn .btn-green
+ target="_blank"}
+
 ## R) Pre-trained models and embeddings
 
 Modern AI models are not trained from scratch for every application. They are **pre-trained** on massive datasets and then shared for others to reuse. A key side-effect of this training is that the model learns to represent concepts as **embedding vectors**: numerical coordinates in a high-dimensional space where semantically similar items end up close together.
